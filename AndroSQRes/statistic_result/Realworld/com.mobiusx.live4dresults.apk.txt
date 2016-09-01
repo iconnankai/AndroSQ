@@ -1,0 +1,152 @@
+parse success!!
+############################
+# components statistic
+activities:5
+services:7
+receivers:0
+############################
+# life_nodes statistic
+activities: 40
+services: 46
+------------------------------------------
+lifecycle_total_nodes: 86
+############################
+# lifecycle edges
+edges_lifecycle_activities:48
+edges_lifecycle_services:31
+--------------------------------------------
+edges_lifecycle_total:79
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[16, 28]
+services_node_edge_num:[15, 15]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 6
+original_service_nodes_num: 4
+original_receiver_nodes_num: 0
+
+original_nodes_num: 10
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:0   unregister:7
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 0
+unregister_con_num: 7
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  20
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:96   edges:99
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 7946
+<globals_op_num> 26281
+############################
+# total num 
+total_nodes_num:  96
+total_edges_num:  98
+############################
+# total num 
+total_nodes_num:  95
+total_edges_num:  97
+############################
+# total time 
+parse_time:  127.431185
+modelling_time:  279.164948
+
+############################
+############################
+############################
+# register_content
+register_content:  
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163f20b00>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/ak;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163f20b00>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/ak;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914eb3c0e0>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/b;'}
+[method_b]:onStartCommand
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915921bc68>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/b;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915921bc68>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/b;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916034c5f0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/mobiusx/live4dresults/ResultsActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916034c5f0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/mobiusx/live4dresults/ResultsActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9150839518>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffa0758>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/measurement/AppMeasurementReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9138cd53b0>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaac68>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/FeaturesFragment;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9138cd53b0>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaaa28>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/FeaturesFragment;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9138cd53b0>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaf200>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/FeaturesFragment;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9138cd53b0>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaf320>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/FeaturesFragment;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9138cd53b0>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaf248>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/FeaturesFragment;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9138cd53b0>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaab00>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/FeaturesFragment;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9138cd53b0>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaf2d8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/FeaturesFragment;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915d3f6b48>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaf320>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915d3f6b48>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaf170>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9149938d40>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaf170>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9149938d40>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaf170>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9149938d40>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaf170>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9149938d40>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaf170>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9149938d40>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaf170>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9149938d40>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaf170>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9149938d40>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaf170>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915eaf7878>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaf200>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915d3f6cb0>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaf200>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9149938cf8>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaab00>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/ResultsActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915a119518>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaf200>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/ResultsActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915a119518>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaac68>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/ResultsActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915a119518>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaf2d8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/ResultsActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915a119518>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaab00>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/ResultsActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915a119518>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaaa28>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/ResultsActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915a119518>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaf248>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/ResultsActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9144b14f38>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffb4d40>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/SettingsActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914425ecf8>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaac68>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/e;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91677a2368>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913ffaac68>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/mobiusx/live4dresults/ui/NumberTextView;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

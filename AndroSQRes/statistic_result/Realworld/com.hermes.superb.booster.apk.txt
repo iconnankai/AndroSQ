@@ -1,0 +1,219 @@
+parse success!!
+############################
+# components statistic
+activities:32
+services:12
+receivers:0
+############################
+# life_nodes statistic
+activities: 210
+services: 78
+------------------------------------------
+lifecycle_total_nodes: 288
+############################
+# lifecycle edges
+edges_lifecycle_activities:250
+edges_lifecycle_services:58
+--------------------------------------------
+edges_lifecycle_total:308
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[148, 254]
+services_node_edge_num:[23, 23]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 44
+original_service_nodes_num: 10
+original_receiver_nodes_num: 0
+
+original_nodes_num: 54
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:22   unregister:17
+-----------------------------------------
+<regist_in_onCreate_content> 1
+    ('Lcom/apusapps/tools/booster/app/BoosterApplication;**onCreate', 'register', 'onActivityCreated')
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 22
+unregister_con_num: 17
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  138
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:370   edges:446
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  2
+############################
+<globals_num> 11371
+<globals_op_num> 43280
+############################
+# total num 
+total_nodes_num:  370
+total_edges_num:  435
+############################
+# total num 
+total_nodes_num:  359
+total_edges_num:  424
+############################
+# total time 
+parse_time:  135.691535
+modelling_time:  433.972358
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916665bcb0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130802d40>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/apusapps/battery/ChargeFastGuideActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163dd9f80>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91307cb830>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91307f3170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130803950>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/apusapps/battery/ChargingActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163dd9f80>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91307f3170>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/apusapps/battery/ChargingActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916552b128>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba6a7a0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/apusapps/launcher/snsshare/QRCodeActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166ea5c68>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba6ad88>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/apusapps/launcher/snsshare/SnsShareDialogActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166b498c0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba66878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba66908>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba66998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba66a28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba66ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba66b48>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba66bd8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/apusapps/tools/booster/app/BoosterApplication;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166b07c20>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9149291050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9149291248>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/apusapps/tools/booster/cpu/ui/CpuCoolResultActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166c1af38>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91580e22d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91580e16c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91580e1998>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/apusapps/tools/booster/ui/BoostMainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166c1af38>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91580e22d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91580e16c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91580e1998>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/apusapps/tools/booster/ui/BoostMainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166c1af38>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91580e22d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91580e16c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91580e1998>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/apusapps/tools/booster/ui/BoostMainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166c1af38>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91580e22d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91580e16c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91580e1998>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/apusapps/tools/booster/ui/BoostMainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166c1af38>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91580e22d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91580e16c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91580e1998>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/apusapps/tools/booster/ui/BoostMainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166c1af38>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91580e22d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91580e16c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91580e1998>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/apusapps/tools/booster/ui/BoostMainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91665f1830>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91580dfcf8>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/apusapps/tools/booster/ui/BoostResultActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91669dfb00>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c51a098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c5276c8>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/apusapps/tools/booster/ui/NotificationActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91669dfb00>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c51a098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c5276c8>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/apusapps/tools/booster/ui/NotificationActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166f7a3f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914dbc96c8>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/InterstitialAdActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91649fc4d0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914b9ee758>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/internal/WebDialog;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91649fc4d0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914b9ee488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914b9ee758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914b9eecf8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/internal/WebDialog;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164e602d8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914e838098>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/internal/zzlp;'}
+[method_b]:onActivityResult
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91669ecb00>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91479c8bd8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91479c8ea8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/stark/module/exitconfirm/c;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91669ecb00>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91479c8bd8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91479c8ea8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/stark/module/exitconfirm/c;'}
+[method_b]:onCreate
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9167071ef0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lb/a/a/c;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166f87998>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/apus/appexit/monitor/e;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166f87998>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/apus/appexit/monitor/e;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163eaaf80>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/apusapps/battery/ChargingCoreService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163eaaf80>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/apusapps/battery/ChargingCoreService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165642a70>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/apusapps/tools/booster/service/CoreService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165642a70>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/apusapps/tools/booster/service/CoreService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166c29050>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/apusapps/tools/booster/ui/d;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166c29050>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/apusapps/tools/booster/ui/d;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166c1af38>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/apusapps/tools/booster/widget/HorizontalListView;'}
+[method_b]:onCreate
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164700560>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/InstanceIDListenerService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164700560>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/InstanceIDListenerService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164700710>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/InstanceIDListenerService;'}
+[method_b]:onStartCommand
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166af8758>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/internal/zzll;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164e602d8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/internal/zzlp;'}
+[method_b]:onActivityResult
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166c9fe60>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lorg/interlaken/common/net/ApkDownloadManager;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166c9fe60>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lorg/interlaken/common/net/ApkDownloadManager;'}
+[method_b]:onReceive
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91648fe320>, 'connection_type': 'connection_stop_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914aadf950>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/apusapps/battery/j;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166b074d0>, 'connection_type': 'connection_stop_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914aaf0440>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/apusapps/launcher/clean/a/b$1;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166eb40e0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914aaca3f8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/apusapps/launcher/snsshare/SnsShareDialogActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162c70248>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914aaed128>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/apusapps/libzurich/redirect/RedirectProvider;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164a964d0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914aad6320>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/apusapps/tools/booster/cpu/ui/CpuCoolDownProgressActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166c0bf80>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914aad6248>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/apusapps/tools/booster/cpu/ui/CpuCoolerActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166c0bf80>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914aad6248>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/apusapps/tools/booster/cpu/ui/CpuCoolerActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91665e6a70>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914aad6248>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/apusapps/tools/booster/cpu/ui/CpuCoolerActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166c1a8c0>, 'connection_type': 'connection_activity', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914aaf0998>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/apusapps/tools/booster/receiver/StartReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166c1a878>, 'connection_type': 'connection_activity', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914aaf0440>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/apusapps/tools/booster/service/CoreService$1;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91669df368>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914aaf91b8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/apusapps/tools/booster/ui/BoostMainActivity$9;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166c1af38>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914aad6518>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/apusapps/tools/booster/ui/BoostMainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166c1ae60>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914aaf91b8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/apusapps/tools/booster/ui/BoostMainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166c1ae60>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914aad6518>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/apusapps/tools/booster/ui/BoostMainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162860b48>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914aaf0440>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/apusapps/tools/booster/ui/GobackBridgeActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91649a3cb0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914aaf0440>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/apusapps/tools/booster/ui/RemindBoosterActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91665f1290>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914aaf0518>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/apusapps/tools/booster/ui/a;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164183e18>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914aaf0440>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/apusapps/tools/booster/ui/a;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166ea53b0>, 'connection_type': 'connection_service', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914d079758>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/xiaojiang/notificationservice/InnerService;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {'Lcom/apusapps/tools/booster/service/CoreService; onCreate ()V': [({'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Lcom/apusapps/tools/booster/service/CoreService; onCreate ()V'}, {'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Lcom/xiaojiang/notificationservice/InnerService; <init> ()V'})], 'Lcom/apusapps/battery/ChargingActivity; onTerminal Terminal': [({'component': 'Activity', 'attr': 'attr_aux', 'label': 'Lcom/apusapps/battery/ChargingActivity; onTerminal Terminal'}, {'component': 'Activity', 'attr': 'attr_original', 'label': 'Lcom/apusapps/battery/ChargingActivity; onEventMainThread (Lcom/apusapps/fw/f/a;)V'})]}

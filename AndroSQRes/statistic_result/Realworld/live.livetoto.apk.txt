@@ -1,0 +1,182 @@
+parse success!!
+############################
+# components statistic
+activities:19
+services:4
+receivers:0
+############################
+# life_nodes statistic
+activities: 118
+services: 22
+------------------------------------------
+lifecycle_total_nodes: 140
+############################
+# lifecycle edges
+edges_lifecycle_activities:146
+edges_lifecycle_services:12
+--------------------------------------------
+edges_lifecycle_total:158
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[93, 165]
+services_node_edge_num:[12, 12]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 14
+original_service_nodes_num: 14
+original_receiver_nodes_num: 0
+
+original_nodes_num: 28
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:28   unregister:6
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 28
+unregister_con_num: 6
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  130
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:206   edges:288
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 7438
+<globals_op_num> 24185
+############################
+# total num 
+total_nodes_num:  206
+total_edges_num:  277
+############################
+# total num 
+total_nodes_num:  195
+total_edges_num:  266
+############################
+# total time 
+parse_time:  90.217593
+modelling_time:  281.019528
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9151df9b90>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91676f73f8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/dynamic/a;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916b1f84d0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914daa7488>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/FavNumActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916b1c4e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de1be60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de1c170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de42a70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de42d40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de46050>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916b1c4e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de1be60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de1c170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de42a70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de42d40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de46050>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916b1c4e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de1be60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de1c170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de42a70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de42d40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de46050>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916b1c4e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de1be60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de1c170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de42a70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de42d40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de46050>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916b1c4e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de1be60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de1c170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de42a70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de42d40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914de46050>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914c7d2bd8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5f8b48>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5f8e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa3f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa6c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa998>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/ResultActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914c7d2bd8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5f8b48>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5f8e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa3f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa6c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa998>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/ResultActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914c7d2bd8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5f8b48>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5f8e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa3f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa6c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa998>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/ResultActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914c7d2bd8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5f8b48>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5f8e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa3f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa6c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa998>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/ResultActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914c7d2bd8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5f8b48>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5f8e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa3f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa6c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa998>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/ResultActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914c7d2bd8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5f8b48>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5f8e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa3f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa6c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa998>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/ResultActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914c7d2bd8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5f8b48>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5f8e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa3f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa6c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5fa998>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/ResultActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912f869dd0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5ea248>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/SearchActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914a29f170>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5ed6c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5ed998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5edc68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5edf38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5e8248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5e8518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5e87e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5e8ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5e8d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba35d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba23170>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/SettingsActivity;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913191b5a8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5df170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5dfab8>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/ShakeActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913191b5a8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5df170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5dfab8>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/ShakeActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9159691320>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5e6b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5e6b90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5df170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5df440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5df758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5dfab8>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'registerListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/ShakeActivity;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9159691320>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5e6b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5e6b90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5df170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5df440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5df758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5dfab8>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/ShakeActivity;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9159691320>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5e6b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5e6b90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5df170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5df440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5df758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5dfab8>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/ShakeActivity;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913f7bf5a8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d2518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d27e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d2ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d2d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d9098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d9368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d9638>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/StatActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913f7bf5a8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d2518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d27e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d2ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d2d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d9098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d9368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d9638>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/StatActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913f7bf5a8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d2518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d27e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d2ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d2d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d9098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d9368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d9638>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/StatActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913f7bf5a8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d2518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d27e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d2ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d2d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d9098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d9368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d9638>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/StatActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913f7bf5a8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d2518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d27e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d2ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d2d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d9098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d9368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d9638>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/StatActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913f7bf5a8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d2518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d27e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d2ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d2d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d9098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d9368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d9638>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/StatActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913f7bf5a8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d2518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d27e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d2ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d2d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d9098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d9368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d5d9638>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/StatActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91427b75a8>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gcm/GCMBaseIntentService;'}
+[method_b]:onHandleIntent
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91427b75a8>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gcm/GCMBaseIntentService;'}
+[method_b]:onHandleIntent
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91427b0cf8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/GCMServerUtilities;'}
+[method_b]:onUnregistered
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91427b0cf8>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/GCMIntentService;'}
+[method_b]:onUnregistered
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91427b0cf8>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/GCMIntentService;'}
+[method_b]:onUnregistered
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91427b0cf8>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Llive/livetoto/GCMIntentService;'}
+[method_b]:onUnregistered
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91688147e8>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9162e22878>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/tagmanager/InstallReferrerReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916988d3b0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91676b1a28>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Llive/livetoto/SettingsActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916988d3b0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91676b1a28>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Llive/livetoto/SettingsActivity;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

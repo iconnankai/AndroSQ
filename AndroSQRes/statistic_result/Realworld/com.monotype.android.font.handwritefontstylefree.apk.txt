@@ -1,0 +1,125 @@
+parse success!!
+############################
+# components statistic
+activities:6
+services:2
+receivers:0
+############################
+# life_nodes statistic
+activities: 44
+services: 10
+------------------------------------------
+lifecycle_total_nodes: 54
+############################
+# lifecycle edges
+edges_lifecycle_activities:50
+edges_lifecycle_services:6
+--------------------------------------------
+edges_lifecycle_total:56
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[24, 38]
+services_node_edge_num:[6, 6]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 11
+original_service_nodes_num: 2
+original_receiver_nodes_num: 0
+
+original_nodes_num: 13
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:13   unregister:0
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 13
+unregister_con_num: 0
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  32
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:72   edges:88
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 5279
+<globals_op_num> 17383
+############################
+# total num 
+total_nodes_num:  72
+total_edges_num:  85
+############################
+# total num 
+total_nodes_num:  69
+total_edges_num:  82
+############################
+# total time 
+parse_time:  54.854966
+modelling_time:  189.622225
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f911afa4ef0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91211fb170>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/dynamic/a;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f911bb08128>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9120f57f38>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/monotype/android/font/handwritefontstylefree/FontFlipActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f911bb08128>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9120f57f38>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/monotype/android/font/handwritefontstylefree/FontFlipActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f911b7c6cf8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9120f5d5f0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/monotype/android/font/handwritefontstylefree/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f911b7c6cf8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9120f5d5f0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/monotype/android/font/handwritefontstylefree/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f911a459758>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9120f795f0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/monotype/android/font/handwritefontstylefree/frontpage$2;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f911bb08560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9120f795f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9120f798c0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/monotype/android/font/handwritefontstylefree/frontpage;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f911bb08560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9120f795f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9120f798c0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/monotype/android/font/handwritefontstylefree/frontpage;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f911bb08560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9120f795f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9120f798c0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/monotype/android/font/handwritefontstylefree/frontpage;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f911bb08560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9120f795f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9120f798c0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/monotype/android/font/handwritefontstylefree/frontpage;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f911bb08560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9120f795f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9120f798c0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/monotype/android/font/handwritefontstylefree/frontpage;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f911bb08560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9120f795f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9120f798c0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/monotype/android/font/handwritefontstylefree/frontpage;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f911bb08560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9120f795f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9120f798c0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/monotype/android/font/handwritefontstylefree/frontpage;'}
+[method_b]:onCreate
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9119e9e950>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91218879e0>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/tagmanager/InstallReferrerReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f911a83cbd8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9121811cf8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/monotype/android/font/handwritefontstylefree/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f911b9a1518>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9121816320>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/monotype/android/font/handwritefontstylefree/SplashScreen$1$1$1;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

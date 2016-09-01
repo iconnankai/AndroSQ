@@ -1,0 +1,168 @@
+parse success!!
+############################
+# components statistic
+activities:22
+services:5
+receivers:0
+############################
+# life_nodes statistic
+activities: 169
+services: 33
+------------------------------------------
+lifecycle_total_nodes: 202
+############################
+# lifecycle edges
+edges_lifecycle_activities:189
+edges_lifecycle_services:25
+--------------------------------------------
+edges_lifecycle_total:214
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[84, 136]
+services_node_edge_num:[8, 7]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 13
+original_service_nodes_num: 3
+original_receiver_nodes_num: 0
+
+original_nodes_num: 16
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:2   unregister:29
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 2
+unregister_con_num: 29
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  32
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:235   edges:246
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 24731
+<globals_op_num> 58107
+############################
+# total num 
+total_nodes_num:  235
+total_edges_num:  238
+############################
+# total num 
+total_nodes_num:  227
+total_edges_num:  230
+############################
+# total time 
+parse_time:  183.551019
+modelling_time:  556.54094
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913910cc68>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d6837e8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/halo/wifikey/wifilocating/appwall/AppWallTabItemFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912efc7200>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d620d40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d623050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d623320>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d623908>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d623c20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d623f80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d6258c0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d625c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d625f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d628518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d6285a8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d628878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d628908>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d628998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d62b6c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d62b998>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/halo/wifikey/wifilocating/discover/DiscoverFragment;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912efc7200>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/halo/wifikey/wifilocating/discover/DiscoverFragment;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912efc7200>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/halo/wifikey/wifilocating/discover/DiscoverFragment;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9137a916c8>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/connect/autoconn/ui/AutoConnectActivity;'}
+[method_b]:onStop
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9137a916c8>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/connect/autoconn/ui/AutoConnectActivity;'}
+[method_b]:onStop
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913712e5f0>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/connect/service/StickyService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913712e5f0>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/connect/service/StickyService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914cfa3320>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/connect/ui/MainFragment;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914cfa3320>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/connect/ui/MainFragment;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914cfa2f80>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/connect/ui/activity/DeepUnlockActivity;'}
+[method_b]:onStop
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914cfa2f80>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/connect/ui/activity/DeepUnlockActivity;'}
+[method_b]:onStop
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915bfbfa28>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/connect/ui/activity/UnlockApActivity;'}
+[method_b]:onStop
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915bfbfa28>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/connect/ui/activity/UnlockApActivity;'}
+[method_b]:onStop
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914cfb5638>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/connect/ui/activity/UnlockMoreActivity;'}
+[method_b]:onStop
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914cfb5638>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/connect/ui/activity/UnlockMoreActivity;'}
+[method_b]:onStop
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9141568f38>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/connect/ui/activity/WifiTop10TryingActivity;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9141568f38>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/connect/ui/activity/WifiTop10TryingActivity;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9147f03560>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/core/d/a;'}
+[method_b]:onTerminate
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9147f03560>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/core/d/a;'}
+[method_b]:onTerminate
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9147f03560>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/core/d;'}
+[method_b]:onTerminate
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9147f03560>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/core/d;'}
+[method_b]:onTerminate
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158ddeab8>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/dm/task/DownloadService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91333f24d0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/launcher/ui/MainActivityICS;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91333f24d0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/launcher/ui/MainActivityICS;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9151658098>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/launcher/ui/MainActivityICS;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9151658098>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/launcher/ui/MainActivityICS;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914daf0a70>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/settings/ui/SettingsActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914daf0a70>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/settings/ui/SettingsActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914d172d88>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/wifitools/signaldetector/SignalDetectorFragment;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914d172d88>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lantern/wifitools/signaldetector/SignalDetectorFragment;'}
+[method_b]:onPause
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916b2d0518>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9134077290>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/a/a;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9140778c20>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9134008908>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/halo/wifikey/wifilocating/appwall/AppDetailsActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914f2ab3f8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9133fb5680>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lantern/browser/ui/BrowserActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91381d3878>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9133fbf6c8>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lantern/connect/receiver/BootReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912e406200>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9133fbf6c8>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lantern/connect/ui/MainFragment;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f913775c7e8>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9133fc4c20>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lantern/connect/ui/aj;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91594d4e60>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9133f5d320>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lantern/dm/task/c;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160255cf8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9133f62098>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lantern/launcher/ui/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160255cf8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9133f62128>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lantern/launcher/ui/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912cccb170>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9133f62128>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lantern/notifaction/ui/NotificationJumpActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912cccb680>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9133f67cb0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lantern/settings/ui/w;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c43d950>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9133f0f518>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/yiba/sdk/WifiSafeActivity;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

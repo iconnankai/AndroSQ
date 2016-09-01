@@ -1,0 +1,61 @@
+parse success!!
+############################
+# components statistic
+activities:14
+services:1
+receivers:0
+############################
+# life_nodes statistic
+activities: 95
+services: 9
+------------------------------------------
+lifecycle_total_nodes: 104
+############################
+# lifecycle edges
+edges_lifecycle_activities:115
+edges_lifecycle_services:7
+--------------------------------------------
+edges_lifecycle_total:122
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[66, 115]
+services_node_edge_num:[0, 0]
+--------------------------------------------
+hidden_edge_total:[66, 115]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 31
+original_service_nodes_num: 5
+original_receiver_nodes_num: 0
+
+original_nodes_num: 36
+----------------------------------------------------
+non_lifecycle_nodes_num(register_num):  44
+unregister_num:3
+-----------------------------------------
+<regist_in_onCreate_content> 4
+    ('Lorg/connectbot/HostEditorActivity;**onCreate', 'register', 'onServiceConnected')
+    ('Lorg/connectbot/HostListActivity;**onCreate', 'register', 'onServiceConnected')
+    ('Lorg/connectbot/PortForwardListActivity;**onCreate', 'register', 'onServiceConnected')
+    ('Lorg/connectbot/PubkeyListActivity;**onCreate', 'register', 'onServiceConnected')
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 44
+unregister_con_num: 3
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  200
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:212   edges:322
+############################
+# inter-component activities statistic
+connections:  12
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  1
+############################
+# total num 
+total_reduct_nodes_num:  212
+total_reduct_edges_num:  334

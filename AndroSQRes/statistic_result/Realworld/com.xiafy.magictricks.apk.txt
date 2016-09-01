@@ -1,0 +1,94 @@
+parse success!!
+############################
+# components statistic
+activities:3
+services:2
+receivers:0
+############################
+# life_nodes statistic
+activities: 27
+services: 14
+------------------------------------------
+lifecycle_total_nodes: 41
+############################
+# lifecycle edges
+edges_lifecycle_activities:34
+edges_lifecycle_services:9
+--------------------------------------------
+edges_lifecycle_total:43
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[6, 11]
+services_node_edge_num:[4, 4]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 3
+original_service_nodes_num: 4
+original_receiver_nodes_num: 0
+
+original_nodes_num: 7
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:0   unregister:3
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 0
+unregister_con_num: 3
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  14
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:48   edges:57
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 5169
+<globals_op_num> 19725
+############################
+# total num 
+total_nodes_num:  48
+total_edges_num:  57
+############################
+# total num 
+total_nodes_num:  48
+total_edges_num:  57
+############################
+# total time 
+parse_time:  78.777312
+modelling_time:  204.961474
+
+############################
+############################
+############################
+# register_content
+register_content:  
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914403f368>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/parse/GcmRegistrar$Request;'}
+[method_b]:onReceiveResponseIntent
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914403f368>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/parse/GcmRegistrar$Request;'}
+[method_b]:onReceiveResponseIntent
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91478379e0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/parse/LocationNotifier$1;'}
+[method_b]:onLocationChanged
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91451601b8>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912872c560>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/a/a;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916968c488>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9143991098>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/xiafy/magictricks/ui/a/b;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915c3a9098>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9143991830>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/xiafy/magictricks/ui/activities/HomeActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9146675758>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9143991758>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/xiafy/magictricks/ui/b/c;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

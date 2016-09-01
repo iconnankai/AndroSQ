@@ -1,0 +1,82 @@
+parse success!!
+############################
+# components statistic
+activities:5
+services:5
+receivers:0
+############################
+# life_nodes statistic
+activities: 33
+services: 21
+------------------------------------------
+lifecycle_total_nodes: 54
+############################
+# lifecycle edges
+edges_lifecycle_activities:40
+edges_lifecycle_services:15
+--------------------------------------------
+edges_lifecycle_total:55
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[22, 40]
+services_node_edge_num:[15, 15]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 3
+original_service_nodes_num: 2
+original_receiver_nodes_num: 0
+
+original_nodes_num: 5
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:0   unregister:0
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 0
+unregister_con_num: 0
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  10
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:59   edges:65
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 4540
+<globals_op_num> 14543
+############################
+# total num 
+total_nodes_num:  59
+total_edges_num:  63
+############################
+# total num 
+total_nodes_num:  57
+total_edges_num:  61
+############################
+# total time 
+parse_time:  54.975333
+modelling_time:  144.475933
+
+############################
+############################
+############################
+# register_content
+register_content:  
+############################
+# unregister_content
+unregister_content:  
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9147dd4e60>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9130428170>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/tagmanager/InstallReferrerReceiver;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

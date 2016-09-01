@@ -1,0 +1,86 @@
+parse success!!
+############################
+# components statistic
+activities:2
+services:1
+receivers:0
+############################
+# life_nodes statistic
+activities: 17
+services: 6
+------------------------------------------
+lifecycle_total_nodes: 23
+############################
+# lifecycle edges
+edges_lifecycle_activities:17
+edges_lifecycle_services:4
+--------------------------------------------
+edges_lifecycle_total:21
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[7, 9]
+services_node_edge_num:[3, 3]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 0
+original_service_nodes_num: 3
+original_receiver_nodes_num: 0
+
+original_nodes_num: 3
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:0   unregister:2
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 0
+unregister_con_num: 2
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  6
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:26   edges:27
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 229
+<globals_op_num> 680
+############################
+# total num 
+total_nodes_num:  26
+total_edges_num:  26
+############################
+# total num 
+total_nodes_num:  25
+total_edges_num:  25
+############################
+# total time 
+parse_time:  4.522596
+modelling_time:  8.75214300001
+
+############################
+############################
+############################
+# register_content
+register_content:  
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9143bfaa28>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lorg/cocos2dx/lib/Cocos2dxAccelerometer;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9143bfaa28>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lorg/cocos2dx/lib/Cocos2dxAccelerometer;'}
+[method_b]:onPause
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9143c14a28>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91449e2710>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/omqcomics/omqbook/BillingReceiver;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

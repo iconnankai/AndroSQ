@@ -1,0 +1,49 @@
+parse success!!
+############################
+# components statistic
+activities:25
+services:17
+receivers:0
+############################
+# life_nodes statistic
+activities: 174
+services: 124
+------------------------------------------
+lifecycle_total_nodes: 298
+############################
+# lifecycle edges
+edges_lifecycle_activities:206
+edges_lifecycle_services:89
+--------------------------------------------
+edges_lifecycle_total:295
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[112, 190]
+services_node_edge_num:[28, 28]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 29
+original_service_nodes_num: 27
+original_receiver_nodes_num: 0
+
+original_nodes_num: 56
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:37   unregister:24
+-----------------------------------------
+<regist_in_onCreate_content> 5
+    ('Lcom/microphone/earspy/MicrophoneActivity;**onCreate', 'register', 'onClick')
+    ('Lcom/microphone/earspy/MicrophoneActivity;**onCreate', 'register', 'onClick')
+    ('Lcom/microphone/earspy/MicrophoneActivity;**onCreate', 'register', 'onClick')
+    ('Lcom/microphone/earspy/MicrophoneService;**onCreate', 'register', 'onProgressChanged')
+    ('Lcom/microphone/earspy/MicrophoneService;**onCreate', 'register', 'onProgressChanged')
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 37
+unregister_con_num: 24
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  148
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:393   edges:443

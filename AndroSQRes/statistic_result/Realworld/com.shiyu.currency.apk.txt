@@ -1,0 +1,106 @@
+parse success!!
+############################
+# components statistic
+activities:11
+services:4
+receivers:0
+############################
+# life_nodes statistic
+activities: 77
+services: 28
+------------------------------------------
+lifecycle_total_nodes: 105
+############################
+# lifecycle edges
+edges_lifecycle_activities:100
+edges_lifecycle_services:12
+--------------------------------------------
+edges_lifecycle_total:112
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[48, 86]
+services_node_edge_num:[12, 12]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 1
+original_service_nodes_num: 4
+original_receiver_nodes_num: 0
+
+original_nodes_num: 5
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:8   unregister:0
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 8
+unregister_con_num: 0
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  30
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:120   edges:142
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 2641
+<globals_op_num> 11203
+############################
+# total num 
+total_nodes_num:  120
+total_edges_num:  139
+############################
+# total num 
+total_nodes_num:  117
+total_edges_num:  136
+############################
+# total time 
+parse_time:  29.724111
+modelling_time:  98.938155
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91278f26c8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912b669d40>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/shiyu/currency/ActivityAbout;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912673cfc8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912b66c488>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/shiyu/currency/ActivityBanknote;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912768b9e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912b66f248>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/shiyu/currency/ActivityCalculate;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9127553fc8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912b66fbd8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912b66fea8>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/shiyu/currency/ActivityConfigChart;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9126af0b00>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912b675488>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/shiyu/currency/ActivityDownload;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9127762878>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912b675bd8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912b675ea8>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/shiyu/currency/ActivityEdit;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9127af1b48>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912b67b4d0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/shiyu/currency/ActivityItemAction;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9126f07320>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912b67d3f8>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/shiyu/currency/ActivitySecurity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91276d5170>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912bc32bd8>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/tagmanager/InstallReferrerReceiver;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

@@ -1,0 +1,3 @@
+(onProgressChanged,org.videolan.vlc.gui.video.VideoPlayerActivity,onCreate,onPause)
+(onStartTrackingTouch,org.videolan.vlc.gui.video.VideoPlayerActivity,onCreate,onPause)
+(onStopTrackingTouch,org.videolan.vlc.gui.video.VideoPlayerActivity,onCreate,onPause)

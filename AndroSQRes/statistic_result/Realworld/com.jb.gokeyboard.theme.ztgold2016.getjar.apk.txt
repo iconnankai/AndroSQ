@@ -1,0 +1,184 @@
+parse success!!
+############################
+# components statistic
+activities:9
+services:7
+receivers:0
+############################
+# life_nodes statistic
+activities: 68
+services: 46
+------------------------------------------
+lifecycle_total_nodes: 114
+############################
+# lifecycle edges
+edges_lifecycle_activities:72
+edges_lifecycle_services:34
+--------------------------------------------
+edges_lifecycle_total:106
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[39, 72]
+services_node_edge_num:[13, 13]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 30
+original_service_nodes_num: 1
+original_receiver_nodes_num: 0
+
+original_nodes_num: 31
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:24   unregister:11
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 24
+unregister_con_num: 11
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  70
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:179   edges:176
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 10989
+<globals_op_num> 39807
+############################
+# total num 
+total_nodes_num:  179
+total_edges_num:  166
+############################
+# total num 
+total_nodes_num:  169
+total_edges_num:  156
+############################
+# total time 
+parse_time:  156.092855
+modelling_time:  431.7688
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916927a5a8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913135da70>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/InterstitialAdActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916647b488>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91629a9c20>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/github/clans/fab/FloatingActionButton;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916647b488>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91629a9c20>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/github/clans/fab/FloatingActionButton;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91657aa758>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91629dd170>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/dynamic/zza;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163479830>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fb65d88>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/jb/gokeyboard/theme/template/advertising/facebook/FacebookNativeInterstitialAd;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163479908>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fb65d88>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/jb/gokeyboard/theme/template/advertising/facebook/FacebookNativeInterstitialAd;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163479908>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fb65d88>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/jb/gokeyboard/theme/template/advertising/facebook/FacebookNativeInterstitialAd;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168e223f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fb67fc8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91659942d8>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/jb/gokeyboard/theme/template/crashreport/CrashReportDialog;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168e223f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fb67fc8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91659942d8>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/jb/gokeyboard/theme/template/crashreport/CrashReportDialog;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168d66a70>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e55f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e5908>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e5c20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e5f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e0248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e08c0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e0b90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e0ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381de440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381de758>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/jb/gokeyboard/theme/template/view/DialogFactory;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168d66a70>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e55f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e5908>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e5c20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e5f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e0248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e08c0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e0b90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e0ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381de440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381de758>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/jb/gokeyboard/theme/template/view/DialogFactory;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168e69f38>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e55f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e5908>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e5c20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e5f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e0248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e08c0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e0b90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e0ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381de440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381de758>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/jb/gokeyboard/theme/template/view/DialogFactory;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168e69f38>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e55f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e5908>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e5c20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e5f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e0248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e08c0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e0b90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381e0ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381de440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91381de758>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/jb/gokeyboard/theme/template/view/DialogFactory;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91650ea950>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913b12f758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913b12f440>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/NativeAd;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91650ea950>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913b12f758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913b12f440>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/NativeAd;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91650ea950>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913b12f758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913b12f440>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/NativeAd;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91650ea950>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913b12f758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913b12f440>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/NativeAd;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91689d8cf8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9160f91518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9160f91878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9160f91908>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9160f91c20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9160f91fc8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9160fbc368>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/zzg;'}
+[method_b]:onConnectionSuspended
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91694d7ea8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fb861b8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/jb/gokeyboard/theme/template/base/UIManager;'}
+[method_b]:onBackPressed
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91660df440>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91659af3b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914bde1368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914bde13f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914bde1488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914bde1758>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/jb/gokeyboard/theme/template/fragment/ApplyThemeFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91650ea518>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913aa9f0e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913aa9f170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913aa9f200>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/jb/gokeyboard/theme/template/view/giftbox/GiftBoxShowDialog;'}
+[method_b]:onAnimationEnd
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91650ea950>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913aa9f0e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913aa9f170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913aa9f200>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/jb/gokeyboard/theme/template/view/giftbox/GiftBoxShowDialog;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91650ea950>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913aa9f0e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913aa9f170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913aa9f200>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/jb/gokeyboard/theme/template/view/giftbox/GiftBoxShowDialog;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916647b488>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913aa8b488>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/jb/gokeyboard/theme/template/wallpaper/WallpapersPreviewFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168674200>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/internal/adapters/c;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168674200>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/internal/adapters/c;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163479830>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/jb/gokeyboard/theme/template/advertising/facebook/FacebookNativeInterstitialAd;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163479908>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/jb/gokeyboard/theme/template/advertising/facebook/FacebookNativeInterstitialAd;'}
+[method_b]:onResume
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165bee830>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/jb/gokeyboard/theme/template/alarm/GoKeyboardInstallCheckService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165bee830>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/jb/gokeyboard/theme/template/alarm/GoKeyboardInstallCheckService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91673f9bd8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/jb/gokeyboard/theme/template/view/FaceBookAdRelativeLayout;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165200a28>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/zzn$zza;'}
+[method_b]:onReset
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165200a28>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/zzn$zza;'}
+[method_b]:onReset
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91650ea518>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/jb/gokeyboard/theme/template/view/giftbox/GiftBoxShowDialog;'}
+[method_b]:onAnimationEnd
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91650ea950>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/jb/gokeyboard/theme/template/view/giftbox/GiftBoxShowDialog;'}
+[method_b]:onResume
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91680f5638>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9132112320>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/analytics/AnalyticsReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91689988c0>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91320ecea8>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/jb/gokeyboard/theme/template/ThemeApplication;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168998bd8>, 'connection_type': 'connection_service', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91320e2a28>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/jb/gokeyboard/theme/template/alarm/GoKeyboardInstallCheckService;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916926da70>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913201b248>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/jb/gokeyboard/theme/template/httpwecloud/util/UriJumpUtils;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916649eb00>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913201b248>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/jb/gokeyboard/theme/template/httpwecloud/util/UriJumpUtils;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

@@ -1,0 +1,88 @@
+parse success!!
+############################
+# components statistic
+activities:4
+services:4
+receivers:0
+############################
+# life_nodes statistic
+activities: 29
+services: 24
+------------------------------------------
+lifecycle_total_nodes: 53
+############################
+# lifecycle edges
+edges_lifecycle_activities:34
+edges_lifecycle_services:16
+--------------------------------------------
+edges_lifecycle_total:50
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[16, 31]
+services_node_edge_num:[10, 10]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 5
+original_service_nodes_num: 8
+original_receiver_nodes_num: 0
+
+original_nodes_num: 13
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:2   unregister:0
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 2
+unregister_con_num: 0
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  26
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:68   edges:76
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 7231
+<globals_op_num> 23901
+############################
+# total num 
+total_nodes_num:  68
+total_edges_num:  70
+############################
+# total num 
+total_nodes_num:  62
+total_edges_num:  64
+############################
+# total time 
+parse_time:  85.149895
+modelling_time:  274.519865
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91680a2d40>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159a63b48>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/dynamic/a;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91665e6488>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915b3b9098>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lsyamu/bangla/sharada/BanglaDictionaryActivity$20;'}
+[method_b]:onFinish
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166682680>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9157bc5518>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/tagmanager/InstallReferrerReceiver;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

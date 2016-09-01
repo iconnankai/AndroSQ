@@ -1,0 +1,123 @@
+parse success!!
+############################
+# components statistic
+activities:4
+services:0
+receivers:0
+############################
+# life_nodes statistic
+activities: 32
+services: 0
+------------------------------------------
+lifecycle_total_nodes: 32
+############################
+# lifecycle edges
+edges_lifecycle_activities:36
+edges_lifecycle_services:0
+--------------------------------------------
+edges_lifecycle_total:36
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[13, 20]
+services_node_edge_num:[0, 0]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 6
+original_service_nodes_num: 0
+original_receiver_nodes_num: 0
+
+original_nodes_num: 6
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:7   unregister:10
+-----------------------------------------
+<regist_in_onCreate_content> 2
+    ('Lcom/startapp/android/publish/list3d/List3DActivity;**onCreate', 'register', 'onCancel')
+    ('Lcom/startapp/android/publish/list3d/List3DActivity;**onCreate', 'register', 'onCancel')
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 7
+unregister_con_num: 10
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  18
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:53   edges:54
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 1601
+<globals_op_num> 5926
+############################
+# total num 
+total_nodes_num:  53
+total_edges_num:  52
+############################
+# total num 
+total_nodes_num:  51
+total_edges_num:  50
+############################
+# total time 
+parse_time:  25.831917
+modelling_time:  62.275683
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9117492b48>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f911a60f6c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f911a60fcb0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/adinformation/d;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f911732bc68>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f911a599200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f911a5998c0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f911a599950>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f911a5999e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f911a599d40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f911a599dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f911a599e60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f911a59c518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f911a3f5bd8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f911a3f5c68>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/slider/b;'}
+[method_b]:onReceiveAd
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f911732bc68>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f911a59c518>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/slider/b;'}
+[method_b]:onReceiveAd
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91174dca70>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f911a5ddb48>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f911a5ddea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f911a5e01b8>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/list3d/List3DActivity;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9117772200>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f911a5ddb48>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f911a5ddea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f911a5e01b8>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/list3d/List3DActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9117772200>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f911a5ddb48>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f911a5ddea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f911a5e01b8>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/list3d/List3DActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9117772200>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f911a5e01b8>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/list3d/List3DActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91165e4a28>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/StartAppAd$1;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91165e4a28>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/StartAppAd$1;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91164123b0>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/StartAppAd$2;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91164123b0>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/StartAppAd$2;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9117939cf8>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/list3d/c$1;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9117939cf8>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/list3d/c$1;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9116bf6a28>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/splash/a$6$1;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9116bf6a28>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/splash/a$6$1;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91174dca70>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/list3d/List3DActivity;'}
+[method_b]:onClick
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91174dca70>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/list3d/List3DActivity;'}
+[method_b]:onClick
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

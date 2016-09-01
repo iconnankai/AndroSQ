@@ -1,0 +1,32 @@
+#define def_inter 6;
+#define None 0;
+#define free_inter 8;
+#define use_inner 2;
+#define def_inner 1;
+#define use_inter 7;
+#define reg_inter 9;
+#define unreg_inter 10;
+#define reg_inner 4;
+#define unreg_inner 5;
+#define free_inner 3;
+
+var component = None;
+var attr = None;
+var label = None;
+
+
+
+
+
+ // define vars for asserts
+
+
+
+// for <use before define> 
+
+
+// for <use after free> 
+
+
+// for <callback illusion after unregister> 
+

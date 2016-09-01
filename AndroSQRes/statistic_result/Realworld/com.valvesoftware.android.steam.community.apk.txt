@@ -1,0 +1,128 @@
+parse success!!
+############################
+# components statistic
+activities:3
+services:1
+receivers:0
+############################
+# life_nodes statistic
+activities: 19
+services: 4
+------------------------------------------
+lifecycle_total_nodes: 23
+############################
+# lifecycle edges
+edges_lifecycle_activities:19
+edges_lifecycle_services:3
+--------------------------------------------
+edges_lifecycle_total:22
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[16, 25]
+services_node_edge_num:[3, 3]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 8
+original_service_nodes_num: 1
+original_receiver_nodes_num: 0
+
+original_nodes_num: 9
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:9   unregister:8
+-----------------------------------------
+<regist_in_onCreate_content> 1
+    ('Lcom/valvesoftware/android/steam/community/activity/BaseActivity;**onCreate', 'register', 'onClick')
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 9
+unregister_con_num: 8
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  40
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:58   edges:62
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 1807
+<globals_op_num> 7184
+############################
+# total num 
+total_nodes_num:  58
+total_edges_num:  62
+############################
+# total num 
+total_nodes_num:  58
+total_edges_num:  62
+############################
+# total time 
+parse_time:  27.909191
+modelling_time:  69.121934
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912e5bca28>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130ce6998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130ce6c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130ce6f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130ce9248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130cec758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130ceea28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130cf1098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130cf1950>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130cf1c20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130cf1ef0>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/valvesoftware/android/steam/community/activity/BaseActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912e5bca28>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130ce6998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130ce9248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130ceea28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130cf1098>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/valvesoftware/android/steam/community/activity/BaseActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912e7f9b90>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130cfaa28>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/valvesoftware/android/steam/community/activity/MainActivity;'}
+[method_b]:onNewIntent
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912e1b65f0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130d03128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130d033f8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/valvesoftware/android/steam/community/fragment/BaseSearchListFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912e1b65f0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130d03128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130d033f8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/valvesoftware/android/steam/community/fragment/BaseSearchListFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912de06bd8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130d06b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130c89b00>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/valvesoftware/android/steam/community/fragment/ChatFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912d9fe8c0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130cc7b90>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/valvesoftware/android/steam/community/fragment/SearchBarFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912e3af0e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130c4a518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130c4d638>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130c4d6c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130c4da70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130c4dd40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130c503b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130c50a28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130c50d40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130c53098>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/valvesoftware/android/steam/community/fragment/SettingsFragment;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912e3afcb0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130c56fc8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/valvesoftware/android/steam/community/fragment/TabbedSteamWebViewFragment;'}
+[method_b]:onSuccess
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912e2e3830>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/valvesoftware/android/steam/community/GcmRegistrar;'}
+[method_b]:onClick
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912e2e3830>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/valvesoftware/android/steam/community/activity/BaseActivity$17$1;'}
+[method_b]:onClick
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912e7f9b90>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/valvesoftware/android/steam/community/activity/MainActivity;'}
+[method_b]:onNewIntent
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ded9518>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/valvesoftware/android/steam/community/fragment/SteamguardFragmentWeb;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ded9518>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/valvesoftware/android/steam/community/fragment/SteamguardFragmentWeb;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ded9518>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/valvesoftware/android/steam/community/fragment/SteamguardFragmentWeb;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ded9ea8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/valvesoftware/android/steam/community/fragment/TwoFactorCodeListView;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ded9ea8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/valvesoftware/android/steam/community/fragment/TwoFactorCodeListView;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912e76d680>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9132aa0d40>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/valvesoftware/android/steam/community/fragment/GroupsListAdapter$2;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912e76d680>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9132aa0d40>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/valvesoftware/android/steam/community/fragment/GroupsListAdapter$2;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

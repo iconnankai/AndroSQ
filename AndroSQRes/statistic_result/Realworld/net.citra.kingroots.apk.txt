@@ -1,0 +1,98 @@
+parse success!!
+############################
+# components statistic
+activities:5
+services:12
+receivers:0
+############################
+# life_nodes statistic
+activities: 35
+services: 69
+------------------------------------------
+lifecycle_total_nodes: 104
+############################
+# lifecycle edges
+edges_lifecycle_activities:42
+edges_lifecycle_services:49
+--------------------------------------------
+edges_lifecycle_total:91
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[21, 43]
+services_node_edge_num:[27, 27]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 5
+original_service_nodes_num: 1
+original_receiver_nodes_num: 0
+
+original_nodes_num: 6
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:0   unregister:5
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 0
+unregister_con_num: 5
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  12
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:110   edges:103
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 8872
+<globals_op_num> 26556
+############################
+# total num 
+total_nodes_num:  110
+total_edges_num:  103
+############################
+# total num 
+total_nodes_num:  110
+total_edges_num:  103
+############################
+# total time 
+parse_time:  92.905155
+modelling_time:  237.485221
+
+############################
+############################
+############################
+# register_content
+register_content:  
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9144389bd8>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9142e68560>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/InstanceIDListenerService;'}
+[method_b]:onStartCommand
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91443897e8>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/InstanceIDListenerService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91443897e8>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/InstanceIDListenerService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9142c79c68>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/internal/wf;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9142c79c68>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/internal/wf;'}
+[method_b]:onReceive
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9142ace2d8>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f915f1fd998>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/analytics/AnalyticsReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165abf1b8>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f915f1fd998>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/analytics/internal/s;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b1a9710>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f915e1b5290>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/measurement/AppMeasurementReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161856170>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f915e1a9680>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lnet/citra/kingroots/KingRootsrev2;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

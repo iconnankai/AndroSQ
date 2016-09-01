@@ -1,0 +1,123 @@
+parse success!!
+############################
+# components statistic
+activities:9
+services:0
+receivers:0
+############################
+# life_nodes statistic
+activities: 67
+services: 0
+------------------------------------------
+lifecycle_total_nodes: 67
+############################
+# lifecycle edges
+edges_lifecycle_activities:62
+edges_lifecycle_services:0
+--------------------------------------------
+edges_lifecycle_total:62
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[44, 69]
+services_node_edge_num:[0, 0]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 11
+original_service_nodes_num: 0
+original_receiver_nodes_num: 0
+
+original_nodes_num: 11
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:7   unregister:4
+-----------------------------------------
+<regist_in_onCreate_content> 2
+    ('Lcom/google/zxing/client/android/PreferencesFragment;**onCreate', 'register', 'onPreferenceChange')
+    ('Lcom/google/zxing/client/android/history/HistoryActivity;**onCreate', 'register', 'onClick')
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 7
+unregister_con_num: 4
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  34
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:85   edges:96
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 1598
+<globals_op_num> 6922
+############################
+# total num 
+total_nodes_num:  85
+total_edges_num:  95
+############################
+# total num 
+total_nodes_num:  84
+total_edges_num:  94
+############################
+# total time 
+parse_time:  19.311288
+modelling_time:  104.397585
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9146e6ce18>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914838c1b8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/zxing/client/android/PreferencesFragment;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91473c5908>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91483a7488>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/zxing/client/android/book/SearchBookContentsActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914733c5a8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914834c2d8>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/zxing/client/android/history/HistoryActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9146d64758>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9148370290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9148370560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9148370830>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9148370b00>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/zxing/client/android/share/ShareActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9146d64758>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9148370290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9148370560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9148370830>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9148370b00>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/zxing/client/android/share/ShareActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9146d64758>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9148370290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9148370560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9148370830>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9148370b00>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/zxing/client/android/share/ShareActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9146d64758>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9148370290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9148370560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9148370830>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9148370b00>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/zxing/client/android/share/ShareActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9147372638>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/zxing/client/android/CaptureActivity;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9147372638>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/zxing/client/android/CaptureActivity;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9146c8dc68>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/zxing/client/android/InactivityTimer;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9146c8dc68>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/zxing/client/android/InactivityTimer;'}
+[method_b]:onPause
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9146db2f80>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9148c92518>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/zxing/client/android/CaptureActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9146db2f80>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9148c8dab8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/zxing/client/android/CaptureActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9146db2f80>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9148d08b00>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/zxing/client/android/CaptureActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9146db2f80>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9148d08638>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/zxing/client/android/CaptureActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9146d57d88>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9148c922d8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/zxing/client/android/share/ShareActivity$2;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9146d57d40>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9148c92248>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/zxing/client/android/share/ShareActivity$3;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

@@ -1,0 +1,386 @@
+parse success!!
+############################
+# components statistic
+activities:15
+services:3
+receivers:0
+############################
+# life_nodes statistic
+activities: 118
+services: 20
+------------------------------------------
+lifecycle_total_nodes: 138
+############################
+# lifecycle edges
+edges_lifecycle_activities:135
+edges_lifecycle_services:15
+--------------------------------------------
+edges_lifecycle_total:150
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[52, 86]
+services_node_edge_num:[5, 5]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 24
+original_service_nodes_num: 0
+original_receiver_nodes_num: 0
+
+original_nodes_num: 24
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:53   unregister:55
+-----------------------------------------
+<regist_in_onCreate_content> 3
+    ('Lcom/admarvel/android/ads/AdMarvelVideoActivity;**onCreate', 'register', 'onTouch')
+    ('Luk/co/mxdata/isubway/SubwayApplication;**onCreate', 'register', 'onResult')
+    ('Luk/co/mxdata/isubway/SubwayApplication;**onCreate', 'register', 'onResult')
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 53
+unregister_con_num: 55
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  60
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:220   edges:210
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 16758
+<globals_op_num> 68851
+############################
+# total num 
+total_nodes_num:  220
+total_edges_num:  208
+############################
+# total num 
+total_nodes_num:  218
+total_edges_num:  206
+############################
+# total time 
+parse_time:  232.145995
+modelling_time:  775.594018
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9680>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9126439368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91264396c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9126439a28>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eace248>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f71b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f72d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f73f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f75a8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onReceiveInterstitialAd
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667966c8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f71b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f72d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f73f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f75a8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onPostExecute
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667966c8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f71b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f72d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f73f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f75a8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onPostExecute
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eace248>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f71b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f72d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f73f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f75a8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onReceiveInterstitialAd
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eace248>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f71b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f72d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f73f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f75a8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onReceiveInterstitialAd
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eace248>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f71b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f72d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f73f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f75a8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onReceiveInterstitialAd
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eace248>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f71b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f72d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f73f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f75a8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onReceiveInterstitialAd
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eace248>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f71b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f72d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f73f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f75a8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onReceiveInterstitialAd
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667966c8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f71b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f72d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f73f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f75a8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onPostExecute
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667966c8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f71b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f72d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f73f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f75a8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onPostExecute
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667966c8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f71b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f72d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f73f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f75a8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onPostExecute
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667966c8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f71b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f72d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f73f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f75a8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onPostExecute
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9758>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f71b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f72d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f73f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f75a8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onReceive
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9758>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f71b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f72d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f73f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f75a8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onReceive
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9b90>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f71b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f72d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f73f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f75a8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onReceive
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9b90>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f71b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f72d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f73f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f7518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263f75a8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onReceive
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eaf4e18>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263a42d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263a45a8>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelVideoActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eaf4e18>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263a42d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263a45a8>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelVideoActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eaf4e18>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263a42d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263a45a8>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelVideoActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9149475200>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263a42d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263a45a8>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelVideoActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9149475200>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263a42d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91263a45a8>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelVideoActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914ad11b00>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9126302e60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9126291dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9126296d40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91262a0200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91262a0560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91262a08c0>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/p;'}
+[method_b]:onReceive
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9680>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9126255ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9126255f38>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'registerListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/util/f;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9680>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9126255ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9126255f38>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/util/f;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9131f66e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9126239d40>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/InterstitialAdActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91342ec950>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125c05f38>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/dynamic/zza;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91692db200>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125931ef0>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/internal/zzmr;'}
+[method_b]:onActivityResult
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91370be098>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91253e5488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91253e5518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91253e55a8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91253e5638>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91253e56c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91253e5758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91253e57e8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/millennialmedia/internal/a;'}
+[method_b]:onAttachedToWindow
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91370be098>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91253e5488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91253e5518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91253e55a8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91253e5638>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91253e56c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91253e5758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91253e57e8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/millennialmedia/internal/a;'}
+[method_b]:onAttachedToWindow
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91370be440>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91253e5488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91253e5518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91253e55a8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91253e5638>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91253e56c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91253e5758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91253e57e8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/millennialmedia/internal/a;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9137276680>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91253077e8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Luk/co/mxdata/isubway/SubwayApplication;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9137276680>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91253077e8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Luk/co/mxdata/isubway/SubwayApplication;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913b7c6a70>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91250d4998>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Luk/co/mxdata/isubway/ui/HomeActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160123200>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91250e3a28>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Luk/co/mxdata/isubway/ui/SearchActivity;'}
+[method_b]:onRequestPermissionsResult
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9140f7c908>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91250fb368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91250fb638>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Luk/co/mxdata/isubway/ui/af;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9140f7c908>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91250fb368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91250fb638>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Luk/co/mxdata/isubway/ui/af;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9140f7c908>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91250fb368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91250fb638>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Luk/co/mxdata/isubway/ui/af;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9140f7c908>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91250fb368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91250fb638>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Luk/co/mxdata/isubway/ui/af;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9140f7c908>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91250fb368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91250fb638>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Luk/co/mxdata/isubway/ui/af;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ea4d3b0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912508a7a0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Luk/co/mxdata/isubway/ui/aj;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ea4d6c8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099cf8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509c050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509c9e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509ccf8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509cfc8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509f2d8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Luk/co/mxdata/isubway/ui/as;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ea4d6c8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099cf8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509c050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509c9e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509ccf8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509cfc8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509f2d8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Luk/co/mxdata/isubway/ui/as;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ea4d6c8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099cf8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509c050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509c9e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509ccf8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509cfc8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509f2d8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Luk/co/mxdata/isubway/ui/as;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ea4d6c8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099cf8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509c050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509c9e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509ccf8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509cfc8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509f2d8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Luk/co/mxdata/isubway/ui/as;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ea4d6c8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099cf8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509c050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509c9e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509ccf8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509cfc8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509f2d8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Luk/co/mxdata/isubway/ui/as;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ea4d6c8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099cf8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509c050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509c9e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509ccf8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509cfc8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509f2d8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Luk/co/mxdata/isubway/ui/as;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ea4d6c8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91250999e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125099cf8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509c050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509c320>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509c3b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509c440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509c710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509c9e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509ccf8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509cfc8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912509f2d8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Luk/co/mxdata/isubway/ui/as;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916484c638>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91250ae9e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91250aecb0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Luk/co/mxdata/isubway/ui/av;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916484c638>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91250ae9e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91250aecb0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Luk/co/mxdata/isubway/ui/av;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914bd9c758>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912501b518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912501b7e8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Luk/co/mxdata/isubway/ui/map/f;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914bd9c758>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912501b518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912501b7e8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Luk/co/mxdata/isubway/ui/map/f;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914bd9c758>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912501b248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912501b518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912501b7e8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Luk/co/mxdata/isubway/ui/map/f;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9680>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9758>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds$1;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9758>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds$1;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9758>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds$1;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9758>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds$1;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9758>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds$1;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9b90>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds$2;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9b90>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds$2;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9d40>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds$3;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9d40>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds$3;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eae6248>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds$d;'}
+[method_b]:onCloseInterstitialAd
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eae6248>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds$d;'}
+[method_b]:onCloseInterstitialAd
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eae6248>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds$d;'}
+[method_b]:onCloseInterstitialAd
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eae6320>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds$d;'}
+[method_b]:onFailedToReceiveInterstitialAd
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eae6320>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds$d;'}
+[method_b]:onFailedToReceiveInterstitialAd
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eae6320>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds$d;'}
+[method_b]:onFailedToReceiveInterstitialAd
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667966c8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onPostExecute
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667966c8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onPostExecute
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667966c8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onPostExecute
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eace248>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onReceiveInterstitialAd
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eace248>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onReceiveInterstitialAd
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eace248>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onReceiveInterstitialAd
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667966c8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onPostExecute
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667966c8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onPostExecute
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667966c8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onPostExecute
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667966c8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onPostExecute
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667966c8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onPostExecute
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667966c8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onPostExecute
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9758>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9758>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9758>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9b90>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9b90>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9b90>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9b90>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9149475200>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelVideoActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9149475200>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelVideoActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9149475200>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/AdMarvelVideoActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eae6248>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9758>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/g;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667966c8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/h;'}
+[method_b]:onPostExecute
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667966c8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/h;'}
+[method_b]:onPostExecute
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667966c8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/h;'}
+[method_b]:onPostExecute
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667966c8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/h;'}
+[method_b]:onPostExecute
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667966c8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/h;'}
+[method_b]:onPostExecute
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667966c8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/h;'}
+[method_b]:onPostExecute
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914ad11b00>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/p;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914ad11b00>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/ads/p;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9680>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/util/f;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ead9680>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/admarvel/android/util/f;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914d433248>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/internal/zzmk;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91692db200>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/internal/zzmr;'}
+[method_b]:onActivityResult
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91370be440>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/millennialmedia/internal/a;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91370be440>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/millennialmedia/internal/e;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91370a5950>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/millennialmedia/internal/n$4;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91370a5950>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/millennialmedia/internal/n$4;'}
+[method_b]:onReceive
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eace248>, 'connection_type': '', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912b658050>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eace248>, 'connection_type': '', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912b658c68>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eace248>, 'connection_type': '', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912b6537a0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/admarvel/android/ads/AdMarvelInterstitialAds;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f913ce0cb90>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912b646ef0>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/analytics/AnalyticsReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ea7bcb0>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912b527518>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/jirbo/adcolony/AdColonyNativeAdView$a;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ea7bcb0>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912b5271b8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/jirbo/adcolony/AdColonyNativeAdView$a;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ea7bfc8>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912b527518>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/jirbo/adcolony/AdColonyNativeAdView;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ea7bfc8>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912b5271b8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/jirbo/adcolony/AdColonyNativeAdView;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916290f5a8>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912b4e8050>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Luk/co/mxdata/isubway/f/h;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916290f5a8>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912b4e8050>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Luk/co/mxdata/isubway/f/h;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9134504ab8>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912b4e3d40>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Luk/co/mxdata/isubway/ui/HomeActivity$1;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912cdb3908>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912b4e3dd0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Luk/co/mxdata/isubway/ui/a;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914ad153f8>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912b4e3ea8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Luk/co/mxdata/isubway/ui/ab;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912fecb830>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912b4e8290>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Luk/co/mxdata/isubway/ui/af;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912fecb830>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912b4e8290>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Luk/co/mxdata/isubway/ui/af;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9151f02a70>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912b4e3dd0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Luk/co/mxdata/isubway/ui/aw;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91525a11b8>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912b4e8290>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Luk/co/mxdata/isubway/ui/map/a;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

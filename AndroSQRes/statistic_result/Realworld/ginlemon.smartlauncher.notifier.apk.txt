@@ -1,0 +1,128 @@
+parse success!!
+############################
+# components statistic
+activities:5
+services:3
+receivers:0
+############################
+# life_nodes statistic
+activities: 33
+services: 19
+------------------------------------------
+lifecycle_total_nodes: 52
+############################
+# lifecycle edges
+edges_lifecycle_activities:36
+edges_lifecycle_services:16
+--------------------------------------------
+edges_lifecycle_total:52
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[26, 45]
+services_node_edge_num:[3, 3]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 5
+original_service_nodes_num: 7
+original_receiver_nodes_num: 0
+
+original_nodes_num: 12
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:6   unregister:8
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 6
+unregister_con_num: 8
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  40
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:72   edges:92
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  3
+############################
+<globals_num> 255
+<globals_op_num> 700
+############################
+# total num 
+total_nodes_num:  72
+total_edges_num:  88
+############################
+# total num 
+total_nodes_num:  68
+total_edges_num:  84
+############################
+# total time 
+parse_time:  1.207846
+modelling_time:  4.516083
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91315c48c0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913175b5f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913175b8c0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913175bb90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913175e488>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lginlemon/smartlauncher/notifier/NotificationPreferences;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91315c4638>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913175b5f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913175b8c0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913175bb90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913175e488>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lginlemon/smartlauncher/notifier/NotificationPreferences;'}
+[method_b]:onPause
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9131589cf8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913177f368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913177f638>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lginlemon/smartlauncher/slVersionCheck/MainDialog;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9131589cf8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913177f368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913177f638>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lginlemon/smartlauncher/slVersionCheck/MainDialog;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9131556638>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913177ff38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9131781248>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lginlemon/smartlauncher/welcomeActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9131556638>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913177ff38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9131781248>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lginlemon/smartlauncher/welcomeActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91315409e0>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lginlemon/smartlauncher/notifier/AccessService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91315409e0>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lginlemon/smartlauncher/notifier/AccessService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9131540320>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lginlemon/smartlauncher/notifier/ContentResolversMonitor;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9131540320>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lginlemon/smartlauncher/notifier/ContentResolversMonitor;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913159acf8>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lginlemon/smartlauncher/notifier/NotificationListener;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913159acf8>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lginlemon/smartlauncher/notifier/NotificationListener;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91315c4638>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lginlemon/smartlauncher/notifier/NotificationPreferences;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91315c4638>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lginlemon/smartlauncher/notifier/NotificationPreferences;'}
+[method_b]:onPause
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91315a7050>, 'connection_type': 'connection_service', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91318e5638>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lginlemon/smartlauncher/notifier/AccessService;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9131525638>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91318e5638>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lginlemon/smartlauncher/notifier/BootReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91315a7200>, 'connection_type': 'connection_service', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91318e5638>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lginlemon/smartlauncher/notifier/NotificationListener;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91315c47e8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91318ea248>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lginlemon/smartlauncher/notifier/NotificationPreferences;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91315c48c0>, 'connection_type': 'connection_service', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91318e5638>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lginlemon/smartlauncher/notifier/NotificationPreferences;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9131517e18>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91318ea248>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lginlemon/smartlauncher/notifier/NotificationSettings;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9131570d40>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91318e59e0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lginlemon/smartlauncher/welcomeActivity;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {'Lginlemon/smartlauncher/notifier/NotificationPreferences; onResume ()V': [({'component': 'Activity', 'attr': 'attr_lifecycle', 'label': 'Lginlemon/smartlauncher/notifier/NotificationPreferences; onResume ()V'}, {'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Lginlemon/smartlauncher/notifier/ContentResolversMonitor; <init> ()V'})], 'Lginlemon/smartlauncher/notifier/NotificationListener; onCreate ()V': [({'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Lginlemon/smartlauncher/notifier/NotificationListener; onCreate ()V'}, {'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Lginlemon/smartlauncher/notifier/ContentResolversMonitor; <init> ()V'})], 'Lginlemon/smartlauncher/notifier/AccessService; onCreate ()V': [({'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Lginlemon/smartlauncher/notifier/AccessService; onCreate ()V'}, {'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Lginlemon/smartlauncher/notifier/ContentResolversMonitor; <init> ()V'})]}

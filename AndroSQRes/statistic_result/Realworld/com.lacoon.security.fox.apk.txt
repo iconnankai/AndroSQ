@@ -1,0 +1,228 @@
+parse success!!
+############################
+# components statistic
+activities:35
+services:35
+receivers:0
+############################
+# life_nodes statistic
+activities: 283
+services: 176
+------------------------------------------
+lifecycle_total_nodes: 459
+############################
+# lifecycle edges
+edges_lifecycle_activities:348
+edges_lifecycle_services:128
+--------------------------------------------
+edges_lifecycle_total:476
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[111, 189]
+services_node_edge_num:[85, 85]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 109
+original_service_nodes_num: 29
+original_receiver_nodes_num: 0
+
+original_nodes_num: 138
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:28   unregister:12
+-----------------------------------------
+<regist_in_onCreate_content> 2
+    ('Lcom/checkpoint/CloudConnector/ConnectingTaskActivity;**onCreate', 'register', 'onClick')
+    ('Lcom/checkpoint/CloudConnector/ConnectingTaskActivity;**onCreate', 'register', 'onClick')
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 28
+unregister_con_num: 12
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  304
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:618   edges:780
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 9535
+<globals_op_num> 41678
+############################
+# total num 
+total_nodes_num:  618
+total_edges_num:  768
+############################
+# total num 
+total_nodes_num:  606
+total_edges_num:  756
+############################
+# total time 
+parse_time:  106.355428
+modelling_time:  382.777608
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164fa88c0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a499ea8>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/checkpoint/CloudConnector/BaseActivity;'}
+[method_b]:onPrepareDialog
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164850638>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a4c87a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a4c8a70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a4c8d40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a4b1050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a4b1320>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/checkpoint/CloudConnector/ConnectingTaskActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164850638>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a4c87a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a4c8a70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a4c8d40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a4b1050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a4b1320>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/checkpoint/CloudConnector/ConnectingTaskActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164850830>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a4c87a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a4c8a70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a4c8d40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a4b1050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a4b1320>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/checkpoint/CloudConnector/ConnectingTaskActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164850830>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a4c87a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a4c8a70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a4c8d40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a4b1050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a4b1320>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/checkpoint/CloudConnector/ConnectingTaskActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166434bd8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162c1e7a0>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/checkpoint/VpnActivity;'}
+[method_b]:onConnectSuccess
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91644aa290>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162deb248>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/dynamic/a;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91668307e8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914751aef0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914751c200>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/components/activities/AboutDialog;'}
+[method_b]:onCreateDialog
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91668307e8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914751aef0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914751c200>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/components/activities/AboutDialog;'}
+[method_b]:onCreateDialog
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916546e3b0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914751cd88>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/components/activities/ServerConnectivityActivity;'}
+[method_b]:onServerConnectionError
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916648b368>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9147531c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9147531f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9147514560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9147514830>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/components/activities/StatusActivity;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916648b368>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9147531c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9147531f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9147514560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9147514830>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/components/activities/StatusActivity;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91664fe8c0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9147531c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9147531f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9147514560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9147514830>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/components/activities/StatusActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91664fe8c0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9147531c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9147531f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9147514560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9147514830>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/components/activities/StatusActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91668cd638>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91624269e0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/components/activities/malware/MalwareAlertDialog;'}
+[method_b]:onCreateDialog
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164f6e290>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162446d40>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/components/activities/malware/RemoveThreatInstructionsDialog;'}
+[method_b]:onCreateDialog
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166441830>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162442170>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/components/activities/registration/RegistrationActivity;'}
+[method_b]:onRegistrationError
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166441830>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162442170>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/components/activities/registration/RegistrationActivity;'}
+[method_b]:onRegistrationError
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166441830>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162442170>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/components/activities/registration/RegistrationActivity;'}
+[method_b]:onRegistrationError
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166441998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162442170>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/components/activities/registration/RegistrationActivity;'}
+[method_b]:onRegistrationSuccess
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166441998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162442170>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/components/activities/registration/RegistrationActivity;'}
+[method_b]:onRegistrationSuccess
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166441998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162442170>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/components/activities/registration/RegistrationActivity;'}
+[method_b]:onRegistrationSuccess
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166441998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162442170>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/components/activities/registration/RegistrationActivity;'}
+[method_b]:onRegistrationSuccess
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166579ea8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91624188c0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/components/activities/registration/WelcomeScreen$AsyncTaskExtension;'}
+[method_b]:onPostExecute
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166579ea8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91624188c0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/components/activities/registration/WelcomeScreen$AsyncTaskExtension;'}
+[method_b]:onPostExecute
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165496b90>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91624091b8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/components/activities/registration/WelcomeScreen$OnClickHelpListener;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91662a9170>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916a20b368>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/tunneling/activity/VpnPolicyActivity;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166441e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916a20b368>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/tunneling/activity/VpnPolicyActivity;'}
+[method_b]:onStart
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164850830>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/checkpoint/CloudConnector/ConnectingTaskActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164850830>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/checkpoint/CloudConnector/ConnectingTaskActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91663a4440>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/checkpoint/VPN/Service;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91663a4440>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/checkpoint/VPN/Service;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91663a4440>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/checkpoint/VPN/Service;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91655eec20>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/components/activities/malware/MalwareAlertActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91655eec20>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/components/activities/malware/MalwareAlertActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166441830>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/components/activities/registration/RegistrationActivity;'}
+[method_b]:onRegistrationError
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166441830>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/components/activities/registration/RegistrationActivity;'}
+[method_b]:onRegistrationError
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165eef8c0>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916629eef0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/server/LocalServerImpl;'}
+[method_b]:onDeviceRemoved
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165eef8c0>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916629eef0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/server/LocalServerImpl;'}
+[method_b]:onDeviceRemoved
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91647c48c0>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lacoon/tunneling/service/VpnStateUpdateService;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166441488>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9155e2fe60>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/checkpoint/CloudConnector/SyncController;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9167105c68>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9155d93d88>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/tagmanager/InstallReferrerReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916636d5f0>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9155db1518>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lacoon/common/logging/rotating/RotatingLogsManager;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91664e0cb0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9155dbbb90>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lacoon/components/activities/StatusActivity$2;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91664e0fc8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9155da7a28>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lacoon/components/activities/StatusActivity$4;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91664e0c20>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9155dac6c8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lacoon/components/activities/StatusActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667b6f80>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9155dacd88>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lacoon/components/activities/TunnelingAgentActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667b6f80>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9155dac050>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lacoon/components/activities/TunnelingAgentActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91650034d0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9155dac6c8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lacoon/components/activities/malware/MalwareActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91645fd440>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9155dac050>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lacoon/components/activities/malware/MalwareListActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916637abd8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9155dac098>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lacoon/components/activities/malware/installer/AnalyzingMalwareWaitActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166387518>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9155dac050>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lacoon/components/activities/registration/WelcomeScreen;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166387830>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9155dacbd8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lacoon/components/activities/registration/WelcomeScreen;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91662d6128>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9155db1680>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lacoon/components/receivers/MmsReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91664344d0>, 'connection_type': 'connection_stop_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9155db1638>, 'connection': {'connection': 'stopService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lacoon/media_checker/MediaServerObserverManager;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91667c4440>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9155db17a0>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lacoon/status_update/ConnectivityUpdateManager;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165cc3170>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9155e2ff80>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lacoon/tunneling/activity/VpnPolicyActivity$1;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165cc3908>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9155dac050>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lacoon/tunneling/activity/VpnPolicyActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91662a9a70>, 'connection_type': 'connection_activity', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9155dc5cb0>, 'connection': {'connection': 'bindService', 'key_para': 'Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent Landroid/content/ServiceConnection I'}, 'component_name': 'Lcom/lacoon/tunneling/service/VpnControl;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

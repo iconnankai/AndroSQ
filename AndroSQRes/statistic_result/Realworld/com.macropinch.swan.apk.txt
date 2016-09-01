@@ -1,0 +1,159 @@
+parse success!!
+############################
+# components statistic
+activities:7
+services:1
+receivers:0
+############################
+# life_nodes statistic
+activities: 52
+services: 6
+------------------------------------------
+lifecycle_total_nodes: 58
+############################
+# lifecycle edges
+edges_lifecycle_activities:57
+edges_lifecycle_services:4
+--------------------------------------------
+edges_lifecycle_total:61
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[27, 45]
+services_node_edge_num:[3, 3]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 9
+original_service_nodes_num: 1
+original_receiver_nodes_num: 0
+
+original_nodes_num: 10
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:21   unregister:8
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 21
+unregister_con_num: 8
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  20
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:82   edges:81
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 6649
+<globals_op_num> 29404
+############################
+# total num 
+total_nodes_num:  82
+total_edges_num:  80
+############################
+# total num 
+total_nodes_num:  81
+total_edges_num:  79
+############################
+# total time 
+parse_time:  70.083076
+modelling_time:  258.417882
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916a0d49e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91583e0a28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91583e0cf8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/macropinch/swan/b/a/c/a;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916a0d49e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91583e0a28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91583e0cf8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/macropinch/swan/b/a/c/a;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916a0d49e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91583e0a28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91583e0cf8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/macropinch/swan/b/a/c/a;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9169a86cf8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91583fbcf8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/macropinch/swan/b/a/c/b;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9169714998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91583ec950>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91583ca950>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/macropinch/swan/b/a/c/e;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9169714998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91583ca950>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/macropinch/swan/b/a/c/e;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9169714998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91583ca950>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/macropinch/swan/b/a/c/e;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9169714998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91583ca950>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/macropinch/swan/b/a/c/e;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9169714998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91583ca950>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/macropinch/swan/b/a/c/e;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9169714998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91583ca950>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/macropinch/swan/b/a/c/e;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9169714998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91583ca950>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/macropinch/swan/b/a/c/e;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9169714998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914b88fbd8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/macropinch/swan/b/a/c/g;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168e65a70>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914b889dd0>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/macropinch/swan/b/a/e;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168e65a70>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914b889dd0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/macropinch/swan/b/a/e;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168e65a70>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914b889dd0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/macropinch/swan/b/a/e;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168e65a70>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914b889dd0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/macropinch/swan/b/a/e;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168e65a70>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914b889dd0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/macropinch/swan/b/a/e;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168e65a70>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914b889dd0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/macropinch/swan/b/a/e;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ce4ea70>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167120200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167120290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167120320>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91671203b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167120440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91671204d0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167120560>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/millennialmedia/internal/ActivityListenerManager;'}
+[method_b]:onAttachedToWindow
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ce4ea70>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167120200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167120290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167120320>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91671203b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167120440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91671204d0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167120560>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/millennialmedia/internal/ActivityListenerManager;'}
+[method_b]:onAttachedToWindow
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ce66878>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167120200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167120290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167120320>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91671203b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167120440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91671204d0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167120560>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/millennialmedia/internal/ActivityListenerManager;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168045ef0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/macropinch/c/f;'}
+[method_b]:onLocationChanged
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168045ef0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/macropinch/c/f;'}
+[method_b]:onLocationChanged
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9169b1c170>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/macropinch/weatherservice/b/a;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9169b1c170>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/macropinch/weatherservice/b/a;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ce66878>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/millennialmedia/internal/ActivityListenerManager;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912ce66878>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/millennialmedia/internal/c;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9129abf200>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/millennialmedia/internal/i$4;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9129abf200>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/millennialmedia/internal/i$4;'}
+[method_b]:onReceive
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

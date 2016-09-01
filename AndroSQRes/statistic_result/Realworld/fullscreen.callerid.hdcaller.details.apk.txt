@@ -1,0 +1,172 @@
+parse success!!
+############################
+# components statistic
+activities:17
+services:0
+receivers:0
+############################
+# life_nodes statistic
+activities: 118
+services: 0
+------------------------------------------
+lifecycle_total_nodes: 118
+############################
+# lifecycle edges
+edges_lifecycle_activities:141
+edges_lifecycle_services:0
+--------------------------------------------
+edges_lifecycle_total:141
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[71, 107]
+services_node_edge_num:[0, 0]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 17
+original_service_nodes_num: 0
+original_receiver_nodes_num: 0
+
+original_nodes_num: 17
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:24   unregister:0
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 24
+unregister_con_num: 0
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  80
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:170   edges:221
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 2861
+<globals_op_num> 13965
+############################
+# total num 
+total_nodes_num:  170
+total_edges_num:  218
+############################
+# total num 
+total_nodes_num:  167
+total_edges_num:  215
+############################
+# total time 
+parse_time:  29.121497
+modelling_time:  107.873081
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c40e758>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91400df5a8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91400dfb90>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/adinformation/c;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913ba10560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fd53908>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fd53fc8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fd56098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fd56128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fd56488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fd56518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fd565a8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fd56c20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fa7a518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fa7a5a8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/slider/b;'}
+[method_b]:onReceiveAd
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913ba10560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fd56c20>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/slider/b;'}
+[method_b]:onReceiveAd
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c445cf8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc748c0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lfullscreen/callerid/hdcaller/details/FullScreenCallerReciedByCustom;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c6fc4d0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc7e680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc7ec20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc81050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc815f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc81908>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc81c20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc81f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc83290>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lfullscreen/callerid/hdcaller/details/FullScreenCaller_ContactActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c6fcb90>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc7e680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc81908>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc81c20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc81f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc83290>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lfullscreen/callerid/hdcaller/details/FullScreenCaller_ContactActivity;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c6fcb90>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc7e680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc81908>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc81c20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc81f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc83290>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lfullscreen/callerid/hdcaller/details/FullScreenCaller_ContactActivity;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c6fcb90>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc7e680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc81908>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc81c20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc81f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc83290>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lfullscreen/callerid/hdcaller/details/FullScreenCaller_ContactActivity;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c6fcb90>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc7e680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc81908>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc81c20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc81f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc83290>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lfullscreen/callerid/hdcaller/details/FullScreenCaller_ContactActivity;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c6fcb90>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc7e680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc81908>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc81c20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc81f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc83290>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lfullscreen/callerid/hdcaller/details/FullScreenCaller_ContactActivity;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c3d3050>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbcee18>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lfullscreen/callerid/hdcaller/details/FullScreenCaller__OutGoingActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c3d3128>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbd7d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbda098>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lfullscreen/callerid/hdcaller/details/FullScreenCaller__RingingActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c3d3128>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbd7d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbda098>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lfullscreen/callerid/hdcaller/details/FullScreenCaller__RingingActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c935710>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbea5f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbea8c0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbeab90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbeae60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbed170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbed440>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lfullscreen/callerid/hdcaller/details/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c935710>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbea5f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbea8c0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbeab90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbeae60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbed170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbed440>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lfullscreen/callerid/hdcaller/details/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c935710>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbea5f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbea8c0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbeab90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbeae60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbed170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbed440>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lfullscreen/callerid/hdcaller/details/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c935710>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbea5f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbea8c0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbeab90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbeae60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbed170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbed440>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lfullscreen/callerid/hdcaller/details/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c935710>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbea5f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbea8c0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbeab90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbeae60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbed170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbed440>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lfullscreen/callerid/hdcaller/details/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c935710>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbea5f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbea8c0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbeab90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbeae60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbed170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fbed440>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lfullscreen/callerid/hdcaller/details/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913ca3ad40>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fe48878>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/list3d/List3DActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c56e320>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc4fea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc521b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc52488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc52758>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Leu/janmuller/android/simplecropimage/CropImage;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c56e320>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc4fea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc521b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc52488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc52758>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Leu/janmuller/android/simplecropimage/CropImage;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c56e320>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc4fea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc521b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc52488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc52758>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Leu/janmuller/android/simplecropimage/CropImage;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c56e320>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc4fea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc521b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc52488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913fc52758>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Leu/janmuller/android/simplecropimage/CropImage;'}
+[method_b]:onCreate
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c6ed2d8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91409c9b90>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfullscreen/callerid/hdcaller/details/FullScreenCaller_ContactActivity$9;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c6fc290>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91409ec3f8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfullscreen/callerid/hdcaller/details/FullScreenCaller_ContactActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f913b84bcb0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91409c97e8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfullscreen/callerid/hdcaller/details/FullScreenCaller__RingingActivity$4;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f913bcf9128>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91409c9b48>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfullscreen/callerid/hdcaller/details/FullScreenCaller__ThemeActivity$1;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f913bacf248>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91409ce248>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfullscreen/callerid/hdcaller/details/MainActivity$2;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f913bacf3b0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91409c9b48>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfullscreen/callerid/hdcaller/details/MainActivity$3;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f913bacf4d0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91409ce368>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfullscreen/callerid/hdcaller/details/MainActivity$4;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f913bcf95a8>, 'connection_type': 'connection_activity', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91409c9bd8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfullscreen/callerid/hdcaller/details/receiver/MessageReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f913bcf9680>, 'connection_type': 'connection_activity', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91409c96c8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfullscreen/callerid/hdcaller/details/receiver/PhoneCallReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f913bcf9680>, 'connection_type': 'connection_activity', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91409c9c20>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfullscreen/callerid/hdcaller/details/receiver/PhoneCallReceiver;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

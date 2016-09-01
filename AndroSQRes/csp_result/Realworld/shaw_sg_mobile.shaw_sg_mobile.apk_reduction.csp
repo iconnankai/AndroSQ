@@ -1,0 +1,60 @@
+#define Service 12;
+#define free_inner 3;
+#define Lshaw_sg_mobile_AA_MainActivity_CC__SS_onActiveEnd_SS_ActiveEnd 22;
+#define reg_inter 9;
+#define attr_aux 15;
+#define def_inter 6;
+#define Lmono_AA_android_AA_app_AA_IntentService_CC__SS_onTerminal_SS_Terminal 17;
+#define attr_lifecycle 13;
+#define unreg_inter 10;
+#define reg_inner 4;
+#define Lmono_AA_android_AA_app_AA_IntentService_CC__SS__LL_init_BB__SS__ZZ_Ljava_AA_lang_AA_String_CC__YY_V 11;
+#define None 0;
+#define free_inter 8;
+#define use_inner 2;
+#define Lmono_AA_android_AA_app_AA_IntentService_CC__SS_onActiveEnd_SS_ActiveEnd 16;
+#define def_inner 1;
+#define use_inter 7;
+#define Activity 19;
+#define Lshaw_sg_mobile_AA_MainActivity_CC__SS_onCreate_SS__ZZ_Landroid_AA_os_AA_Bundle_CC__YY_V 20;
+#define Lshaw_sg_mobile_AA_MainActivity_CC__SS_onTerminal_SS_Terminal 23;
+#define Lshaw_sg_mobile_AA_MainActivity_CC__SS__LL_init_BB__SS__ZZ__YY_V 18;
+#define Lmono_AA_android_AA_app_AA_IntentService_CC__SS_onActiveStart_SS_ActiveStart 14;
+#define Lshaw_sg_mobile_AA_MainActivity_CC__SS_onActiveStart_SS_ActiveStart 21;
+#define unreg_inner 5;
+
+var component = None;
+var attr = None;
+var label = None;
+
+
+
+ // model of <Lmono/android/app/IntentService; <init> (Ljava/lang/String;)V>
+S1_1() = C1_1{label = Lmono_AA_android_AA_app_AA_IntentService_CC__SS__LL_init_BB__SS__ZZ_Ljava_AA_lang_AA_String_CC__YY_V;component = Service;attr = attr_lifecycle;} -> S1_2();
+S1_2() = C1_2{label = Lmono_AA_android_AA_app_AA_IntentService_CC__SS_onActiveStart_SS_ActiveStart;component = Service;attr = attr_aux;} -> S1_3();
+S1_3() = C1_3{label = Lmono_AA_android_AA_app_AA_IntentService_CC__SS_onActiveEnd_SS_ActiveEnd;component = Service;attr = attr_aux;} -> S1_4();
+S1_4() = C1_4{label = Lmono_AA_android_AA_app_AA_IntentService_CC__SS_onTerminal_SS_Terminal;component = Service;attr = attr_aux;} -> Skip;
+
+
+ // model of <Lshaw_sg_mobile/MainActivity; <init> ()V>
+A2_1() = C2_1{label = Lshaw_sg_mobile_AA_MainActivity_CC__SS__LL_init_BB__SS__ZZ__YY_V;component = Activity;attr = attr_lifecycle;} -> A2_2();
+A2_2() = C2_2{label = Lshaw_sg_mobile_AA_MainActivity_CC__SS_onCreate_SS__ZZ_Landroid_AA_os_AA_Bundle_CC__YY_V;component = Activity;attr = attr_lifecycle;} -> A2_3();
+A2_3() = C2_3{label = Lshaw_sg_mobile_AA_MainActivity_CC__SS_onActiveStart_SS_ActiveStart;component = Activity;attr = attr_aux;} -> A2_4();
+A2_4() = C2_4{label = Lshaw_sg_mobile_AA_MainActivity_CC__SS_onActiveEnd_SS_ActiveEnd;component = Activity;attr = attr_aux;} ->A2_2()[]A2_3()[]A2_5();
+A2_5() = C2_5{label = Lshaw_sg_mobile_AA_MainActivity_CC__SS_onTerminal_SS_Terminal;component = Activity;attr = attr_aux;} -> Skip;
+
+
+
+
+ // define vars for asserts
+
+
+
+// for <use before define> 
+
+
+// for <use after free> 
+
+
+// for <callback illusion after unregister> 
+

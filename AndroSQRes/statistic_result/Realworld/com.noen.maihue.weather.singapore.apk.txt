@@ -1,0 +1,88 @@
+parse success!!
+############################
+# components statistic
+activities:4
+services:3
+receivers:0
+############################
+# life_nodes statistic
+activities: 26
+services: 15
+------------------------------------------
+lifecycle_total_nodes: 41
+############################
+# lifecycle edges
+edges_lifecycle_activities:32
+edges_lifecycle_services:10
+--------------------------------------------
+edges_lifecycle_total:42
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[18, 33]
+services_node_edge_num:[9, 9]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 1
+original_service_nodes_num: 3
+original_receiver_nodes_num: 0
+
+original_nodes_num: 4
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:2   unregister:0
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 2
+unregister_con_num: 0
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  10
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:47   edges:52
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 5375
+<globals_op_num> 18109
+############################
+# total num 
+total_nodes_num:  47
+total_edges_num:  51
+############################
+# total num 
+total_nodes_num:  46
+total_edges_num:  50
+############################
+# total time 
+parse_time:  74.688541
+modelling_time:  211.131117
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914e93c488>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916398f7e8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/dynamic/a;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9140f47440>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636b4488>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/noen/maihue/weather/singapore/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914aef9200>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f916463e248>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/tagmanager/InstallReferrerReceiver;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

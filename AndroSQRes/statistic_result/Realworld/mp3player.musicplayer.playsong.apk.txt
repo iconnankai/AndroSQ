@@ -1,0 +1,339 @@
+parse success!!
+############################
+# components statistic
+activities:25
+services:14
+receivers:0
+############################
+# life_nodes statistic
+activities: 166
+services: 99
+------------------------------------------
+lifecycle_total_nodes: 265
+############################
+# lifecycle edges
+edges_lifecycle_activities:185
+edges_lifecycle_services:71
+--------------------------------------------
+edges_lifecycle_total:256
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[122, 209]
+services_node_edge_num:[25, 25]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 75
+original_service_nodes_num: 31
+original_receiver_nodes_num: 0
+
+original_nodes_num: 106
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:60   unregister:16
+-----------------------------------------
+<regist_in_onCreate_content> 7
+    ('Lcom/audio/trimmer/SelectActivity;**onCreate', 'register', 'onItemClick')
+    ('Lmp3player/musicplayer/playsong/FullPlaybackActivity;**onCreate', 'register', 'onClick')
+    ('Lmp3player/musicplayer/playsong/FullPlaybackActivity;**onCreate', 'register', 'onClick')
+    ('Lmp3player/musicplayer/playsong/LibraryActivity;**onCreate', 'register', 'onClick')
+    ('Lmp3player/musicplayer/playsong/LibraryActivity;**onCreate', 'register', 'onClick')
+    ('Lmp3player/musicplayer/playsong/MiniPlaybackActivity;**onCreate', 'register', 'onClick')
+    ('Lmp3player/musicplayer/playsong/MiniPlaybackActivity;**onCreate', 'register', 'onClick')
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 60
+unregister_con_num: 16
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  274
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:411   edges:530
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  5
+############################
+<globals_num> 17968
+<globals_op_num> 55795
+############################
+# total num 
+total_nodes_num:  411
+total_edges_num:  500
+############################
+# total num 
+total_nodes_num:  381
+total_edges_num:  470
+############################
+# total time 
+parse_time:  265.008662
+modelling_time:  741.309951
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158367cf8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914aa01b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914aa01dd0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/audio/trimmer/FileSaveDialog;'}
+[method_b]:onSave
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158367cf8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914aa01b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914aa01dd0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/audio/trimmer/FileSaveDialog;'}
+[method_b]:onSave
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9157c15830>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9f9680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9f9950>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9f9f80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9152f44050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9152f44320>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9152f445f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9152f448c0>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/audio/trimmer/SelectActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9156fe39e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9139da6170>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/appinvite/PreviewActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915889a518>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91495a6830>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91495a68c0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91646383b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164638440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164638710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91646389e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164638cb0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164645050>], 'component_type': 'service', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/cast/CastRemoteDisplayLocalService;'}
+[method_b]:onServiceConnected
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915a51cd40>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d2deb00>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/zzw;'}
+[method_b]:onActivityResult
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9154cb3d88>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915be7e518>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f32b7e8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/dynamic/zza;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b031d40>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91309901b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91309a31b8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/location/places/ui/PlaceAutocompleteFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b031d40>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91309901b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91309a31b8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/location/places/ui/PlaceAutocompleteFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b031d40>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91309901b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91309a31b8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/location/places/ui/PlaceAutocompleteFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915a2532d8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91309a4128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91309a43f8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/location/places/ui/SupportPlaceAutocompleteFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915a2532d8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91309a4128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91309a43f8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/location/places/ui/SupportPlaceAutocompleteFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915a2532d8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91309a4128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91309a43f8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/location/places/ui/SupportPlaceAutocompleteFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915793c290>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91646aea28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91646aecf8>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/removead;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915793c290>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91646aea28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91646aecf8>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/removead;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915972e368>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e3e9908>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3songs/mp3musics/audio/EQActivity$5;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8aa7e8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91646aaea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e3e91b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e3e9908>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e3e9c68>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3songs/mp3musics/audio/EQActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8aa7e8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91646aaea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e3e91b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e3e9908>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e3e9c68>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3songs/mp3musics/audio/EQActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8aa7e8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91646aaea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e3e91b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e3e9908>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e3e9c68>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3songs/mp3musics/audio/EQActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91597c3098>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915457a710>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e63f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e66c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e6998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e6c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e6f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914aa01248>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/audio/trimmer/EditActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91597c3098>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915457a710>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e63f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e66c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e6998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e6c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e6f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914aa01248>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/audio/trimmer/EditActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91597c3098>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915457a710>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e63f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e66c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e6998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e6c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e6f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914aa01248>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/audio/trimmer/EditActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91597c3098>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915457a710>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e63f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e66c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e6998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e6c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e6f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914aa01248>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/audio/trimmer/EditActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91597c3098>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915457a710>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e63f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e66c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e6998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e6c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a9e6f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914aa01248>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/audio/trimmer/EditActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b873908>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abc68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abf38>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/FullPlaybackActivity;'}
+[method_b]:onStateChange
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8733f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abc68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abf38>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/FullPlaybackActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8733f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abc68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abf38>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnLongClickListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/FullPlaybackActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8733f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abc68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abf38>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/FullPlaybackActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8733f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abc68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abf38>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/FullPlaybackActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8733f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abc68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abf38>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/FullPlaybackActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8733f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abc68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abf38>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/FullPlaybackActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8733f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abc68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abf38>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnLongClickListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/FullPlaybackActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8733f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abc68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abf38>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/FullPlaybackActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8733f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abc68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abf38>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/FullPlaybackActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8733f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abc68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abf38>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/FullPlaybackActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8733f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abc68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abf38>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/FullPlaybackActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8733f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abc68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abf38>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/FullPlaybackActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8733f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abc68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678abf38>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/FullPlaybackActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8800e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678a9a28>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/LibraryActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8800e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678a9a28>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/LibraryActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8800e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678a9a28>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/LibraryActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8800e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678a9a28>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/LibraryActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8800e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678a9a28>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/LibraryActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8800e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678a9a28>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/LibraryActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8800e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678a9a28>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/LibraryActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8800e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678a9a28>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/LibraryActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8800e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678a9a28>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/LibraryActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8800e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678a9a28>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/LibraryActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8800e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678a9a28>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/LibraryActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8800e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678a9a28>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/LibraryActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b873f80>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915ab42368>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91678a9a28>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/LibraryActivity;'}
+[method_b]:onPageChanged
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158abb998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167899c20>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/MiniPlaybackActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158abb998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167899c20>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/MiniPlaybackActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158abb998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167899c20>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/MiniPlaybackActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158abb998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167899c20>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/MiniPlaybackActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158abb998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167899c20>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/MiniPlaybackActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158abb998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167899c20>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/MiniPlaybackActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158abb998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167899c20>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/MiniPlaybackActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158abb998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167899c20>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/MiniPlaybackActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158abb998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167899c20>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/MiniPlaybackActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915ac7e3f8>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/zzn;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915ac7e3f8>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/zzn;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915ac7e3f8>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/zzn;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915a51cd40>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/zzw;'}
+[method_b]:onActivityResult
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158321cf8>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/InstanceIDListenerService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158321cf8>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/InstanceIDListenerService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158321710>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/InstanceIDListenerService;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b85de60>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/MediaButtonReceiver;'}
+[method_b]:onSharedPreferenceChanged
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b85d950>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/MediaButtonReceiver;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915af88320>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/ScanPreference$1;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915af88320>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/ScanPreference$1;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b85d950>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/PlaybackService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b85d950>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/PlaybackService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b85d950>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/PlaybackService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b85d950>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/PlaybackService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b85d950>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lmp3player/musicplayer/playsong/PlaybackService;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b94df38>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913992dea8>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/analytics/AnalyticsReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9159827488>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91644c85f0>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/measurement/AppMeasurementReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158652b90>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914fffc200>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lmp3player/musicplayer/playsong/FullPlaybackActivity$2;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158652dd0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913d93a6c8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lmp3player/musicplayer/playsong/FullPlaybackActivity$3;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915ab344d0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913d93a6c8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lmp3player/musicplayer/playsong/LibraryActivity$1;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9157c99320>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9138f0d440>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lmp3player/musicplayer/playsong/MediaButtonReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9155b29518>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913d93a6c8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lmp3player/musicplayer/playsong/MiniPlaybackActivity$1;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9157c99440>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913d90e9e0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lmp3player/musicplayer/playsong/PlaybackActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8b7c68>, 'connection_type': 'connection_service', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9138f0d440>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lmp3player/musicplayer/playsong/PlaybackActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b85df80>, 'connection_type': 'connection_service', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913901fcb0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lmp3player/musicplayer/playsong/PlaybackService;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b85df80>, 'connection_type': 'connection_service', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913901fcb0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lmp3player/musicplayer/playsong/PlaybackService;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b85dcb0>, 'connection_type': 'connection_service', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913901fcb0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lmp3player/musicplayer/playsong/PlaybackService;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b8737a0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913901fc68>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lmp3player/musicplayer/playsong/FullPlaybackActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915aada200>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913901fc68>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lmp3player/musicplayer/playsong/LibraryActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915ab34908>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913d90e560>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lmp3player/musicplayer/playsong/LibraryActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b880200>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913d910878>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lmp3player/musicplayer/playsong/LibraryActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b880200>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914fffc200>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lmp3player/musicplayer/playsong/LibraryActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b880368>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913901fcb0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lmp3player/musicplayer/playsong/LibraryActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915ab34998>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913901fc68>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lmp3player/musicplayer/playsong/LibraryActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9157cb06c8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913901fc68>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lmp3player/musicplayer/playsong/MiniPlaybackActivity;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {'Lmp3player/musicplayer/playsong/PlaybackService; onSensorChanged (Landroid/hardware/SensorEvent;)V': [({'component': 'Service', 'attr': 'attr_original', 'label': 'Lmp3player/musicplayer/playsong/PlaybackService; onSensorChanged (Landroid/hardware/SensorEvent;)V'}, {'component': 'Activity', 'attr': 'attr_lifecycle', 'label': 'Lmp3player/musicplayer/playsong/LibraryActivity; <init> ()V'})], 'Lmp3player/musicplayer/playsong/PlaybackService; onStartCommand (Landroid/content/Intent; I I)I': [({'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Lmp3player/musicplayer/playsong/PlaybackService; onStartCommand (Landroid/content/Intent; I I)I'}, {'component': 'Activity', 'attr': 'attr_lifecycle', 'label': 'Lmp3player/musicplayer/playsong/LibraryActivity; <init> ()V'}), ({'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Lmp3player/musicplayer/playsong/PlaybackService; onStartCommand (Landroid/content/Intent; I I)I'}, {'component': 'Activity', 'attr': 'attr_lifecycle', 'label': 'Lmp3player/musicplayer/playsong/LibraryActivity; <init> ()V'})], 'Lmp3player/musicplayer/playsong/PlaybackActivity; onKeyDown (I Landroid/view/KeyEvent;)Z': [({'component': 'Activity', 'attr': 'attr_original', 'label': 'Lmp3player/musicplayer/playsong/PlaybackActivity; onKeyDown (I Landroid/view/KeyEvent;)Z'}, {'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Lmp3player/musicplayer/playsong/PlaybackService; <init> ()V'})], 'Lmp3player/musicplayer/playsong/PlaybackActivity; onStart ()V': [({'component': 'Activity', 'attr': 'attr_lifecycle', 'label': 'Lmp3player/musicplayer/playsong/PlaybackActivity; onStart ()V'}, {'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Lmp3player/musicplayer/playsong/PlaybackService; <init> ()V'})]}

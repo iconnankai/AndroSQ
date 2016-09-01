@@ -1,0 +1,73 @@
+parse success!!
+############################
+# components statistic
+activities:22
+services:11
+receivers:0
+############################
+# life_nodes statistic
+activities: 150
+services: 71
+------------------------------------------
+lifecycle_total_nodes: 221
+############################
+# lifecycle edges
+edges_lifecycle_activities:180
+edges_lifecycle_services:49
+--------------------------------------------
+edges_lifecycle_total:229
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[101, 173]
+services_node_edge_num:[20, 20]
+--------------------------------------------
+hidden_edge_total:[121, 193]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 85
+original_service_nodes_num: 42
+original_receiver_nodes_num: 0
+
+original_nodes_num: 127
+----------------------------------------------------
+non_lifecycle_nodes_num(register_num):  84
+unregister_num:37
+-----------------------------------------
+<regist_in_onCreate_content> 16
+    ('Lorg/videolan/vlc/PlaybackService;**onCreate', 'register', 'onAudioFocusChange')
+    ('Lorg/videolan/vlc/PlaybackService;**onCreate', 'register', 'onAudioFocusChange')
+    ('Lorg/videolan/vlc/PlaybackService;**onCreate', 'register', 'onAudioFocusChange')
+    ('Lorg/videolan/vlc/gui/audio/AudioAlbumFragment;**onCreateView', 'register', 'onMenuItemClick')
+    ('Lorg/videolan/vlc/gui/audio/AudioAlbumsSongsFragment;**onCreateView', 'register', 'onScroll')
+    ('Lorg/videolan/vlc/gui/audio/AudioAlbumsSongsFragment;**onCreateView', 'register', 'onScroll')
+    ('Lorg/videolan/vlc/gui/audio/AudioBrowserFragment;**onCreateView', 'register', 'onItemClick')
+    ('Lorg/videolan/vlc/gui/audio/AudioBrowserFragment;**onCreateView', 'register', 'onItemClick')
+    ('Lorg/videolan/vlc/gui/audio/AudioBrowserFragment;**onCreateView', 'register', 'onItemClick')
+    ('Lorg/videolan/vlc/gui/audio/AudioBrowserFragment;**onCreateView', 'register', 'onItemClick')
+    ('Lorg/videolan/vlc/gui/audio/AudioBrowserFragment;**onCreateView', 'register', 'onItemClick')
+    ('Lorg/videolan/vlc/gui/audio/AudioPlayer;**onCreateView', 'register', 'onClick')
+    ('Lorg/videolan/vlc/gui/browser/BaseBrowserFragment;**onCreateView', 'register', 'onBrowseEnd')
+    ('Lorg/videolan/vlc/gui/preferences/PreferencesFragment;**onCreate', 'register', 'onPreferenceChange')
+    ('Lorg/videolan/vlc/gui/tv/preferences/PreferencesFragment;**onCreate', 'register', 'onPreferenceChange')
+    ('Lorg/videolan/vlc/gui/video/VideoPlayerActivity;**onCreate', 'register', 'onProgressChanged')
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 84
+unregister_con_num: 37
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  422
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:470   edges:651
+############################
+# inter-component activities statistic
+connections:  24
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  5
+############################
+# total num 
+total_reduct_nodes_num:  470
+total_reduct_edges_num:  675

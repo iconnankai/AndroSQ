@@ -1,0 +1,148 @@
+parse success!!
+############################
+# components statistic
+activities:27
+services:2
+receivers:0
+############################
+# life_nodes statistic
+activities: 171
+services: 10
+------------------------------------------
+lifecycle_total_nodes: 181
+############################
+# lifecycle edges
+edges_lifecycle_activities:192
+edges_lifecycle_services:7
+--------------------------------------------
+edges_lifecycle_total:199
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[136, 232]
+services_node_edge_num:[5, 5]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 95
+original_service_nodes_num: 2
+original_receiver_nodes_num: 0
+
+original_nodes_num: 97
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:0   unregister:0
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 0
+unregister_con_num: 0
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  194
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:278   edges:393
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 4320
+<globals_op_num> 19359
+############################
+# total num 
+total_nodes_num:  278
+total_edges_num:  371
+############################
+# total num 
+total_nodes_num:  256
+total_edges_num:  349
+############################
+# total time 
+parse_time:  52.270465
+modelling_time:  168.466581
+
+############################
+############################
+############################
+# register_content
+register_content:  
+############################
+# unregister_content
+unregister_content:  
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165a5cc20>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f911751a290>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/dexati/adclient/EndWall2;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912084cb90>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174f9758>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/EditLandscapeScreen;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9120bdc368>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174f9758>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/EditScreen;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f251e60>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174ea128>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/FrameSelectionScreen;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f251e60>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174e5680>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/FrameSelectionScreen;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f26cdd0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174f4bd8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/FrameSelectionScreen;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f26cea8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174f43b0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/FrameSelectionScreen;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f913facc440>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174e56c8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f913facc518>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174e56c8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f913facc5f0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174f4bd8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9118f7e680>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174f9248>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/c;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91230da368>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174e5ea8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/cutpaste/util/utils/AdvancedImageDisplayScreen;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914d3ba3f8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174e56c8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/cutpaste/util/utils/Start;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914d3ba200>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174ef0e0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/cutpaste/util/utils/Start;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914bcaad88>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174e5d88>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/cutpaste/util/utils/Start;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914d3ba3f8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174e5ef0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/cutpaste/util/utils/Start;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912f4eaf80>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174e5cf8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/cutpaste/util/utils/af;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914b8c56c8>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174ea050>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/cutpaste/util/utils/ar;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f911d357e18>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174f9758>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/cutpaste/util/utils/bg;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91211641b8>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174f9248>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/cutpaste/util/utils/bh;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91212b2c20>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174e5ea8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/cutpaste/util/utils/bn;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914d3b5cf8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174e56c8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/helpview/CutPasteFrames;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914d3b59e0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174ef0e0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/helpview/CutPasteFrames;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914d3b54d0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174e5d88>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/helpview/CutPasteFrames;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914d3b55a8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174e5ef0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/helpview/CutPasteFrames;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914d3b55a8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174ea0e0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/helpview/CutPasteFrames;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914d3b5710>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174ea098>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/helpview/CutPasteFrames;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914d3b5cf8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174ea0e0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/helpview/CutPasteFrames;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914d3c5050>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174ea5a8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/helpview/CutPasteFrames;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914d3c5050>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174ea0e0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/helpview/CutPasteFrames;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9120bdccf8>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174f9248>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/k;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163720b00>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174f4b90>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/lwp/WallpaperMainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163720c68>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174f4c68>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/lwp/WallpaperMainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9120e43b90>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91174f9290>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/wildandimalsframes/stickers/d;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

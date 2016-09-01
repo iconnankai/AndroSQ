@@ -1,0 +1,155 @@
+parse success!!
+############################
+# components statistic
+activities:12
+services:3
+receivers:0
+############################
+# life_nodes statistic
+activities: 94
+services: 19
+------------------------------------------
+lifecycle_total_nodes: 113
+############################
+# lifecycle edges
+edges_lifecycle_activities:106
+edges_lifecycle_services:12
+--------------------------------------------
+edges_lifecycle_total:118
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[48, 90]
+services_node_edge_num:[7, 7]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 73
+original_service_nodes_num: 5
+original_receiver_nodes_num: 0
+
+original_nodes_num: 78
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:13   unregister:12
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 13
+unregister_con_num: 12
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  162
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:204   edges:280
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 9339
+<globals_op_num> 33496
+############################
+# total num 
+total_nodes_num:  204
+total_edges_num:  259
+############################
+# total num 
+total_nodes_num:  183
+total_edges_num:  238
+############################
+# total time 
+parse_time:  110.5966
+modelling_time:  340.004787
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915a70cc20>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914e4fc878>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'registerListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/actionbarsherlock/internal/widget/PopupWindowCompat;'}
+[method_b]:onInvalidated
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915a70cc20>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914e4fc878>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/actionbarsherlock/internal/widget/PopupWindowCompat;'}
+[method_b]:onInvalidated
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91579cb3f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914e318cb0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/dynamic/a;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160cb5908>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914df80368>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/parse/oauth/OAuth1FlowDialog;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912d091200>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914e4a40e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914e4a8710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914e4a87a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914e4a8830>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914e4a88c0>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/actionbarsherlock/widget/ActivityChooserView;'}
+[method_b]:onAttachedToWindow
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912d0912d8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914e4a40e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914e4a8710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914e4a87a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914e4a8830>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914e4a88c0>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/actionbarsherlock/widget/ActivityChooserView;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912f50d128>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914e4ca518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914e4ca7e8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/actionbarsherlock/internal/widget/ActionBarView;'}
+[method_b]:onConfigurationChanged
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9130338680>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d89e758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d89e7e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d89e878>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'registerListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/teamapppro/ach3ariraquia/SlideImageActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9130338680>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d89e758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d89e7e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d89e878>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/teamapppro/ach3ariraquia/SlideImageActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9130338830>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d89e758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d89e7e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d89e878>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'registerListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/teamapppro/ach3ariraquia/SlideImageActivity;'}
+[method_b]:onPause
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9130338830>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d89e758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d89e7e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d89e878>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/teamapppro/ach3ariraquia/SlideImageActivity;'}
+[method_b]:onPause
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9130338cb0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d89e758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d89e7e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d89e878>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'registerListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/teamapppro/ach3ariraquia/SlideImageActivity;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9130338cb0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d89e758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d89e7e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914d89e878>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/teamapppro/ach3ariraquia/SlideImageActivity;'}
+[method_b]:onResume
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915a70cc20>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/actionbarsherlock/internal/widget/PopupWindowCompat;'}
+[method_b]:onInvalidated
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915a70cc20>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/actionbarsherlock/internal/widget/PopupWindowCompat;'}
+[method_b]:onInvalidated
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914992a7a0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/actionbarsherlock/widget/ActivityChooserView$ActivityChooserViewAdapter;'}
+[method_b]:onCreateActionView
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91581803f8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/parse/GcmRegistrar$Request;'}
+[method_b]:onReceiveResponseIntent
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91581803f8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/parse/GcmRegistrar$Request;'}
+[method_b]:onReceiveResponseIntent
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9157a35758>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/parse/LocationNotifier$1;'}
+[method_b]:onLocationChanged
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914bfc0e60>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/parse/PushConnection$KeepAliveMonitor;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912d0912d8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/actionbarsherlock/widget/ActivityChooserView;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9130338680>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/teamapppro/ach3ariraquia/SlideImageActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9130338680>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/teamapppro/ach3ariraquia/SlideImageActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9130338830>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/teamapppro/ach3ariraquia/SlideImageActivity;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9130338830>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/teamapppro/ach3ariraquia/SlideImageActivity;'}
+[method_b]:onPause
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916b387e60>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914f1c5cf8>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/tagmanager/InstallReferrerReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914b37d128>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914f0e0560>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/teamapppro/ach3ariraquia/FavoriteFragment$1;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915a7b5908>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914f0e0560>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/teamapppro/ach3ariraquia/LatestFragment$1;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91547aaef0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914f0ef200>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/teamapppro/ach3ariraquia/ShowPopUp;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9141867950>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914f0e04d0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/teamapppro/ach3ariraquia/SlideImageActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916b186488>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914f0e0488>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/teamapppro/ach3ariraquia/MainActivity;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

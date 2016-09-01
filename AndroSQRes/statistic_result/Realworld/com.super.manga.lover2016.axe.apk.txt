@@ -1,0 +1,165 @@
+parse success!!
+############################
+# components statistic
+activities:18
+services:1
+receivers:0
+############################
+# life_nodes statistic
+activities: 128
+services: 10
+------------------------------------------
+lifecycle_total_nodes: 138
+############################
+# lifecycle edges
+edges_lifecycle_activities:146
+edges_lifecycle_services:5
+--------------------------------------------
+edges_lifecycle_total:151
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[78, 131]
+services_node_edge_num:[2, 2]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 41
+original_service_nodes_num: 1
+original_receiver_nodes_num: 0
+
+original_nodes_num: 42
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:17   unregister:1
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 17
+unregister_con_num: 1
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  142
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:228   edges:293
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 11355
+<globals_op_num> 42896
+############################
+# total num 
+total_nodes_num:  228
+total_edges_num:  288
+############################
+# total num 
+total_nodes_num:  223
+total_edges_num:  283
+############################
+# total time 
+parse_time:  175.323078
+modelling_time:  465.555336
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164f8fab8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912dcf0ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912dcf30e0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/adinformation/c;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163833560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912db94518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912db94bd8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912db94c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912db94cf8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912db97098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912db97128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912db971b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912db97830>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d3f5f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d3f5fc8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/slider/b;'}
+[method_b]:onReceiveAd
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163833560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912db97830>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/slider/b;'}
+[method_b]:onReceiveAd
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91662e8290>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e28c248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e28c518>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lar/rulosoft/mimanganu/ActivityLector$LastPageFragment;'}
+[method_b]:onActivityCreated
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91662e8290>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e28c248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e28c518>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lar/rulosoft/mimanganu/ActivityLector$LastPageFragment;'}
+[method_b]:onActivityCreated
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9167b45200>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e2a8368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d7f1518>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lar/rulosoft/mimanganu/FragmentMisMangas;'}
+[method_b]:onActivityCreated
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164e4add0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e1d8320>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lar/rulosoft/mimanganu/adapters/ServerRecAdapter;'}
+[method_b]:onBindViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9167ab16c8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912dbcca70>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/list3d/List3DActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164e64050>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e1d5320>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lar/rulosoft/mimanganu/adapters/MangasRecAdapter;'}
+[method_b]:onBindViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164a8b518>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e1d5638>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lar/rulosoft/mimanganu/adapters/MangasRecAdapterText;'}
+[method_b]:onBindViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164e64128>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e301950>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lar/rulosoft/mimanganu/ActivityDetails;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91669badd0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e3077a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e307a70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e28c248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e28c518>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lar/rulosoft/mimanganu/ActivityLector;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91669badd0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e3077a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e307a70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e28c248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e28c518>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lar/rulosoft/mimanganu/ActivityLector;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91669badd0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e3077a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e307a70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e307d40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e289368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e2893f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e289488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e289518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e2897e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e289878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e289908>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e289998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e28c248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e28c518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d7e8b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d7e8b90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d7e8c20>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnLongClickListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lar/rulosoft/mimanganu/ActivityLector;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91669baef0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e294e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e297128>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lar/rulosoft/mimanganu/ActivityReader;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91669baef0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e294e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e297128>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lar/rulosoft/mimanganu/ActivityReader;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91669baef0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e294e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e297128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e2973f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e2976c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e297758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e2977e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e297878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e297b48>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e297bd8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e297c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e297cf8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912e29a320>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912d7ee200>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnLongClickListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lar/rulosoft/mimanganu/ActivityReader;'}
+[method_b]:onCreate
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164d72440>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/zzn;'}
+[method_b]:onReceive
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91662d9908>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912f8efe18>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lar/rulosoft/mimanganu/ActivityLector$LastPageFragment$GetPageTask;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164620050>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912f8eff38>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lar/rulosoft/mimanganu/ActivityManga$GetPagesTask;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165b2e680>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912f8efd88>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lar/rulosoft/mimanganu/ActivityResultadoDeBusqueda$1;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164f7de18>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912f8efd88>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lar/rulosoft/mimanganu/ActivityServerMangaList$1;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91636d6b90>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912f8efea8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lar/rulosoft/mimanganu/FragmentMisMangas$3;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166710098>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912f8eff80>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lar/rulosoft/mimanganu/ActivityServerFilteredNavigation$3;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916581f6c8>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912f8effc8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lar/rulosoft/mimanganu/FragmentAddManga;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91636ee950>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912f8efea8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lar/rulosoft/mimanganu/FragmentMisMangas;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91646db128>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912f8efef0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lar/rulosoft/mimanganu/KapucuIzanaziActivity$2;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91646db488>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912f8efef0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lar/rulosoft/mimanganu/KapucuIzanaziActivity$3;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91639b37a0>, 'connection_type': 'connection_service', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912f977e18>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lar/rulosoft/mimanganu/services/DownloadPoolService;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165fbf878>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912f8efdd0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lar/rulosoft/mimanganu/ActivityManga;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164e0ed40>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912f8efdd0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lar/rulosoft/mimanganu/ActivityMisMangas;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164e0ed40>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912f8f4098>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lar/rulosoft/mimanganu/ActivityMisMangas;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166710b90>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912f8efd88>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lar/rulosoft/mimanganu/ActivityServerFilteredNavigation;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166710cf8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912f8f4050>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lar/rulosoft/mimanganu/ActivityServerFilteredNavigation;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

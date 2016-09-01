@@ -1,0 +1,366 @@
+parse success!!
+############################
+# components statistic
+activities:4
+services:27
+receivers:0
+############################
+# life_nodes statistic
+activities: 33
+services: 130
+------------------------------------------
+lifecycle_total_nodes: 163
+############################
+# lifecycle edges
+edges_lifecycle_activities:36
+edges_lifecycle_services:96
+--------------------------------------------
+edges_lifecycle_total:132
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[15, 25]
+services_node_edge_num:[72, 72]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 14
+original_service_nodes_num: 12
+original_receiver_nodes_num: 0
+
+original_nodes_num: 26
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:83   unregister:10
+-----------------------------------------
+<regist_in_onCreate_content> 7
+    ('Lcom/sololearn/app/fragments/SocialInputFragment;**onCreate', 'register', 'onActivityResult')
+    ('Lcom/sololearn/app/App;**onCreate', 'register', 'onResponse')
+    ('Lcom/sololearn/app/App;**onCreate', 'register', 'onResponse')
+    ('Lcom/sololearn/app/App;**onCreate', 'register', 'onResponse')
+    ('Lcom/sololearn/app/App;**onCreate', 'register', 'onResponse')
+    ('Lcom/sololearn/app/App;**onCreate', 'register', 'onResponse')
+    ('Lcom/sololearn/app/fragments/SocialInputFragment;**onCreate', 'register', 'onCancel')
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 83
+unregister_con_num: 10
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  58
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:303   edges:190
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  1
+############################
+<globals_num> 15652
+<globals_op_num> 50969
+############################
+# total num 
+total_nodes_num:  303
+total_edges_num:  185
+############################
+# total num 
+total_nodes_num:  298
+total_edges_num:  180
+############################
+# total time 
+parse_time:  207.654648
+modelling_time:  580.190501
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915dbfcfc8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91426c0ef0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/internal/WebDialog;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915dbfcfc8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91426aee60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91426c0ef0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91426c0710>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/internal/WebDialog;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915feb55f0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915bcfd368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915bcfd638>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/login/LoginManager;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915645a998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915f311c20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915f319200>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/login/widget/ToolTipPopup;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162a79c68>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915e1179e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914b9d87e8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/share/widget/LikeView;'}
+[method_b]:onComplete
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161cba440>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91656d9440>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/dynamic/zza;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160b14560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9147f722d8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/AchievementManager;'}
+[method_b]:onResponse
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916197b8c0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3c03b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3c0680>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/dialogs/AppInputDialog$1;'}
+[method_b]:onShow
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916197b8c0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3c03b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3c0680>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/dialogs/AppInputDialog$1;'}
+[method_b]:onShow
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91630826c8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9133258368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91332583f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9133258d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9133276098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9133276128>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/core/ProgressManager;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91630826c8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9133258368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91332583f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9133258d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9133276098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9133276128>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/core/ProgressManager;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91630826c8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9133258368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91332583f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9133258d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9133276098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9133276128>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/core/ProgressManager;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91630826c8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9133258368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91332583f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9133258d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9133276098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9133276128>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/core/ProgressManager;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91630826c8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91520b7998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91520b7a28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91520b7e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91520b7ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91520c40e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91520c4638>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91520c4560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91520c42d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91520c4e60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91520c4bd8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/core/web/WebService;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916173c8c0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec487e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec48b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec48e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec297a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29dd0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/DiscussionAdapter$ViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916173c8c0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec487e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec48b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec48e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec297a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29dd0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/DiscussionAdapter$ViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916173c8c0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec487e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec48b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec48e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec297a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29dd0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/DiscussionAdapter$ViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916173c8c0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec487e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec48b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec48e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec297a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29dd0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/DiscussionAdapter$ViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916173c8c0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec487e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec48b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec48e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec297a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29dd0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/DiscussionAdapter$ViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916173c8c0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec487e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec48b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec48e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec297a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29dd0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/DiscussionAdapter$ViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916173c8c0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec487e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec48b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec48e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec297a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29dd0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/DiscussionAdapter$ViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916173c8c0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec487e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec48b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec48e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec297a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29dd0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/DiscussionAdapter$ViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915d902ef0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec487e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec48b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec48e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec297a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec29dd0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/DiscussionAdapter$ViewHolder;'}
+[method_b]:onBindViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916083eb90>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0f950>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0fc68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0ff80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0b2d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0b5f0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/ForumAdapter$ViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916083eb90>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0f950>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0fc68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0ff80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0b2d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0b5f0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/ForumAdapter$ViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916083eb90>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0f950>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0fc68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0ff80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0b2d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0b5f0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/ForumAdapter$ViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916083eb90>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0f950>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0fc68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0ff80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0b2d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0b5f0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/ForumAdapter$ViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916083eb90>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0f950>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0fc68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0ff80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0b2d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0b5f0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/ForumAdapter$ViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915edbe560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec0bd88>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/InviteFriendsAdapter$ViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91606af908>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec3c560>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/LeaderboardAdapter$ViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161917290>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec3ca70>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/LessonAdapter$ViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160f7e9e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec3cd88>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/ModuleAdapter$CertificateViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160f7e9e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec10758>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/ModuleAdapter$ShortcutViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160f7e9e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec10a70>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/ModuleAdapter$ViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915d380320>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec181b8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/SimilarAdapter$ViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160e33f38>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec44488>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/XAppAdapter$ViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915fcb7dd0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec44fc8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/challenge/FacebookFriendsSearchAdapter$ViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915dd6fef0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec32320>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/challenge/PlayAdapter$HeaderViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915dd6fef0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec328c0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/challenge/PlayAdapter$ViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916320d290>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ec32dd0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/adapters/challenge/SearchFriendsAdapter$ViewHolder;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91615fa440>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3a0f38>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/VideoFragment$2;'}
+[method_b]:onInitializationSuccess
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915ee6a3b0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167680ab8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/views/quizzes/ImagePlaceholderQuiz$DragManager;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915ee6a3b0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167680ab8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/views/quizzes/ImagePlaceholderQuiz$DragManager;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162c75b00>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914bdf98c0>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/views/quizzes/ReorderQuiz$Adapter;'}
+[method_b]:onCreateViewHolder
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915bc69d40>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3ba878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f38c290>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/CropImageFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915bc69d40>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3ba878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f38c290>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/CropImageFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162fef128>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3987e8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/DiscussionPostFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916311b908>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3bdd88>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/ForumFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916311bd88>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f38f758>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/InviteFriends;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91631293b0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f393fc8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3b02d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3b0878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3b0b48>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/ProfileFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91631293b0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f393fc8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3b02d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3b0878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3b0b48>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/ProfileFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91631293b0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f393fc8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3b02d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3b0878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3b0b48>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/ProfileFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91631293b0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f393fc8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3b02d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3b0878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3b0b48>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/ProfileFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162f8a3b0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3a2128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3a26c8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/SettingsFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162f8a3b0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3a2128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3a26c8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/SettingsFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162f8a878>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f38a518>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/WritePostFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163129908>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f38a7e8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/XAppFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163129dd0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f38dea8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/challenge/FriendsSearchFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163136e18>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162d3e638>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/playground/CodesFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163136e18>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162d3e638>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/playground/CodesFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162fa0d88>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f398d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f398518>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/DiscussionFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915fe86098>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f39bc20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3bd200>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/DiscussionThreadFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915fe86098>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f39bc20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3bd200>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/DiscussionThreadFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162faeab8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3b0fc8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2d1998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2d1200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2d1a70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2d1758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2d1908>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2d1638>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2ff128>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/QuizFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160ff8e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3ab3b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2ff440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2ff4d0>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/RegisterFragment;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160ff8e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3ab3b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2ff440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2ff4d0>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/RegisterFragment;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91610077a0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3ab3b0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/RegisterFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915feb55f0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3a0488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2ffdd0>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/SocialInputFragment;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162fba560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3a0f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2f3dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2f3e60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2f3ef0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2f3f80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb0e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb320>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb3b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb4d0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb5f0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/VideoFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162fba560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3a0f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2f3dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2f3e60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2f3ef0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2f3f80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb0e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb320>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb3b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb4d0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb5f0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/VideoFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162fba560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3a0f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2f3dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2f3e60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2f3ef0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2f3f80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb0e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb320>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb3b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb4d0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb5f0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/VideoFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162fba560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3a0f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2f3dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2f3e60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2f3ef0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2f3f80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb0e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb320>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb3b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb4d0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb5f0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/VideoFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162fba560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3a0f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2f3dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2f3e60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2f3ef0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2f3f80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb0e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb320>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb3b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb4d0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c2cb5f0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/VideoFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916257eab8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162d440e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162d44cb0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/playground/CodeEditorFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916257eab8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162d440e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162d44cb0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/playground/CodeEditorFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91624a8248>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167653128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91676531b8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/views/quizzes/PlaceholderQuiz;'}
+[method_b]:onCreateFixedContent
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162fc8fc8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915ccddf80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915ccee290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cceeb48>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162fc8fc8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915ccddf80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915ccee290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cceeb48>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162fc8fc8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915ccddf80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915ccee290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cceeb48>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916333d998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3ad4d0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/dialogs/NavigationTutorialDialog;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916333d998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3ad4d0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3ad7e8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/dialogs/NavigationTutorialDialog;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91631413f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f38d908>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/fragments/challenge/FacebookFriendsSearchFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9156ce5560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f3c00e0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/dialogs/ActivateAccountDialog;'}
+[method_b]:onLayoutCreated
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916061bb48>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/AccessTokenTracker;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916061bb48>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/AccessTokenTracker;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915645a998>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/login/widget/ToolTipPopup;'}
+[method_b]:onClick
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916224d950>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/zzn;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915fe013b0>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/InstanceIDListenerService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915fe013b0>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/InstanceIDListenerService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161a76998>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915fdf2d88>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/InstanceIDListenerService;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91627e3908>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/sololearn/app/views/HorizontalListView;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915da08248>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcrittercism/android/al;'}
+[method_b]:onActivityPaused
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915da08248>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcrittercism/android/al;'}
+[method_b]:onActivityPaused
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162e7fd88>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9157e96e60>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/analytics/AnalyticsReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916122b8c0>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9157ebeab8>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/measurement/AppMeasurementReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163040200>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9157e7fa70>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/sololearn/app/App;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161a8e200>, 'connection_type': 'connection_service', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9157e7fa70>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/sololearn/core/gcm/AppInstanceIDListenerService;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91626a7a28>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9157d56170>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/sololearn/app/fragments/SettingsFragment;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {'Lcom/sololearn/core/gcm/AppInstanceIDListenerService; onTokenRefresh ()V': [({'component': 'Service', 'attr': 'attr_original', 'label': 'Lcom/sololearn/core/gcm/AppInstanceIDListenerService; onTokenRefresh ()V'}, {'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Lcom/sololearn/core/gcm/RegistrationIntentService; <init> ()V'})]}

@@ -1,0 +1,86 @@
+parse success!!
+############################
+# components statistic
+activities:12
+services:5
+receivers:0
+############################
+# life_nodes statistic
+activities: 86
+services: 21
+------------------------------------------
+lifecycle_total_nodes: 107
+############################
+# lifecycle edges
+edges_lifecycle_activities:98
+edges_lifecycle_services:15
+--------------------------------------------
+edges_lifecycle_total:113
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[48, 78]
+services_node_edge_num:[15, 15]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 4
+original_service_nodes_num: 2
+original_receiver_nodes_num: 0
+
+original_nodes_num: 6
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:0   unregister:0
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 0
+unregister_con_num: 0
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  12
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:113   edges:125
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 4768
+<globals_op_num> 14856
+############################
+# total num 
+total_nodes_num:  113
+total_edges_num:  124
+############################
+# total num 
+total_nodes_num:  112
+total_edges_num:  123
+############################
+# total time 
+parse_time:  61.0933
+modelling_time:  149.608448
+
+############################
+############################
+############################
+# register_content
+register_content:  
+############################
+# unregister_content
+unregister_content:  
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9146ea5a70>, 'connection_type': '', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91443ffb48>, 'connection': {'connection': 'bindService', 'key_para': 'Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent Landroid/content/ServiceConnection I'}, 'component_name': 'Lcom/android/vending/licensing/h;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f913b277440>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91442fcdd0>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/tagmanager/InstallReferrerReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9146ea5a70>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9144290170>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/roar/sharedTraffic/LicenseCheck;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

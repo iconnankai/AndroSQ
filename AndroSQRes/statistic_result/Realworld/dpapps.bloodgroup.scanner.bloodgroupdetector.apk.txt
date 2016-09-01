@@ -1,0 +1,111 @@
+parse success!!
+############################
+# components statistic
+activities:8
+services:3
+receivers:0
+############################
+# life_nodes statistic
+activities: 48
+services: 20
+------------------------------------------
+lifecycle_total_nodes: 68
+############################
+# lifecycle edges
+edges_lifecycle_activities:57
+edges_lifecycle_services:15
+--------------------------------------------
+edges_lifecycle_total:72
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[41, 76]
+services_node_edge_num:[5, 5]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 7
+original_service_nodes_num: 0
+original_receiver_nodes_num: 0
+
+original_nodes_num: 7
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:5   unregister:2
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 5
+unregister_con_num: 2
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  18
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:89   edges:90
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 7553
+<globals_op_num> 22232
+############################
+# total num 
+total_nodes_num:  89
+total_edges_num:  86
+############################
+# total num 
+total_nodes_num:  85
+total_edges_num:  82
+############################
+# total time 
+parse_time:  123.045684
+modelling_time:  296.942591
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9146201050>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91261db7e8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/dynamic/zza;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913031ca70>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125fa65f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125fa6950>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Ldpapps/bloodgroup/scanner/bloodgroupdetector/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913031ca70>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125fa65f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125fa6950>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Ldpapps/bloodgroup/scanner/bloodgroupdetector/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9149694bd8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125f267e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125f26878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125f26908>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125f26bd8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Ldpapps/bloodgroup/scanner/bloodgroupdetector/Scan$2;'}
+[method_b]:onGlobalLayout
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f4ce128>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125be4b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125be4b90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125be7290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125be75f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125be7680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125be7998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9125be7d40>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/zzi;'}
+[method_b]:onConnectionSuspended
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91477103f8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/zzq$zza;'}
+[method_b]:onReset
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91477103f8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/zzq$zza;'}
+[method_b]:onReset
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f913806ae18>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91272930e0>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/analytics/AnalyticsReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915839a5f0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912726d0e0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ldpapps/bloodgroup/scanner/bloodgroupdetector/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91331ba200>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912726d1b8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ldpapps/bloodgroup/scanner/bloodgroupdetector/Scan$2$1$1;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91331a25f0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9127268b48>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ldpapps/bloodgroup/scanner/bloodgroupdetector/Scan;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914867ae18>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9127268b48>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ldpapps/bloodgroup/scanner/bloodgroupdetector/calculateresult;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914e933fc8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9127268b48>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ldpapps/bloodgroup/scanner/bloodgroupdetector/information;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

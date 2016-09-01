@@ -1,0 +1,189 @@
+parse success!!
+############################
+# components statistic
+activities:40
+services:7
+receivers:0
+############################
+# life_nodes statistic
+activities: 264
+services: 55
+------------------------------------------
+lifecycle_total_nodes: 319
+############################
+# lifecycle edges
+edges_lifecycle_activities:325
+edges_lifecycle_services:38
+--------------------------------------------
+edges_lifecycle_total:363
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[179, 302]
+services_node_edge_num:[11, 11]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 56
+original_service_nodes_num: 9
+original_receiver_nodes_num: 0
+
+original_nodes_num: 65
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:10   unregister:16
+-----------------------------------------
+<regist_in_onCreate_content> 1
+    ('Lcom/tapjoy/TJAdUnitActivity;**onCreate', 'register', 'onClick')
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 10
+unregister_con_num: 16
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  142
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:393   edges:505
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  5
+############################
+<globals_num> 9151
+<globals_op_num> 41601
+############################
+# total num 
+total_nodes_num:  393
+total_edges_num:  469
+############################
+# total num 
+total_nodes_num:  357
+total_edges_num:  433
+############################
+# total time 
+parse_time:  181.258273
+modelling_time:  502.822554
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91653ad320>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914be6f5f0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/appinvite/PreviewActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161a02ab8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164f22fc8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/dynamic/zza;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164d95ea8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9168a10f38>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tapjoy/TJAdUnitActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91638d1830>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9168a10f38>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tapjoy/TJAdUnitActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163cafab8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9126bd55a8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9126bd58c0>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tapjoy/internal/kj;'}
+[method_b]:onMeasure
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163cafab8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9126bd58c0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/tapjoy/internal/kj;'}
+[method_b]:onMeasure
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164291a70>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91540e5d40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91540e1050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91540e1320>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91540e15f0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/tapjoy/mraid/view/Browser;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164291a70>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91540e5d40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91540e1050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91540e1320>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91540e15f0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/tapjoy/mraid/view/Browser;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164291a70>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91540e5d40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91540e1050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91540e1320>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91540e15f0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/tapjoy/mraid/view/Browser;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164291a70>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91540e5d40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91540e1050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91540e1320>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91540e15f0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/tapjoy/mraid/view/Browser;'}
+[method_b]:onCreate
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163eec878>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/zzn;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163eec878>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/zzn;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163eec878>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/zzn;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161f86098>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/InstanceIDListenerService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161f86098>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/InstanceIDListenerService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161f7ba70>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/InstanceIDListenerService;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91638d1830>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tapjoy/TJAdUnitActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91638d1830>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tapjoy/TJAdUnitActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91642753f8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tapjoy/TJAdUnitJSBridge$9;'}
+[method_b]:onLocationChanged
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91638d1830>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tapjoy/TJAdUnitJSBridge;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916314fbd8>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/MainActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916314fbd8>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/MainActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163862fc8>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/service/FilterService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163862fc8>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/service/FilterService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163862fc8>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/service/FilterService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163862fc8>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/service/FilterService;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162f72440>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914d74f440>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/measurement/AppMeasurementReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91617bacf8>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914b7c3050>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tapjoy/TJPlacement;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f79b5f0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9151aada28>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/AgreeActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162658b90>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9151aada28>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/CopyActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164cc6d88>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9151a9d440>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/EventReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164cc6d88>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9151a9d3b0>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/EventReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164cc6d88>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9151aada28>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/EventReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164cc6d88>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9151aadab8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/EventReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164c35128>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9151aada28>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/FilterTestActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916315cb00>, 'connection_type': 'connection_service', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9151a97e18>, 'connection': {'connection': 'bindService', 'key_para': 'Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent Landroid/content/ServiceConnection I'}, 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916314fe60>, 'connection_type': 'connection_service', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9151a9d440>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164485908>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9151aad758>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164485908>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9151a90290>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164485908>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9151aada70>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164485908>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9151aadb00>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915efd7200>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9151aada28>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/NeedVersionUpActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91623a8c68>, 'connection_type': 'connection_service', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9151a9d440>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/NightModeDialogActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160f141b8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9151aada28>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/PermissionActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f5fe7a0>, 'connection_type': 'connection_service', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9151a9d440>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/ShortcutActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f5fe7a0>, 'connection_type': 'connection_service', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9151a9d440>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/ShortcutActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163455ef0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9151aada28>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/VersionUpActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916386c1b8>, 'connection_type': 'connection_service', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9151a97e18>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/service/FilterService;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916386c1b8>, 'connection_type': 'connection_service', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9151a9d3b0>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ljp/ne/hardyinfinity/bluelightfilter/free/service/FilterService;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {'Ljp/ne/hardyinfinity/bluelightfilter/free/NightModeDialogActivity; onUserLeaveHint ()V': [({'component': 'Activity', 'attr': 'attr_original', 'label': 'Ljp/ne/hardyinfinity/bluelightfilter/free/NightModeDialogActivity; onUserLeaveHint ()V'}, {'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Ljp/ne/hardyinfinity/bluelightfilter/free/service/FilterService; <init> ()V'})], 'Ljp/ne/hardyinfinity/bluelightfilter/free/MainActivity; onResume ()V': [({'component': 'Activity', 'attr': 'attr_lifecycle', 'label': 'Ljp/ne/hardyinfinity/bluelightfilter/free/MainActivity; onResume ()V'}, {'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Ljp/ne/hardyinfinity/bluelightfilter/free/service/FilterService; <init> ()V'})], 'Ljp/ne/hardyinfinity/bluelightfilter/free/service/FilterService; onStartCommand (Landroid/content/Intent; I I)I': [({'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Ljp/ne/hardyinfinity/bluelightfilter/free/service/FilterService; onStartCommand (Landroid/content/Intent; I I)I'}, {'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Ljp/ne/hardyinfinity/bluelightfilter/free/service/CheckService; <init> ()V'})], 'Ljp/ne/hardyinfinity/bluelightfilter/free/ShortcutActivity; onCreate (Landroid/os/Bundle;)V': [({'component': 'Activity', 'attr': 'attr_lifecycle', 'label': 'Ljp/ne/hardyinfinity/bluelightfilter/free/ShortcutActivity; onCreate (Landroid/os/Bundle;)V'}, {'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Ljp/ne/hardyinfinity/bluelightfilter/free/service/FilterService; <init> ()V'}), ({'component': 'Activity', 'attr': 'attr_lifecycle', 'label': 'Ljp/ne/hardyinfinity/bluelightfilter/free/ShortcutActivity; onCreate (Landroid/os/Bundle;)V'}, {'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Ljp/ne/hardyinfinity/bluelightfilter/free/service/FilterService; <init> ()V'})]}

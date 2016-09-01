@@ -1,0 +1,345 @@
+parse success!!
+############################
+# components statistic
+activities:7
+services:3
+receivers:0
+############################
+# life_nodes statistic
+activities: 56
+services: 24
+------------------------------------------
+lifecycle_total_nodes: 80
+############################
+# lifecycle edges
+edges_lifecycle_activities:65
+edges_lifecycle_services:18
+--------------------------------------------
+edges_lifecycle_total:83
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[24, 41]
+services_node_edge_num:[2, 2]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 6
+original_service_nodes_num: 8
+original_receiver_nodes_num: 0
+
+original_nodes_num: 14
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:52   unregister:38
+-----------------------------------------
+<regist_in_onCreate_content> 11
+    ('Lcom/lionmobi/netmaster/activity/CheckAllActivity;**onCreate', 'register', 'onClick')
+    ('Lcom/lionmobi/netmaster/activity/DevicesNeoActivity;**onCreate', 'register', 'onDismiss')
+    ('Lcom/lionmobi/netmaster/activity/MainActivity;**onCreate', 'register', 'onAdError')
+    ('Lcom/lionmobi/netmaster/activity/NetworkSpeedActivity;**onCreate', 'register', 'onClick')
+    ('Lcom/lionmobi/netmaster/activity/NewsActivity;**onCreate', 'register', 'onClick')
+    ('Lcom/lionmobi/netmaster/d/a;**onCreateView', 'register', 'onPageScrollStateChanged')
+    ('Lcom/lionmobi/netmaster/d/c;**onCreateView', 'register', 'onAnimationCancel')
+    ('Lcom/lionmobi/netmaster/d/f;**onCreateView', 'register', 'onClick')
+    ('Lcom/lionmobi/netmaster/d/f;**onCreateView', 'register', 'onClick')
+    ('Lcom/lionmobi/netmaster/manager/q;**onCreate', 'register', 'onClick')
+    ('Lcom/lionmobi/netmaster/service/LocalService;**onCreate', 'register', 'onServiceConnected')
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 52
+unregister_con_num: 38
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  36
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:155   edges:119
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  2
+############################
+<globals_num> 9284
+<globals_op_num> 47399
+############################
+# total num 
+total_nodes_num:  155
+total_edges_num:  117
+############################
+# total num 
+total_nodes_num:  153
+total_edges_num:  115
+############################
+# total time 
+parse_time:  122.280984
+modelling_time:  409.060306
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168782758>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f912f10ef80>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/InterstitialAdActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91673964d0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91662c8dd0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/b/ae;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91673964d0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91662c8b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91662c8dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91662c43b0>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/b/ae;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162679fc8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916864b998>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/zzw;'}
+[method_b]:onActivityResult
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916684db90>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913a0d5878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913a0d5758>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/AppIgnoreListActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916684db90>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913a0d5878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913a0d5758>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/AppIgnoreListActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916792a488>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913a0dea70>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/CheckAllActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916792a488>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913a0dea70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913a104b00>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/CheckAllActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162f7c878>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913a0dea70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913a104b00>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/CheckAllActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9167991bd8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a7821b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a782a28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a782ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a782b48>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/DevicesNeoActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9167991d40>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a7821b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a782a28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a782ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a782b48>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/DevicesNeoActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166d69200>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a7874d0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/GoldenballsAdActivity;'}
+[method_b]:onAdLoaded
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166d69200>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a7874d0>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/GoldenballsAdActivity;'}
+[method_b]:onAdLoaded
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162b03f38>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a7874d0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/GoldenballsAdActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916630a6c8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a756098>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/JunkCleanActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916630a6c8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a756098>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/JunkCleanActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168a60248>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a76c3b0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168a60248>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a76c050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a76c0e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a76c3b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a76c878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a753128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a7531b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a753248>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166490c68>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a76c050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a76c0e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a76c3b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a76c878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a753128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a7531b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a753248>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/MainActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916813cb48>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a755f80>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/NetworkSpeedActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916813cb48>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a755f80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a75c560>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/NetworkSpeedActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162f7cc68>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a755f80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914a75c560>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/NetworkSpeedActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916878dbd8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618d0f38>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/NewsActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916878dbd8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618d0f38>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/NewsActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162f84320>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618d0f38>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/NewsActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916301b908>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618d0560>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/NewsDetailActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162c1acb0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e8a70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618f1248>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/SaveResultActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166c81a28>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e8a70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618f1248>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/SaveResultActivity;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162a8e290>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e6e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e4ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e4050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e4878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e46c8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/SettingActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162a8e290>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e6e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e4ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e4050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e4878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e46c8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/SettingActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162a8e290>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e6e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e4ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e4050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e4878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e46c8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/SettingActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162a8e290>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e6e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e4ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e4050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e4878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e46c8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/SettingActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162a8e290>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e6e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e4ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e4050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e4878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e46c8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/SettingActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91684b90e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9161901d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9161902998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91619023b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9161902680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91618e2ea8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/SpeedBoostActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166d87758>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91687f8248>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/c/m;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162f84950>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91687e9b90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91687e9e60>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/d/a;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162f84950>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91687e9b90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91687e9e60>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/d/a;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162f84950>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91687e9b90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91687e9e60>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/d/a;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162f84950>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91687e9b90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91687e9e60>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/d/a;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162f84950>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91687e97a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91687e9830>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91687e98c0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91687e9b90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91687e9e60>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/d/a;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162f84d40>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91687e97a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91687e9830>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91687e98c0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91687e9b90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91687e9e60>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/d/a;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916649d9e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162ce81b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162ce8050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162ce8b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162ce8d40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162ce8e60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162cde680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162cde170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162cde3b0>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/d/c;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916649dbd8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162ce81b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162ce8050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162ce8b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162ce8d40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162ce8e60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162cde680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162cde170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162cde3b0>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/d/c;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162ecd560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162d01710>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/d/f;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162ecd560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162d01710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162d017a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162d010e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162ceec20>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/d/f;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162ecd560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162d01710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162d017a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162d010e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162ceec20>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/d/f;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162ecd680>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162d01710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162d017a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162d010e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162ceec20>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/d/f;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162ecd680>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162d01710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162d017a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162d010e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9162ceec20>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/d/f;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162ecdb00>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9168c6b638>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9168c6b950>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9168c6bc68>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/manager/q;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162ecdcb0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9168c6b638>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9168c6b950>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9168c6bc68>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/manager/q;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162edd290>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164f07a70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164f07998>], 'component_type': 'service', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/service/LocalService;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162edd3f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164f07a70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164f07998>], 'component_type': 'service', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/service/LocalService;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162edd3f8>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91661ba2d8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lc/c;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91675c54d0>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/internal/b/h;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91675c54d0>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/internal/b/h;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91672225a8>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/zzn;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91672225a8>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/zzn;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91672225a8>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/zzn;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162679fc8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/zzw;'}
+[method_b]:onActivityResult
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168554b90>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/a/k;'}
+[method_b]:onAdLoadSuccess
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168554b90>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/a/k;'}
+[method_b]:onAdLoadSuccess
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162f7c878>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/CheckAllActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162f7c998>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/DataUsageActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9167991d40>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/DevicesNeoActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166490c68>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/MainActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162f7cc68>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/NetworkSpeedActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162f84320>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/NewsActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162f84680>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/PortableHotspotActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166d69200>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/activity/e;'}
+[method_b]:onAdLoaded
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162f84d40>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/d/a;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916649dbd8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/d/c;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162ecd680>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/d/f;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162ecd680>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/d/f;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162ecd680>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/d/f;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162d5ed88>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/manager/i;'}
+[method_b]:onAdLoaded
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168554dd0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/manager/j;'}
+[method_b]:onDestory
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168554dd0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/manager/j;'}
+[method_b]:onDestory
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162ecdcb0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/manager/q;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162ecde60>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/manager/r;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91661ba2d8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/manager/t;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162ed4a28>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/manager/y;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162ed4d88>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/manager/z;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162edd3f8>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/service/LocalService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91617ba2d8>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/service/PowerAccessibilityService;'}
+[method_b]:onAnimationEnd
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91617ba2d8>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/service/PowerAccessibilityService;'}
+[method_b]:onAnimationEnd
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91617c8bd8>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/service/PowerAccessibilityService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91617c8bd8>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/service/PowerAccessibilityService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91661ba200>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/service/WifiRemoteService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91661ba200>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/service/WifiRemoteService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91661ba200>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/lionmobi/netmaster/service/WifiRemoteService;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161e8b128>, 'connection_type': 'connection_service', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9164534248>, 'connection': {'connection': 'bindService', 'key_para': 'Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent Landroid/content/ServiceConnection I'}, 'component_name': 'Lcom/lionmobi/netmaster/activity/b;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161d023b0>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f916450ca28>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lionmobi/netmaster/activity/a;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91684aff80>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f916450cb48>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lionmobi/netmaster/activity/a;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9167fd80e0>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9164511050>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lionmobi/netmaster/activity/a;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161308200>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9164511290>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lionmobi/netmaster/activity/a;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161d02560>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91645116c8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lionmobi/netmaster/activity/a;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166d87bd8>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9164511878>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lionmobi/netmaster/activity/a;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161c8b638>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9164511cf8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lionmobi/netmaster/activity/a;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161d027e8>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91645165f0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lionmobi/netmaster/activity/a;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162edd290>, 'connection_type': 'connection_service', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9164534560>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/lionmobi/netmaster/service/LocalService;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162edd3f8>, 'connection_type': 'connection_service', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f916452ac68>, 'connection': {'connection': 'bindService', 'key_para': 'Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent Landroid/content/ServiceConnection I'}, 'component_name': 'Lcom/lionmobi/netmaster/service/LocalService;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {'Lcom/lionmobi/netmaster/activity/b; onCreate (Landroid/os/Bundle;)V': [({'component': 'Activity', 'attr': 'attr_lifecycle', 'label': 'Lcom/lionmobi/netmaster/activity/b; onCreate (Landroid/os/Bundle;)V'}, {'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Lcom/lionmobi/netmaster/service/LocalService; <init> ()V'})], 'Lcom/lionmobi/netmaster/service/LocalService; onCreate ()V': [({'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Lcom/lionmobi/netmaster/service/LocalService; onCreate ()V'}, {'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Lcom/lionmobi/netmaster/service/WifiRemoteService; <init> ()V'})]}

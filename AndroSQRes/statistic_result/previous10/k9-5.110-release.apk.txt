@@ -1,0 +1,64 @@
+parse success!!
+############################
+# components statistic
+activities:30
+services:9
+receivers:0
+############################
+# life_nodes statistic
+activities: 194
+services: 55
+------------------------------------------
+lifecycle_total_nodes: 249
+############################
+# lifecycle edges
+edges_lifecycle_activities:192
+edges_lifecycle_services:39
+--------------------------------------------
+edges_lifecycle_total:231
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[165, 272]
+services_node_edge_num:[20, 20]
+--------------------------------------------
+hidden_edge_total:[185, 292]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 141
+original_service_nodes_num: 1
+original_receiver_nodes_num: 0
+
+original_nodes_num: 142
+----------------------------------------------------
+non_lifecycle_nodes_num(register_num):  16
+unregister_num:11
+-----------------------------------------
+<regist_in_onCreate_content> 7
+    ('Lcom/fsck/k9/provider/MessageProvider;**onCreate', 'register', 'onMove')
+    ('Lcom/fsck/k9/provider/MessageProvider;**onCreate', 'register', 'onMove')
+    ('Lcom/fsck/k9/provider/MessageProvider;**onCreate', 'register', 'onMove')
+    ('Lcom/fsck/k9/provider/MessageProvider;**onCreate', 'register', 'onMove')
+    ('Lcom/fsck/k9/fragment/MessageListFragment;**onCreateView', 'register', 'onActionItemClicked')
+    ('Lcom/fsck/k9/activity/Accounts;**onCreate', 'register', 'onClick')
+    ('Lcom/fsck/k9/activity/FolderList;**onCreate', 'register', 'onItemClick')
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 16
+unregister_con_num: 11
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  328
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:426   edges:559
+############################
+# inter-component activities statistic
+connections:  18
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  4
+############################
+# total num 
+total_reduct_nodes_num:  426
+total_reduct_edges_num:  577

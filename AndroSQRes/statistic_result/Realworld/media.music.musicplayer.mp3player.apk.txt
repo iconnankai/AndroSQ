@@ -1,0 +1,112 @@
+parse success!!
+############################
+# components statistic
+activities:14
+services:5
+receivers:0
+############################
+# life_nodes statistic
+activities: 89
+services: 33
+------------------------------------------
+lifecycle_total_nodes: 122
+############################
+# lifecycle edges
+edges_lifecycle_activities:108
+edges_lifecycle_services:23
+--------------------------------------------
+edges_lifecycle_total:131
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[66, 121]
+services_node_edge_num:[10, 10]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 32
+original_service_nodes_num: 4
+original_receiver_nodes_num: 0
+
+original_nodes_num: 36
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:0   unregister:6
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 0
+unregister_con_num: 6
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  72
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:158   edges:203
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  4
+############################
+<globals_num> 4277
+<globals_op_num> 16545
+############################
+# total num 
+total_nodes_num:  158
+total_edges_num:  198
+############################
+# total num 
+total_nodes_num:  153
+total_edges_num:  193
+############################
+# total time 
+parse_time:  46.492176
+modelling_time:  146.988465
+
+############################
+############################
+############################
+# register_content
+register_content:  
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915ba390e0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/ijoysoft/music/model/c/d;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915ba390e0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/ijoysoft/music/model/c/d;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915ba390e0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/ijoysoft/music/model/c/s;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915ba390e0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/ijoysoft/music/model/c/s;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915ba390e0>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9135184cb0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/ijoysoft/music/model/c/t;'}
+[method_b]:onStartCommand
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915ba390e0>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9135184cb0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/ijoysoft/music/model/c/t;'}
+[method_b]:onStartCommand
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91431b0050>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91641c6638>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/tagmanager/InstallReferrerReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915034b440>, 'connection_type': 'connection_service', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91641c8830>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/ijoysoft/music/activity/base/BaseActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914cff6d40>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9164192b90>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/ijoysoft/music/activity/MusicPlayActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915036b830>, 'connection_type': 'connection_service', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91641c8830>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/ijoysoft/music/activity/WelcomeActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9167c37248>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9164192bd8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/ijoysoft/music/activity/o;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91658498c0>, 'connection_type': 'connection_service', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91641c88c0>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/ijoysoft/music/service/MediaScanService;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912f517680>, 'connection_type': 'connection_service', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91641c8908>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/ijoysoft/music/service/MusicPlayService;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9141604290>, 'connection_type': 'connection_service', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91641c8908>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/ijoysoft/music/service/MusicPlayService;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f913ea70488>, 'connection_type': 'connection_service', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91641c8908>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/ijoysoft/music/service/MusicPlayService;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91415f1a70>, 'connection_type': 'connection_service', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91641c8908>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/ijoysoft/music/service/MusicPlayService;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {'Lcom/ijoysoft/music/activity/ScanMusicActivity; onClick (Landroid/view/View;)V': [({'component': 'Activity', 'attr': 'attr_original', 'label': 'Lcom/ijoysoft/music/activity/ScanMusicActivity; onClick (Landroid/view/View;)V'}, {'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Lcom/ijoysoft/music/service/MediaScanService; <init> ()V'})], 'Lcom/ijoysoft/music/activity/base/BaseActivity; onStop ()V': [({'component': 'Activity', 'attr': 'attr_lifecycle', 'label': 'Lcom/ijoysoft/music/activity/base/BaseActivity; onStop ()V'}, {'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Lcom/ijoysoft/music/service/DeskLrcService; <init> ()V'})], 'Lcom/ijoysoft/music/activity/MusicPlayActivity; onProgressChanged (Landroid/widget/SeekBar; I Z)V': [({'component': 'Activity', 'attr': 'attr_original', 'label': 'Lcom/ijoysoft/music/activity/MusicPlayActivity; onProgressChanged (Landroid/widget/SeekBar; I Z)V'}, {'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Lcom/ijoysoft/music/service/MusicPlayService; <init> ()V'})], 'Lcom/ijoysoft/music/activity/WelcomeActivity; onCreate (Landroid/os/Bundle;)V': [({'component': 'Activity', 'attr': 'attr_lifecycle', 'label': 'Lcom/ijoysoft/music/activity/WelcomeActivity; onCreate (Landroid/os/Bundle;)V'}, {'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Lcom/ijoysoft/music/service/DeskLrcService; <init> ()V'})]}

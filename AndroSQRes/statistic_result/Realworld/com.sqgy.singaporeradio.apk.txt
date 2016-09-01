@@ -1,0 +1,84 @@
+parse success!!
+############################
+# components statistic
+activities:1
+services:1
+receivers:0
+############################
+# life_nodes statistic
+activities: 11
+services: 9
+------------------------------------------
+lifecycle_total_nodes: 20
+############################
+# lifecycle edges
+edges_lifecycle_activities:14
+edges_lifecycle_services:6
+--------------------------------------------
+edges_lifecycle_total:20
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[0, 0]
+services_node_edge_num:[1, 1]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 2
+original_service_nodes_num: 0
+original_receiver_nodes_num: 0
+
+original_nodes_num: 2
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:0   unregister:0
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 0
+unregister_con_num: 0
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  4
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:22   edges:24
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 4664
+<globals_op_num> 19763
+############################
+# total num 
+total_nodes_num:  22
+total_edges_num:  24
+############################
+# total num 
+total_nodes_num:  22
+total_edges_num:  24
+############################
+# total time 
+parse_time:  55.715631
+modelling_time:  167.576602
+
+############################
+############################
+############################
+# register_content
+register_content:  
+############################
+# unregister_content
+unregister_content:  
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914f753248>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9168bb5320>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/sqgy/singaporeradio/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9150c683f8>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9168ba1f80>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/sqgy/singaporeradio/WakeupReceiver;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

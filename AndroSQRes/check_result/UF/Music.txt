@@ -1,0 +1,4 @@
+(mAdapter,com.android.music.ArtistAlbumBrowserActivity,onRetainNonConfigurationInstance,onDestroy)
+(mAdapter,com.android.music.TrackBrowserActivity,onRetainNonConfigurationInstance,onDestroy)
+(mAdapter,com.android.music.AlbumBrowserActivity,onRetainNonConfigurationInstance,onDestroy)
+(mAdapter,com.android.music.QueryBrowserActivity,onRetainNonConfigurationInstance,onDestroy)

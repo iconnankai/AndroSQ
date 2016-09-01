@@ -1,0 +1,290 @@
+parse success!!
+############################
+# components statistic
+activities:12
+services:2
+receivers:0
+############################
+# life_nodes statistic
+activities: 117
+services: 11
+------------------------------------------
+lifecycle_total_nodes: 128
+############################
+# lifecycle edges
+edges_lifecycle_activities:125
+edges_lifecycle_services:7
+--------------------------------------------
+edges_lifecycle_total:132
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[31, 47]
+services_node_edge_num:[5, 5]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 17
+original_service_nodes_num: 1
+original_receiver_nodes_num: 0
+
+original_nodes_num: 18
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:52   unregister:21
+-----------------------------------------
+<regist_in_onCreate_content> 4
+    ('Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvAppsList;**onCreate', 'register', 'onClick')
+    ('Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvAppsList;**onCreate', 'register', 'onClick')
+    ('Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvAppsListTab;**onCreate', 'register', 'onItemClick')
+    ('Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvAppsListTab;**onCreate', 'register', 'onItemClick')
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 52
+unregister_con_num: 21
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  60
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:212   edges:192
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 13946
+<globals_op_num> 62785
+############################
+# total num 
+total_nodes_num:  212
+total_edges_num:  189
+############################
+# total num 
+total_nodes_num:  209
+total_edges_num:  186
+############################
+# total time 
+parse_time:  209.737923
+modelling_time:  665.451502
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f7f5f38>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914e3e13f8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/chartboost/sdk/impl/bk$1;'}
+[method_b]:onShow
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915fa952d8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914e5124d0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/InterstitialAdActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915e8fe5f0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915b149d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915b1710e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915b1713f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915b171710>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/flurry/sdk/ey;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915e7d93f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913170e098>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/dynamic/zza;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f147e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae97518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae977e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae97ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae97d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8a098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8a368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8a998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8ac68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8af38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914aeb8248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914aeb8518>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/inmobi/androidsdk/IMBrowserActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f147e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae97518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae977e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae97ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae97d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8a098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8a368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8a998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8ac68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8af38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914aeb8248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914aeb8518>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/inmobi/androidsdk/IMBrowserActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f147e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae97518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae977e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae97ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae97d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8a098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8a368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8a998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8ac68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8af38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914aeb8248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914aeb8518>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/inmobi/androidsdk/IMBrowserActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f147e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae97518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae977e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae97ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae97d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8a098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8a368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8a998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8ac68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8af38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914aeb8248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914aeb8518>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/inmobi/androidsdk/IMBrowserActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f147e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae97518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae977e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae97ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae97d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8a098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8a368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8a998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8ac68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8af38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914aeb8248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914aeb8518>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/inmobi/androidsdk/IMBrowserActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f147e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae97d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8a998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8af38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914aeb8248>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/inmobi/androidsdk/IMBrowserActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f147e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae97d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8a998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8af38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914aeb8248>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/inmobi/androidsdk/IMBrowserActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f147e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae97d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8a998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8af38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914aeb8248>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/inmobi/androidsdk/IMBrowserActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f147e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae97d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8a998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ae8af38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914aeb8248>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/inmobi/androidsdk/IMBrowserActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915e2415a8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914b9cc710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914b9cca28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914b9ccd88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba060e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba063f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba066c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba06998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba06c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba06f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9168923248>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/inmobi/re/container/IMWebView$10;'}
+[method_b]:onShowCustomView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915e2415a8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914b9cc710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914b9cca28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914b9ccd88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba060e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba063f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba066c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba06998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba06c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba06f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9168923248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916892dc20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9168934b48>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9168934e60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91689411b8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/inmobi/re/container/IMWebView;'}
+[method_b]:onShowCustomView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f037710>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914b9cc710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914b9cca28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914b9ccd88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba060e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba063f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba066c8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba06998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba06c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ba06f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9168923248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916892dc20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9168934b48>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9168934e60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91689411b8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/inmobi/re/container/IMWebView;'}
+[method_b]:onAttachedToWindow
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f147e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916890e248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916890e2d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916890e368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916890e998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916890ec68>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/inmobi/re/container/mraidimpl/MRAIDInterstitialController;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915deb2320>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a318ef0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a322440>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/inmobi/re/controller/util/AVPlayer;'}
+[method_b]:onError
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915deb2050>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a318ef0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a322440>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/inmobi/re/controller/util/AVPlayer;'}
+[method_b]:onCompletion
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158443bd8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159598ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c1488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c1518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c15a8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c1638>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c16c8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/amazon/device/ads/AdLayout;'}
+[method_b]:onAttachedToWindow
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158443e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159598ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c1488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c1518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c15a8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c1638>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c16c8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/amazon/device/ads/AdLayout;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158443bd8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159598ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c1488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c1518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c15a8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c1638>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c16c8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/amazon/device/ads/AdLayout;'}
+[method_b]:onAttachedToWindow
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158443e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159598ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c1488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c1518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c15a8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c1638>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c16c8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/amazon/device/ads/AdLayout;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158443f80>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159598ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c1488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c1518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c15a8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c1638>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914f3c16c8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/amazon/device/ads/AdLayout;'}
+[method_b]:onWindowVisibilityChanged
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915d46c488>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167569dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91675790e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91675793b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167579680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167579998>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/amazon/device/ads/InAppBrowser;'}
+[method_b]:onPostExecute
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915d46c488>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167569dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91675790e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91675793b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167579680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167579998>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/amazon/device/ads/InAppBrowser;'}
+[method_b]:onPostExecute
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915d46c488>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167569dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91675790e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91675793b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167579680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167579998>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/amazon/device/ads/InAppBrowser;'}
+[method_b]:onPostExecute
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915d46c488>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167569dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91675790e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91675793b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167579680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167579998>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/amazon/device/ads/InAppBrowser;'}
+[method_b]:onPostExecute
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915d46c488>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167569dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91675790e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91675793b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167579680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167579998>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/amazon/device/ads/InAppBrowser;'}
+[method_b]:onPostExecute
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915e7ba8c0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c392ef0>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/internal/zzmr;'}
+[method_b]:onActivityResult
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f037710>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9152619b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9152619dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9152616128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91526163f8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/inmobi/re/controller/JSUtilityController;'}
+[method_b]:onAttachedToWindow
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f037710>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9152619b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9152619dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9152616128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91526163f8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/inmobi/re/controller/JSUtilityController;'}
+[method_b]:onAttachedToWindow
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f037710>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9152619b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9152619dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9152616128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91526163f8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/inmobi/re/controller/JSUtilityController;'}
+[method_b]:onAttachedToWindow
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f0377e8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9152619b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9152619dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9152616128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91526163f8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/inmobi/re/controller/JSUtilityController;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f0377e8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9152619b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9152619dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9152616128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91526163f8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/inmobi/re/controller/JSUtilityController;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915c11b878>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c7ce710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c7cecb0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c8062d8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvAppsList;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915c11b878>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c7ce710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c8062d8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvAppsList;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915c11bbd8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c7ce710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c7cecb0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c8062d8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvAppsList;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915c11b878>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c7ce710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c7cecb0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c8062d8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvAppsList;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915c11bfc8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c8000e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c8006c8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvAppsListTab;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915c1280e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c8000e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c8006c8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvAppsListTab;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915c11bfc8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c8000e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c8006c8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvAppsListTab;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f2c9290>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9158e373f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9158e379e0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvBaseGrid;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f2c9290>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9158e373f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9158e379e0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvBaseGrid;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f2c9290>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9158e373f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9158e379e0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvBaseGrid;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915e6efef0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9158e1e9e0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvCategories;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915cc723f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9158e2c758>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvImage;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915cc723f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9158e2c758>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvImage;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915cc723f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9158e2c758>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvImage;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915cc723f8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9158e2c758>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvImage;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915d701b48>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9158e2c320>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvFavorite;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915ce453b0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9158e2c8c0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvSearch;'}
+[method_b]:onCreate
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f12c050>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/chartboost/sdk/impl/ax;'}
+[method_b]:onStop
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f12c050>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/chartboost/sdk/impl/ax;'}
+[method_b]:onStop
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f12c050>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/chartboost/sdk/impl/ax;'}
+[method_b]:onStop
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915aaa3560>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/internal/adapters/c;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915aaa3560>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/internal/adapters/c;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f35be60>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/flurry/android/FlurryFullscreenTakeoverActivity;'}
+[method_b]:onStop
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915d4a4050>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/internal/zzmk;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915d4a4050>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/internal/zzmk;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915d4a4050>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/internal/zzmk;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158443e60>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/amazon/device/ads/AdLayout;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158443e60>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/amazon/device/ads/AdLayout;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158443e60>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/amazon/device/ads/AdLayout;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158443f80>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/amazon/device/ads/AdLayout;'}
+[method_b]:onWindowVisibilityChanged
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915e7ba8c0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/internal/zzmr;'}
+[method_b]:onActivityResult
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f0377e8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/inmobi/re/controller/JSUtilityController;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f0377e8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/inmobi/re/controller/JSUtilityController;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f0377e8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/inmobi/re/controller/JSUtilityController;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915c11bbd8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvAppsList;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915c11bbd8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvAppsList;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915c1280e0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvAppsListTab;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915c1280e0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvAppsListTab;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915e9b1ea8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914ba13998>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvBase$BodyClickEvent;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915e9b1ea8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f915ac582d8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvBase;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915cc72fc8>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914ba13bd8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvBaseGrid$3;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91599193b0>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9159126e60>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/poker/clubs/wallpapers/cute/anime/girl/acv/AcvCategories$2;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

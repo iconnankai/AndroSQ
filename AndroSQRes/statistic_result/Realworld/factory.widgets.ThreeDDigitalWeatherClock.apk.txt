@@ -1,0 +1,142 @@
+parse success!!
+############################
+# components statistic
+activities:21
+services:5
+receivers:0
+############################
+# life_nodes statistic
+activities: 126
+services: 26
+------------------------------------------
+lifecycle_total_nodes: 152
+############################
+# lifecycle edges
+edges_lifecycle_activities:137
+edges_lifecycle_services:18
+--------------------------------------------
+edges_lifecycle_total:155
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[114, 206]
+services_node_edge_num:[13, 13]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 11
+original_service_nodes_num: 3
+original_receiver_nodes_num: 0
+
+original_nodes_num: 14
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:0   unregister:6
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 0
+unregister_con_num: 6
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  28
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:166   edges:183
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 3729
+<globals_op_num> 13669
+############################
+# total num 
+total_nodes_num:  166
+total_edges_num:  180
+############################
+# total num 
+total_nodes_num:  163
+total_edges_num:  177
+############################
+# total time 
+parse_time:  35.739879
+modelling_time:  156.552397
+
+############################
+############################
+############################
+# register_content
+register_content:  
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9124e20a28>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/CountdownService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9124e20a28>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/CountdownService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9124e20a28>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/CountdownService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9124e20a28>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/CountdownService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912593d248>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/s;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912593d248>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/s;'}
+[method_b]:onReceive
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91253c1f38>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d6b3b0>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/tagmanager/InstallReferrerReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91250a00e0>, 'connection_type': 'connection_activity', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a5f0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/CountdownService;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91250a00e0>, 'connection_type': 'connection_activity', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a5a8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/CountdownService;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91250a00e0>, 'connection_type': 'connection_activity', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a5f0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/CountdownService;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91250a00e0>, 'connection_type': 'connection_activity', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a5a8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/CountdownService;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91250a00e0>, 'connection_type': 'connection_activity', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a3b0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/CountdownService;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9124e20e60>, 'connection_type': 'connection_stop_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a3f8>, 'connection': {'connection': 'stopService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/CountdownWidget;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912593db90>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a4d0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/DownloaderActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912512fef0>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a830>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/aj;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912523ea28>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a830>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/ao;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9125c2eef0>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a830>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/bp;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9125aeb0e0>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a7e8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/bq;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9125aeb200>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a7a0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/br;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9124aa40e0>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a830>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/bu;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9124aa4290>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a7e8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/bv;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9124aa43b0>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a7a0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/bw;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91251ba4d0>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a830>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/bz;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91251ba680>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a7e8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/ca;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91251ba638>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a7a0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/cb;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912544d5f0>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a290>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/l;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912544d878>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a2d8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/m;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912544d950>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a638>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/n;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912544dab8>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a518>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/o;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912544dc20>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a6c8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/p;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912544dd88>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9128d7a560>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lfactory/widgets/ThreeDDigitalWeatherClock/q;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

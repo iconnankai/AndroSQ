@@ -1,0 +1,120 @@
+parse success!!
+############################
+# components statistic
+activities:24
+services:9
+receivers:0
+############################
+# life_nodes statistic
+activities: 159
+services: 55
+------------------------------------------
+lifecycle_total_nodes: 214
+############################
+# lifecycle edges
+edges_lifecycle_activities:187
+edges_lifecycle_services:43
+--------------------------------------------
+edges_lifecycle_total:230
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[114, 199]
+services_node_edge_num:[15, 15]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 28
+original_service_nodes_num: 3
+original_receiver_nodes_num: 0
+
+original_nodes_num: 31
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:0   unregister:4
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 0
+unregister_con_num: 4
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  62
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:245   edges:292
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  1
+############################
+<globals_num> 2311
+<globals_op_num> 12967
+############################
+# total num 
+total_nodes_num:  245
+total_edges_num:  282
+############################
+# total num 
+total_nodes_num:  235
+total_edges_num:  272
+############################
+# total time 
+parse_time:  21.107513
+modelling_time:  97.991799
+
+############################
+############################
+############################
+# register_content
+register_content:  
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91439262d8>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/socialnmobile/colornote/activity/Settings;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9144223cb0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/socialnmobile/colornote/menu/m;'}
+[method_b]:onClick
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9143b2e710>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/socialnmobile/colornote/sync/SyncDevSettingsActivity;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9144774b90>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/socialnmobile/colornote/view/MyViewPager;'}
+[method_b]:onCreate
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9143b9e758>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914690e6c8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/socialnmobile/colornote/activity/ActionReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91435a6050>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9146913050>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/socialnmobile/colornote/activity/Main$SyncListener;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9143708fc8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9146936248>, 'connection': {'connection': 'bindService', 'key_para': 'Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent Landroid/content/ServiceConnection I'}, 'component_name': 'Lcom/socialnmobile/colornote/activity/Main;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91442e5830>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9146936248>, 'connection': {'connection': 'bindService', 'key_para': 'Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent Landroid/content/ServiceConnection I'}, 'component_name': 'Lcom/socialnmobile/colornote/activity/SyncActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9144350d88>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9146913248>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/socialnmobile/colornote/activity/SyncLogIn$3;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9143b6f320>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9146913248>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/socialnmobile/colornote/activity/SyncLogIn$4;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9143612908>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9146913050>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/socialnmobile/colornote/activity/SyncStatus$SyncListener;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914443bc20>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914690ed88>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/socialnmobile/colornote/activity/SyncStatus;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9144140320>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914690e758>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/socialnmobile/colornote/activity/a;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914453d7e8>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9146913248>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/socialnmobile/colornote/activity/at;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9143c352d8>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91469132d8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/socialnmobile/colornote/fragment/db;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9143c352d8>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914690ed88>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/socialnmobile/colornote/fragment/db;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9143c35050>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914690ed88>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/socialnmobile/colornote/fragment/dc;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9143f27758>, 'connection_type': 'connection_service', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9146936248>, 'connection': {'connection': 'bindService', 'key_para': 'Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent Landroid/content/ServiceConnection I'}, 'component_name': 'Lcom/socialnmobile/colornote/service/BackgroundSyncService;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91439192d8>, 'connection_type': 'connection_service', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9146913050>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/socialnmobile/colornote/sync/SyncService;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914423f440>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9146936128>, 'connection': {'connection': 'bindService', 'key_para': 'Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent Landroid/content/ServiceConnection I'}, 'component_name': 'Lcom/socialnmobile/colornote/sync/df;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {'Lcom/socialnmobile/colornote/service/BackgroundSyncService; onStartCommand (Landroid/content/Intent; I I)I': [({'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Lcom/socialnmobile/colornote/service/BackgroundSyncService; onStartCommand (Landroid/content/Intent; I I)I'}, {'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Lcom/socialnmobile/colornote/sync/SyncService; <init> ()V'})]}

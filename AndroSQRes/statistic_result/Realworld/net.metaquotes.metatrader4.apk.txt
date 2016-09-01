@@ -1,0 +1,94 @@
+parse success!!
+############################
+# components statistic
+activities:4
+services:1
+receivers:0
+############################
+# life_nodes statistic
+activities: 32
+services: 5
+------------------------------------------
+lifecycle_total_nodes: 37
+############################
+# lifecycle edges
+edges_lifecycle_activities:41
+edges_lifecycle_services:3
+--------------------------------------------
+edges_lifecycle_total:44
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[13, 22]
+services_node_edge_num:[3, 3]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 12
+original_service_nodes_num: 1
+original_receiver_nodes_num: 0
+
+original_nodes_num: 13
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:0   unregister:2
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 0
+unregister_con_num: 2
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  26
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:50   edges:70
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 2793
+<globals_op_num> 19574
+############################
+# total num 
+total_nodes_num:  50
+total_edges_num:  68
+############################
+# total num 
+total_nodes_num:  48
+total_edges_num:  66
+############################
+# total time 
+parse_time:  40.594306
+modelling_time:  137.327884
+
+############################
+############################
+############################
+# register_content
+register_content:  
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91418f7cf8>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lnet/metaquotes/metatrader4/notification/PushMessageService;'}
+[method_b]:onHandleIntent
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9141d11c68>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lnet/metaquotes/metatrader4/ui/trade/CloseByList;'}
+[method_b]:onViewCreated
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914150e8c0>, 'connection_type': 'connection_service', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914610d710>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lnet/metaquotes/metatrader4/notification/PushMessageService;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9141babd40>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91461178c0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lnet/metaquotes/metatrader4/ui/common/MetaTraderBaseActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9141babd40>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91461178c0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lnet/metaquotes/metatrader4/ui/common/MetaTraderBaseActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9141babd40>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91461178c0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lnet/metaquotes/metatrader4/ui/common/MetaTraderBaseActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9141b717a0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91461178c0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lnet/metaquotes/metatrader4/ui/MainActivity;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

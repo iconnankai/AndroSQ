@@ -1,0 +1,100 @@
+parse success!!
+############################
+# components statistic
+activities:8
+services:4
+receivers:0
+############################
+# life_nodes statistic
+activities: 79
+services: 15
+------------------------------------------
+lifecycle_total_nodes: 94
+############################
+# lifecycle edges
+edges_lifecycle_activities:90
+edges_lifecycle_services:11
+--------------------------------------------
+edges_lifecycle_total:101
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[20, 37]
+services_node_edge_num:[13, 12]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 69
+original_service_nodes_num: 2
+original_receiver_nodes_num: 0
+
+original_nodes_num: 71
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:2   unregister:6
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 2
+unregister_con_num: 6
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  142
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:170   edges:243
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 5356
+<globals_op_num> 19415
+############################
+# total num 
+total_nodes_num:  170
+total_edges_num:  224
+############################
+# total num 
+total_nodes_num:  151
+total_edges_num:  205
+############################
+# total time 
+parse_time:  57.256769
+modelling_time:  180.280134
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91445cddd0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cb62dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cb68440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cb684d0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cb68560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cb685f0>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/actionbarsherlock/widget/ActivityChooserView;'}
+[method_b]:onAttachedToWindow
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91445cdef0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cb62dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cb68440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cb684d0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cb68560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cb685f0>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/actionbarsherlock/widget/ActivityChooserView;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160dff5f0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/MRT1/dev001/app001/ActivityChooserView;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160dffbd8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/MRT1/dev001/app001/q;'}
+[method_b]:onCreateActionView
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916a1c8878>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/MRT1/dev001/app001/y;'}
+[method_b]:onStop
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916a1c8878>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/MRT1/dev001/app001/y;'}
+[method_b]:onStop
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91445d42d8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/actionbarsherlock/widget/ActivityChooserView$ActivityChooserViewAdapter;'}
+[method_b]:onCreateActionView
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91445cdef0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/actionbarsherlock/widget/ActivityChooserView;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916b22c200>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f915e7a2950>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/tagmanager/InstallReferrerReceiver;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

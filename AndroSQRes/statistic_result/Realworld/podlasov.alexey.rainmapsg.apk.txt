@@ -1,0 +1,82 @@
+parse success!!
+############################
+# components statistic
+activities:2
+services:0
+receivers:0
+############################
+# life_nodes statistic
+activities: 16
+services: 0
+------------------------------------------
+lifecycle_total_nodes: 16
+############################
+# lifecycle edges
+edges_lifecycle_activities:18
+edges_lifecycle_services:0
+--------------------------------------------
+edges_lifecycle_total:18
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[8, 12]
+services_node_edge_num:[0, 0]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 3
+original_service_nodes_num: 0
+original_receiver_nodes_num: 0
+
+original_nodes_num: 3
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:0   unregister:0
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 0
+unregister_con_num: 0
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  6
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:19   edges:24
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 1248
+<globals_op_num> 2429
+############################
+# total num 
+total_nodes_num:  19
+total_edges_num:  23
+############################
+# total num 
+total_nodes_num:  18
+total_edges_num:  22
+############################
+# total time 
+parse_time:  16.77788
+modelling_time:  54.973886
+
+############################
+############################
+############################
+# register_content
+register_content:  
+############################
+# unregister_content
+unregister_content:  
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f913861c320>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913b1c06c8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lpodlasov/alexey/rainmapsg/MainActivity;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

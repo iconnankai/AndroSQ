@@ -1,0 +1,108 @@
+parse success!!
+############################
+# components statistic
+activities:10
+services:13
+receivers:0
+############################
+# life_nodes statistic
+activities: 68
+services: 90
+------------------------------------------
+lifecycle_total_nodes: 158
+############################
+# lifecycle edges
+edges_lifecycle_activities:78
+edges_lifecycle_services:65
+--------------------------------------------
+edges_lifecycle_total:143
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[46, 83]
+services_node_edge_num:[23, 23]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 20
+original_service_nodes_num: 25
+original_receiver_nodes_num: 0
+
+original_nodes_num: 45
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:2   unregister:9
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 2
+unregister_con_num: 9
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  106
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:212   edges:249
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 14892
+<globals_op_num> 55830
+############################
+# total num 
+total_nodes_num:  212
+total_edges_num:  235
+############################
+# total num 
+total_nodes_num:  198
+total_edges_num:  221
+############################
+# total time 
+parse_time:  286.233193
+modelling_time:  776.36299
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b2fb2d8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a0e5b90>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915a0e5c20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91594f93b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91594f9440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91594f9710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91594f99e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91594f9cb0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91594f7050>], 'component_type': 'service', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/cast/CastRemoteDisplayLocalService;'}
+[method_b]:onServiceConnected
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915eb1e7e8>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9156d3abd8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140cce488>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/dynamic/zza;'}
+[method_b]:onCreate
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915ac69560>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/InstanceIDListenerService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915ac69560>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/InstanceIDListenerService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915d0396c8>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915ac56f38>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/InstanceIDListenerService;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b804248>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/internal/zzmk;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915c4e5488>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lorg/apache/cordova/CoreAndroid;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915c4e5488>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lorg/apache/cordova/CoreAndroid;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b6c6710>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lorg/apache/cordova/networkinformation/NetworkManager;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b6c6710>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lorg/apache/cordova/networkinformation/NetworkManager;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b6c6710>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lorg/apache/cordova/networkinformation/NetworkManager;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915e704ef0>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914beda0e0>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/analytics/AnalyticsReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915b2bfb48>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165bd1b00>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/measurement/AppMeasurementReceiver;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

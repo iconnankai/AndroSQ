@@ -1,0 +1,90 @@
+parse success!!
+############################
+# components statistic
+activities:2
+services:0
+receivers:0
+############################
+# life_nodes statistic
+activities: 18
+services: 0
+------------------------------------------
+lifecycle_total_nodes: 18
+############################
+# lifecycle edges
+edges_lifecycle_activities:19
+edges_lifecycle_services:0
+--------------------------------------------
+edges_lifecycle_total:19
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[7, 12]
+services_node_edge_num:[0, 0]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 9
+original_service_nodes_num: 0
+original_receiver_nodes_num: 0
+
+original_nodes_num: 9
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:0   unregister:5
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 0
+unregister_con_num: 5
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  18
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:27   edges:37
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 693
+<globals_op_num> 2749
+############################
+# total num 
+total_nodes_num:  27
+total_edges_num:  37
+############################
+# total num 
+total_nodes_num:  27
+total_edges_num:  37
+############################
+# total time 
+parse_time:  3.736363
+modelling_time:  16.754498
+
+############################
+############################
+############################
+# register_content
+register_content:  
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91550d8cf8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lorg/apache/cordova/CoreAndroid;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91550d8cf8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lorg/apache/cordova/CoreAndroid;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91550e4098>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lorg/apache/cordova/networkinformation/NetworkManager;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91550e4098>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lorg/apache/cordova/networkinformation/NetworkManager;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91550e4098>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lorg/apache/cordova/networkinformation/NetworkManager;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

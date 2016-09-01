@@ -1,0 +1,225 @@
+parse success!!
+############################
+# components statistic
+activities:22
+services:4
+receivers:0
+############################
+# life_nodes statistic
+activities: 140
+services: 21
+------------------------------------------
+lifecycle_total_nodes: 161
+############################
+# lifecycle edges
+edges_lifecycle_activities:152
+edges_lifecycle_services:15
+--------------------------------------------
+edges_lifecycle_total:167
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[115, 204]
+services_node_edge_num:[10, 10]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 91
+original_service_nodes_num: 8
+original_receiver_nodes_num: 0
+
+original_nodes_num: 99
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:25   unregister:0
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 25
+unregister_con_num: 0
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  234
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:289   edges:401
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 9281
+<globals_op_num> 35661
+############################
+# total num 
+total_nodes_num:  289
+total_edges_num:  373
+############################
+# total num 
+total_nodes_num:  261
+total_edges_num:  345
+############################
+# total time 
+parse_time:  120.256905
+modelling_time:  374.732346
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f44b368>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164b309e0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/dynamic/a;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160e1d908>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164836d40>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160ed26c8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916471cef0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916471a518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916471ac20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916471af38>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/quotes_tab/QuotesSelectionActivity;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160eec098>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916471cef0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916471a518>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916471ac20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916471af38>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/quotes_tab/QuotesSelectionActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160e1def0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916483e5a8>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/QuoteGridActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160e1dfc8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479e758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479ef80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479f290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479f560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479fdd0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/StickerActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160e1dfc8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479e758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479ef80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479f290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479f560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479fdd0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/StickerActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160e1dfc8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479e758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479ef80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479f290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479f560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479fdd0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/StickerActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160e1dfc8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479e758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479ef80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479f290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479f560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479fdd0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/StickerActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915dbe0908>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479e758>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479ef80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479f290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479f560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916479fdd0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/StickerActivity;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160e2b0e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a6ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a6d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a9098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a9368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a9ef0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a8290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647ae4d0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/TextArtActivity_New;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160e2b0e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a6ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a6d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a9098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a9368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a9ef0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a8290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647ae4d0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/TextArtActivity_New;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160e2b0e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a6ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a6d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a9098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a9368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a9ef0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a8290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647ae4d0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/TextArtActivity_New;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160e2b0e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a6ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a6d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a9098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a9368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a9ef0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a8290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647ae4d0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/TextArtActivity_New;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160e2b0e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a6ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a6d88>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a9098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a9368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a9ef0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647a8290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647ae4d0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/TextArtActivity_New;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160e1dfc8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916474a0e0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/effects/QuickAction;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161422ab8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164732e60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647239e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723cb0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723f80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164734290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164734560>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/tab/CategoryFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161422ab8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164732e60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647239e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723cb0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723f80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164734290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164734560>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/tab/CategoryFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161422ab8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164732e60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647239e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723cb0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723f80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164734290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164734560>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/tab/CategoryFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161422ab8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164732e60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647239e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723cb0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723f80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164734290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164734560>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/tab/CategoryFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161422ab8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164732e60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647239e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723cb0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723f80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164734290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164734560>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/tab/CategoryFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161422ab8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164732e60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647239e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723cb0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723f80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164734290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164734560>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/tab/CategoryFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161422ab8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164732e60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647239e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723cb0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723f80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164734290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164734560>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/tab/CategoryFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161422ab8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164732e60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647239e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723cb0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723f80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164734290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164734560>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/tab/CategoryFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161422ab8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164732e60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723440>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91647239e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723cb0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164723f80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164734290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9164734560>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/km/picturequotes/tab/CategoryFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91614cccf8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165e0d200>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/dexati/adclient/EndWall2;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915d4e9878>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165dd8dd0>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/tagmanager/InstallReferrerReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f5e3cf8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165d5a170>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f5e3fc8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165d5a3f8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f5f1488>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165df6ef0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f5f1560>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165df1440>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f5f1680>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165d5a3f8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f5f1638>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165d5a3f8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f5f1758>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165d5a3f8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f5f1830>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165df1b00>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f5f1830>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165df1170>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f492518>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165d5a170>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/Start;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f4927a0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165d5a3f8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/Start;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f492908>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165df6ef0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/Start;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f4929e0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165df1440>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/Start;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f492b00>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165d5a3f8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/Start;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f492ab8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165d5a3f8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/Start;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f492bd8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165d5a3f8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/Start;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f492cb0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165df1b00>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/Start;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915dbe06c8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165df6488>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/StickerActivity$3;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915dbe0b48>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165df6ef0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/StickerActivity$6;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915dbe0b48>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165dfb248>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/StickerActivity$6;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f785e60>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165d5a1b8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/StickerActivity$8;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f969b48>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165d5a098>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/StyleChooserActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916103b170>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165dec8c0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/YourCreationActivity$3;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916118bb48>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165dfb248>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/quotes_tab/QuotesCategoryListActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9161422c20>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165dfb518>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/stickers/StickerCategoryActivity$1;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160af4fc8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165d5a3f8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/QuoteGridActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160af4cf8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165d5a1b8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/QuoteGridActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160af4cf8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165d5a2d8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/QuoteGridActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f716dd0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165df6ef0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/StickerActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f716dd0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165d5a1b8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/StickerActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f716dd0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165d5a170>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/StickerActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f716dd0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165df6ef0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/StickerActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915e1dda28>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165d5a1b8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/km/picturequotes/StickerActivity;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

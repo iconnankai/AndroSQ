@@ -1,0 +1,115 @@
+parse success!!
+############################
+# components statistic
+activities:4
+services:0
+receivers:0
+############################
+# life_nodes statistic
+activities: 29
+services: 0
+------------------------------------------
+lifecycle_total_nodes: 29
+############################
+# lifecycle edges
+edges_lifecycle_activities:34
+edges_lifecycle_services:0
+--------------------------------------------
+edges_lifecycle_total:34
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[16, 31]
+services_node_edge_num:[0, 0]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 7
+original_service_nodes_num: 0
+original_receiver_nodes_num: 0
+
+original_nodes_num: 7
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:9   unregister:2
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 9
+unregister_con_num: 2
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  24
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:45   edges:58
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 6885
+<globals_op_num> 18685
+############################
+# total num 
+total_nodes_num:  45
+total_edges_num:  58
+############################
+# total num 
+total_nodes_num:  45
+total_edges_num:  58
+############################
+# total time 
+parse_time:  125.554305
+modelling_time:  268.630444
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91628b6bd8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915f0f4d88>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/dynamic/zza;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160ac9878>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9167f5e758>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/zzw;'}
+[method_b]:onActivityResult
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916290ef38>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cd235a8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cd23878>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/kokchoon/sgcheckpoint/TrafficCamFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916290ef38>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cd235a8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cd23878>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/kokchoon/sgcheckpoint/TrafficCamFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916291e908>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91696eab00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91696eadd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140b530e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140b533b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140b53680>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/kokchoon/sgcheckpoint/MapActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916291e908>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91696eab00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91696eadd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140b530e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140b533b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140b53680>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/kokchoon/sgcheckpoint/MapActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916291e908>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91696eab00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91696eadd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140b530e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140b533b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140b53680>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/kokchoon/sgcheckpoint/MapActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916291e908>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91696eab00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91696eadd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140b530e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140b533b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140b53680>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/kokchoon/sgcheckpoint/MapActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916291e908>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91696eab00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91696eadd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140b530e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140b533b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140b53680>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/kokchoon/sgcheckpoint/MapActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916118e950>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/zzn;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160ac9878>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/zzw;'}
+[method_b]:onActivityResult
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916107f950>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165527518>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/kokchoon/sgcheckpoint/TrafficCamFragment$3;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162ca94d0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9165527518>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/kokchoon/sgcheckpoint/MainActivity;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

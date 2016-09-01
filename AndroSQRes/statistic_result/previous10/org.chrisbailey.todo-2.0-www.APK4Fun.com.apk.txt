@@ -1,0 +1,57 @@
+parse success!!
+############################
+# components statistic
+activities:4
+services:0
+receivers:0
+############################
+# life_nodes statistic
+activities: 23
+services: 0
+------------------------------------------
+lifecycle_total_nodes: 23
+############################
+# lifecycle edges
+edges_lifecycle_activities:24
+edges_lifecycle_services:0
+--------------------------------------------
+edges_lifecycle_total:24
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[24, 43]
+services_node_edge_num:[0, 0]
+--------------------------------------------
+hidden_edge_total:[24, 43]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 9
+original_service_nodes_num: 0
+original_receiver_nodes_num: 0
+
+original_nodes_num: 9
+----------------------------------------------------
+non_lifecycle_nodes_num(register_num):  11
+unregister_num:0
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 11
+unregister_con_num: 0
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  36
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:41   edges:60
+############################
+# inter-component activities statistic
+connections:  1
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+# total num 
+total_reduct_nodes_num:  41
+total_reduct_edges_num:  61

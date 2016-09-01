@@ -1,0 +1,258 @@
+parse success!!
+############################
+# components statistic
+activities:15
+services:13
+receivers:0
+############################
+# life_nodes statistic
+activities: 106
+services: 86
+------------------------------------------
+lifecycle_total_nodes: 192
+############################
+# lifecycle edges
+edges_lifecycle_activities:111
+edges_lifecycle_services:59
+--------------------------------------------
+edges_lifecycle_total:170
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[73, 127]
+services_node_edge_num:[26, 26]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 27
+original_service_nodes_num: 21
+original_receiver_nodes_num: 0
+
+original_nodes_num: 48
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:26   unregister:21
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 26
+unregister_con_num: 21
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  132
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:276   edges:302
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 15025
+<globals_op_num> 55635
+############################
+# total num 
+total_nodes_num:  276
+total_edges_num:  289
+############################
+# total num 
+total_nodes_num:  263
+total_edges_num:  276
+############################
+# total time 
+parse_time:  186.085305
+modelling_time:  553.806849
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162c7ac20>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915989c560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915989c830>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sina/weibo/sdk/component/WeiboSdkBrowser;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162c7ac20>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915989c560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915989c830>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/sina/weibo/sdk/component/WeiboSdkBrowser;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165234e60>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168d65050>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee05f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0a28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0f38>], 'component_type': 'service', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/core/download/ComicLoadService;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165234e60>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168d65050>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee05f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0a28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0f38>], 'component_type': 'service', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/core/download/ComicLoadService;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165234e60>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168d65050>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee05f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0a28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0f38>], 'component_type': 'service', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/core/download/ComicLoadService;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165234e60>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168d65050>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee05f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0a28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0f38>], 'component_type': 'service', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/core/download/ComicLoadService;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165234e60>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168d65050>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee05f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0a28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0f38>], 'component_type': 'service', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/core/download/ComicLoadService;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165234e60>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168d65050>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee05f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0a28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0f38>], 'component_type': 'service', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/core/download/ComicLoadService;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165234e60>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168d65050>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee05f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0a28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0f38>], 'component_type': 'service', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/core/download/ComicLoadService;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165234e60>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168d65050>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee05f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0a28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0f38>], 'component_type': 'service', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/core/download/ComicLoadService;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165234e60>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168d65050>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee05f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0a28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0f38>], 'component_type': 'service', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/core/download/ComicLoadService;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164b5dfc8>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168d65128>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee05f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0a28>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0ab8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915cee0f38>], 'component_type': 'service', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/core/download/ComicLoadService;'}
+[method_b]:onPause
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165234e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91429b2320>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/phone/ui/fragment/a;'}
+[method_b]:onAttach
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9167fa4a70>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914913a128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914913a3f8>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/tencent/connect/avatar/ImageActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9167fa4a70>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914913a128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914913a3f8>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/tencent/connect/avatar/ImageActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9169221050>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91596b4b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915969f128>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/umeng/fb/adapter/a;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9169221f80>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159691c20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159693200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91596934d0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91596937a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159693e60>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/umeng/fb/fragment/FeedbackFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9169221f80>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159691c20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159693200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91596934d0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91596937a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159693e60>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/umeng/fb/fragment/FeedbackFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9169221f80>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159691c20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159693200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91596934d0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91596937a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159693e60>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/umeng/fb/fragment/FeedbackFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9169221f80>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159691c20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159693200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91596934d0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91596937a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159693e60>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/umeng/fb/fragment/FeedbackFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9169221f80>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91596c7a70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91596c7b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159691c20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159691ef0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159693200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91596934d0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91596937a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159693a70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159693b00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159693e60>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91596952d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159695d40>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/umeng/fb/fragment/FeedbackFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9169221f80>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159691c20>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159693200>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91596934d0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91596937a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9159693e60>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/umeng/fb/fragment/FeedbackFragment;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916870ab90>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913b008830>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913b0088c0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913b008b90>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'registerListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/umeng/socialize/weixin/controller/UMWXHandler;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916870ab90>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913b008830>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913b0088c0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913b008b90>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/umeng/socialize/weixin/controller/UMWXHandler;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916732a9e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91406b9098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91406b9368>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lorg/acra/CrashReportDialog;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916732a9e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91406b9098>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91406b9368>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lorg/acra/CrashReportDialog;'}
+[method_b]:onCreate
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164b5dfc8>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168d65128>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/core/download/ComicLoadService;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164b5dfc8>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168d65128>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/core/download/ComicLoadService;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916518fab8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/phone/ui/ComicDetailActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916518fab8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/phone/ui/ComicDetailActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9167e29b00>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/phone/ui/ComicReadActivity;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9167e29b00>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/phone/ui/ComicReadActivity;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916672e3b0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/phone/ui/LoginActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916672e3b0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/phone/ui/LoginActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163ec00e0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/phone/ui/fragment/comicshelf/ReadHistoryFragment;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163ec00e0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/phone/ui/fragment/comicshelf/ReadHistoryFragment;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163ec08c0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/phone/ui/fragment/comicshelf/UserFavoriteFragment;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163ec08c0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/phone/ui/fragment/comicshelf/UserFavoriteFragment;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166437e60>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/phone/ui/widget/HorizontalListView;'}
+[method_b]:onCompelete
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9167e29b00>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/phone/ui/widget/a/c;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9167e29b00>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tcomic/phone/ui/widget/a/c;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168b546c8>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lorg/android/agoo/client/BaseIntentService;'}
+[method_b]:onHandleIntent
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91644f3878>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/umeng/socialize/location/DefaultLocationProvider;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91644f33b0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/umeng/socialize/location/SocializeLocationListener;'}
+[method_b]:onLocationChanged
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91644f33b0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/umeng/socialize/location/SocializeLocationManager;'}
+[method_b]:onLocationChanged
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916331da28>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/umeng/socialize/view/ac;'}
+[method_b]:onClick
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916331da28>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/umeng/socialize/view/ac;'}
+[method_b]:onClick
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163b50e18>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91526d6758>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/sina/weibo/sdk/component/view/AttentionComponentView;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916771e908>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91526d6758>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/sina/weibo/sdk/component/view/CommentComponentView;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916523f9e0>, 'connection_type': 'connection_service', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91526e07a0>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/core/download/ComicLoadService;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162bc6cb0>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91526e07a0>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/core/util/AppUtil;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9169366638>, 'connection_type': 'connection_stop_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91526e07a0>, 'connection': {'connection': 'stopService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/core/util/AppUtil;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916867b200>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152703758>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/phone/ui/AboutUsActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166863098>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152703998>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/phone/ui/ComicDetailActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166863248>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152703878>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/phone/ui/ComicDetailActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9167bc53b0>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152703a28>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/phone/ui/ComicReadActivity$a;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916867b200>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152703b00>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/phone/ui/DownLoadManagerActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166863248>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152703b48>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/phone/ui/DownLoadSelectActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91672dc998>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152703998>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/phone/ui/DownloadManagerChaptersActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916867b200>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152703c68>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/phone/ui/FavoriteActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164d83d88>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152703d40>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/phone/ui/FeedBackHistoryActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916867b200>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152703d88>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/phone/ui/FeedbackActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9167e49878>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152703fc8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/phone/ui/RegistrationAgreementActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916867b200>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152708098>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/phone/ui/SettingsActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916867b200>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152703e18>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/phone/ui/by;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91698b82d8>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152703830>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/phone/ui/fragment/SearchComicListFragment;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166d7a050>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152703a70>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/phone/ui/fragment/SettingFragment;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916690a7a0>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152703830>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/phone/ui/fragment/as;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166d7a4d0>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152703f80>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/phone/ui/fragment/ax;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91665c4290>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152703830>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/phone/ui/fragment/comicshelf/ReadHistoryFragment;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91665c4290>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152703998>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/phone/ui/fragment/comicshelf/ReadHistoryFragment;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168cc2e18>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152703830>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/phone/ui/fragment/comicshelf/UserFavoriteFragment;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91620c7758>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152703830>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/phone/ui/fragment/s;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91699d8050>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91527038c0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tcomic/phone/ui/fragment/t;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916b2b8440>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152658dd0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/umeng/fb/FeedbackAgent;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9169421b48>, 'connection_type': 'connection_service', 'component_type': 'service', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152667290>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/umeng/message/UmengDownloadResourceService$DownloadResourceTask;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

@@ -1,0 +1,130 @@
+parse success!!
+############################
+# components statistic
+activities:8
+services:12
+receivers:0
+############################
+# life_nodes statistic
+activities: 57
+services: 85
+------------------------------------------
+lifecycle_total_nodes: 142
+############################
+# lifecycle edges
+edges_lifecycle_activities:63
+edges_lifecycle_services:61
+--------------------------------------------
+edges_lifecycle_total:124
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[35, 62]
+services_node_edge_num:[21, 21]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 10
+original_service_nodes_num: 24
+original_receiver_nodes_num: 0
+
+original_nodes_num: 34
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:8   unregister:6
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 8
+unregister_con_num: 6
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  86
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:191   edges:210
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 14240
+<globals_op_num> 51417
+############################
+# total num 
+total_nodes_num:  191
+total_edges_num:  196
+############################
+# total num 
+total_nodes_num:  177
+total_edges_num:  182
+############################
+# total time 
+parse_time:  287.124826
+modelling_time:  735.162966
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9156b853b0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914bd19ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914bd19f38>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915968cb48>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915968cbd8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915968cea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91596c7170>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91596c7488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91596c77e8>], 'component_type': 'service', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/cast/CastRemoteDisplayLocalService;'}
+[method_b]:onServiceConnected
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9152d5ae60>, <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915a43af80>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91525bf7a0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/dynamic/zza;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9159d65c68>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21a4d0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21a7e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21ab00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21ae18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21e320>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Ltw/mobileapp/qrcode/banner/HistoryView$ListViewAdapter$2;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9159d65c68>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21a4d0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21a7e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21ab00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21ae18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21e320>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Ltw/mobileapp/qrcode/banner/HistoryView$ListViewAdapter$2;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9159d65c68>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21a4d0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21a7e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21ab00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21ae18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21e320>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Ltw/mobileapp/qrcode/banner/HistoryView$ListViewAdapter$2;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9159d65c68>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21a4d0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21a7e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21ab00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21ae18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21e320>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Ltw/mobileapp/qrcode/banner/HistoryView$ListViewAdapter$2;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9159d65c68>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21a4d0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21a7e8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21ab00>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21ae18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c21e320>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Ltw/mobileapp/qrcode/banner/HistoryView$ListViewAdapter$2;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915314a9e0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915c228680>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Ltw/mobileapp/qrcode/banner/QRIntroduction;'}
+[method_b]:onCreate
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9156609dd0>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/InstanceIDListenerService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9156609dd0>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/InstanceIDListenerService;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91584ecef0>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/iid/InstanceIDListenerService;'}
+[method_b]:onStartCommand
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9156f57758>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/internal/zzmk;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9156f57758>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/internal/zzmk;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9156f57758>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/internal/zzmk;'}
+[method_b]:onReceive
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9159e627e8>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f915a682170>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/analytics/AnalyticsReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9156acde18>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9168dcc320>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/measurement/AppMeasurementReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158b91ea8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913c164d40>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ltw/mobileapp/qrcode/banner/HistoryView$1;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158bb0710>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913c164d40>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ltw/mobileapp/qrcode/banner/HistoryView;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158bb0830>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913c164d40>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ltw/mobileapp/qrcode/banner/HistoryView;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9159c744d0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9164e038c0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ltw/mobileapp/qrcode/banner/CaptureActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915a529098>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9164e03a70>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ltw/mobileapp/qrcode/banner/CaptureActivity;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

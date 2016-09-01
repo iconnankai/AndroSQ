@@ -1,0 +1,96 @@
+parse success!!
+############################
+# components statistic
+activities:5
+services:1
+receivers:0
+############################
+# life_nodes statistic
+activities: 38
+services: 5
+------------------------------------------
+lifecycle_total_nodes: 43
+############################
+# lifecycle edges
+edges_lifecycle_activities:44
+edges_lifecycle_services:4
+--------------------------------------------
+edges_lifecycle_total:48
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[20, 38]
+services_node_edge_num:[2, 2]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 13
+original_service_nodes_num: 0
+original_receiver_nodes_num: 0
+
+original_nodes_num: 13
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:2   unregister:4
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 2
+unregister_con_num: 4
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  26
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:58   edges:74
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 3935
+<globals_op_num> 15424
+############################
+# total num 
+total_nodes_num:  58
+total_edges_num:  72
+############################
+# total num 
+total_nodes_num:  56
+total_edges_num:  70
+############################
+# total time 
+parse_time:  75.715146
+modelling_time:  183.904829
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166429830>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91676547e8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/style_7/analogclocklivewallpaper_7/PreferenceAlign;'}
+[method_b]:onBindDialogView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916576c950>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914ab32b90>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/zzw;'}
+[method_b]:onActivityResult
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165b45368>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/zzn;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165b45368>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/zzn;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165b45368>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/zzn;'}
+[method_b]:onReceive
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916576c950>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/internal/zzw;'}
+[method_b]:onActivityResult
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9163fc80e0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f915fff07a0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/style_7/analogclocklivewallpaper_7/Main;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

@@ -1,0 +1,110 @@
+parse success!!
+############################
+# components statistic
+activities:7
+services:6
+receivers:0
+############################
+# life_nodes statistic
+activities: 44
+services: 37
+------------------------------------------
+lifecycle_total_nodes: 81
+############################
+# lifecycle edges
+edges_lifecycle_activities:51
+edges_lifecycle_services:28
+--------------------------------------------
+edges_lifecycle_total:79
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[35, 65]
+services_node_edge_num:[12, 12]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 12
+original_service_nodes_num: 2
+original_receiver_nodes_num: 0
+
+original_nodes_num: 14
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:0   unregister:2
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 0
+unregister_con_num: 2
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  28
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:95   edges:107
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 10480
+<globals_op_num> 31388
+############################
+# total num 
+total_nodes_num:  95
+total_edges_num:  102
+############################
+# total num 
+total_nodes_num:  90
+total_edges_num:  97
+############################
+# total time 
+parse_time:  110.035566
+modelling_time:  311.556205
+
+############################
+############################
+############################
+# register_content
+register_content:  
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f911b634440>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/rey/material/widget/Spinner;'}
+[method_b]:onClick
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914cf607e8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/wdullaer/materialdatetimepicker/a;'}
+[method_b]:onPause
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91594b3998>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9147adc4d0>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/analytics/a;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91675fb950>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9147adc4d0>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/analytics/internal/t;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915878b1b8>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9147a6d830>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/likz/li/sgbuses/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915878b680>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9147a6de60>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/likz/li/sgbuses/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9145da0e60>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9147a6d830>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/likz/li/sgbuses/aa;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9145dac368>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9147a6d878>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/likz/li/sgbuses/ad;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914c078e60>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9147a6ddd0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/likz/li/sgbuses/app_widgets/SGBusAppWidgetProvider;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914c078e60>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9147a6ddd0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/likz/li/sgbuses/app_widgets/SGBusAppWidgetProvider;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916927eb48>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9147a6ddd0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/likz/li/sgbuses/app_widgets/transparent/SGBusAppWidgetProvider;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916927eb48>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9147a6ddd0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/likz/li/sgbuses/app_widgets/transparent/SGBusAppWidgetProvider;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158894b00>, 'connection_type': 'connection_stop_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9147a0bab8>, 'connection': {'connection': 'stopService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/likz/li/sgbuses/c/ag;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9158894cb0>, 'connection_type': 'connection_stop_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9147a0bab8>, 'connection': {'connection': 'stopService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/likz/li/sgbuses/c/ah;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916b1db440>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9147a0bab8>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/likz/li/sgbuses/c/ak;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

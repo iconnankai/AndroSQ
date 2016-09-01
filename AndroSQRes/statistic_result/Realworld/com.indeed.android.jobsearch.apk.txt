@@ -1,0 +1,135 @@
+parse success!!
+############################
+# components statistic
+activities:4
+services:5
+receivers:0
+############################
+# life_nodes statistic
+activities: 37
+services: 27
+------------------------------------------
+lifecycle_total_nodes: 64
+############################
+# lifecycle edges
+edges_lifecycle_activities:44
+edges_lifecycle_services:15
+--------------------------------------------
+edges_lifecycle_total:59
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[10, 16]
+services_node_edge_num:[15, 15]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 13
+original_service_nodes_num: 12
+original_receiver_nodes_num: 0
+
+original_nodes_num: 25
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:10   unregister:12
+-----------------------------------------
+<regist_in_onCreate_content> 1
+    ('Lcom/indeed/android/jobsearch/MainActivity;**onCreate', 'register', 'onComplete')
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 10
+unregister_con_num: 12
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  58
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:104   edges:117
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 2861
+<globals_op_num> 11869
+############################
+# total num 
+total_nodes_num:  104
+total_edges_num:  108
+############################
+# total num 
+total_nodes_num:  95
+total_edges_num:  99
+############################
+# total time 
+parse_time:  32.848962
+modelling_time:  94.542573
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913e6ef758>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91410e75a8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91410e78c0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/dropbox/chooser/android/AppStoreInterstitial$NativeFragment;'}
+[method_b]:onCreateDialog
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913e6ef758>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91410e75a8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91410e78c0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/dropbox/chooser/android/AppStoreInterstitial$NativeFragment;'}
+[method_b]:onCreateDialog
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914a13ac68>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91410e7f80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91410ea2d8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/dropbox/chooser/android/AppStoreInterstitial$SupportFragment;'}
+[method_b]:onCreateDialog
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914a13ac68>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91410e7f80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91410ea2d8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/dropbox/chooser/android/AppStoreInterstitial$SupportFragment;'}
+[method_b]:onCreateDialog
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f969e18>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140fe95a8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/widget/LoginButton;'}
+[method_b]:onFinishInflate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914da157e8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140ff8bd8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/widget/WebDialog;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913e6dfab8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140b31998>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140b31f80>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/indeed/android/jobsearch/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913e8153b0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140a8ce60>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/indeed/android/jobsearch/resume/upload/ResumeUploadActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913e6dfab8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140a9a5f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140a9a950>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140a9a9e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140a9aa70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140a9ab00>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/indeed/android/jobsearch/tracking/AppsFylerTracking;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913fbf0290>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9140aa2950>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/indeed/android/jobsearch/webview/ExternalActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913eaa4b00>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/UiLifecycleHelper;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913eaa4b00>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/UiLifecycleHelper;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913f425320>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/internal/SessionTracker;'}
+[method_b]:onClick
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913f425320>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/internal/SessionTracker;'}
+[method_b]:onClick
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914a732dd0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/internal/SessionTracker;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914a732dd0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/internal/SessionTracker;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9144ced878>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gcm/GCMBaseIntentService;'}
+[method_b]:onHandleIntent
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9144ced878>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gcm/GCMBaseIntentService;'}
+[method_b]:onHandleIntent
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9140a17518>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/g$a;'}
+[method_b]:onReset
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9140a17518>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/g$a;'}
+[method_b]:onReset
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913e752a28>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/indeed/android/jobsearch/MyLocationListener;'}
+[method_b]:onLocationChanged
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913e752a28>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/indeed/android/jobsearch/MyLocationListener;'}
+[method_b]:onLocationChanged
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

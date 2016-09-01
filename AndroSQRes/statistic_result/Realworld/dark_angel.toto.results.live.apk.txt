@@ -1,0 +1,86 @@
+parse success!!
+############################
+# components statistic
+activities:6
+services:0
+receivers:0
+############################
+# life_nodes statistic
+activities: 37
+services: 0
+------------------------------------------
+lifecycle_total_nodes: 37
+############################
+# lifecycle edges
+edges_lifecycle_activities:42
+edges_lifecycle_services:0
+--------------------------------------------
+edges_lifecycle_total:42
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[30, 51]
+services_node_edge_num:[0, 0]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 7
+original_service_nodes_num: 0
+original_receiver_nodes_num: 0
+
+original_nodes_num: 7
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:2   unregister:0
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 2
+unregister_con_num: 0
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  16
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:47   edges:58
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 1677
+<globals_op_num> 8684
+############################
+# total num 
+total_nodes_num:  47
+total_edges_num:  57
+############################
+# total num 
+total_nodes_num:  46
+total_edges_num:  56
+############################
+# total time 
+parse_time:  28.42644
+modelling_time:  70.90354
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912e597560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913257a908>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f913257aef0>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/adinformation/c;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912e765638>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9132449488>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/startapp/android/publish/list3d/List3DActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  
+############################
+# connection_content
+connection_content:  
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

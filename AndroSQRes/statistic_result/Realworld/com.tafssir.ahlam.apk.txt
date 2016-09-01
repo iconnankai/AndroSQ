@@ -1,0 +1,104 @@
+parse success!!
+############################
+# components statistic
+activities:7
+services:5
+receivers:0
+############################
+# life_nodes statistic
+activities: 42
+services: 31
+------------------------------------------
+lifecycle_total_nodes: 73
+############################
+# lifecycle edges
+edges_lifecycle_activities:51
+edges_lifecycle_services:23
+--------------------------------------------
+edges_lifecycle_total:74
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[35, 65]
+services_node_edge_num:[10, 10]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 5
+original_service_nodes_num: 11
+original_receiver_nodes_num: 0
+
+original_nodes_num: 16
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:4   unregister:2
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 4
+unregister_con_num: 2
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  38
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:93   edges:112
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 8458
+<globals_op_num> 28487
+############################
+# total num 
+total_nodes_num:  93
+total_edges_num:  104
+############################
+# total num 
+total_nodes_num:  85
+total_edges_num:  96
+############################
+# total time 
+parse_time:  102.833418
+modelling_time:  316.738376
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9129c75488>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130eb7050>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/dynamic/a;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9128915200>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130a9e290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130a9e560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130a9e830>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/recipes/app/RecipesList;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9128915200>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130a9e290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130a9e560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130a9e830>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/recipes/app/RecipesList;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9128915200>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130a9e290>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130a9e560>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9130a9e830>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/recipes/app/RecipesList;'}
+[method_b]:onCreate
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912b300b00>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/d$a;'}
+[method_b]:onReset
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912b300b00>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/common/api/d$a;'}
+[method_b]:onReset
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9125bb1c20>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f913197d878>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/tagmanager/InstallReferrerReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9126c53e60>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9131911200>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/recipes/app/RecipesList$2;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9126c53fc8>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9131911128>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/recipes/app/RecipesList$5;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9126c0cf38>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9131911440>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/recipes/app/SplashScreen$Loading;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

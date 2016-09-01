@@ -1,0 +1,104 @@
+parse success!!
+############################
+# components statistic
+activities:9
+services:0
+receivers:0
+############################
+# life_nodes statistic
+activities: 72
+services: 0
+------------------------------------------
+lifecycle_total_nodes: 72
+############################
+# lifecycle edges
+edges_lifecycle_activities:82
+edges_lifecycle_services:0
+--------------------------------------------
+edges_lifecycle_total:82
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[30, 49]
+services_node_edge_num:[0, 0]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 26
+original_service_nodes_num: 0
+original_receiver_nodes_num: 0
+
+original_nodes_num: 26
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:0   unregister:3
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 0
+unregister_con_num: 3
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  52
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:98   edges:134
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 5878
+<globals_op_num> 20488
+############################
+# total num 
+total_nodes_num:  98
+total_edges_num:  126
+############################
+# total num 
+total_nodes_num:  90
+total_edges_num:  118
+############################
+# total time 
+parse_time:  85.457885
+modelling_time:  214.93081
+
+############################
+############################
+############################
+# register_content
+register_content:  
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91693343b0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lbt;'}
+[method_b]:onReset
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91693343b0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lbt;'}
+[method_b]:onReset
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91396820e0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/internal/zzko;'}
+[method_b]:onResult
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914bd2d1b8>, 'connection_type': '', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9166434bd8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ladb;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915cbdfd88>, 'connection_type': '', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91664348c0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ladi;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915cbdfd88>, 'connection_type': '', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9166434950>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ladi;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f913b0022d8>, 'connection_type': '', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9166434d40>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ladr;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f913b002b48>, 'connection_type': '', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91664348c0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ladu;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914a9ea560>, 'connection_type': '', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91664348c0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Laed;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914a9ea560>, 'connection_type': '', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9166434bd8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Laed;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914a9ea560>, 'connection_type': '', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9166434998>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Laed;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f913c5829e0>, 'connection_type': '', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9166434998>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Laev;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

@@ -1,0 +1,176 @@
+parse success!!
+############################
+# components statistic
+activities:14
+services:13
+receivers:0
+############################
+# life_nodes statistic
+activities: 108
+services: 75
+------------------------------------------
+lifecycle_total_nodes: 183
+############################
+# lifecycle edges
+edges_lifecycle_activities:122
+edges_lifecycle_services:54
+--------------------------------------------
+edges_lifecycle_total:176
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[54, 89]
+services_node_edge_num:[28, 28]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 42
+original_service_nodes_num: 5
+original_receiver_nodes_num: 0
+
+original_nodes_num: 47
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:16   unregister:18
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 16
+unregister_con_num: 18
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  116
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:250   edges:292
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  1
+############################
+<globals_num> 7235
+<globals_op_num> 57110
+############################
+# total num 
+total_nodes_num:  250
+total_edges_num:  278
+############################
+# total num 
+total_nodes_num:  236
+total_edges_num:  264
+############################
+# total time 
+parse_time:  91.577321
+modelling_time:  667.159233
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f913904b368>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636ab9e0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/InterstitialAdActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91498a1ea8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636b3878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636b3b48>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636b3e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a2128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a23f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a2bd8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a2ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b1b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b758>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/VideoAdActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91498a1ea8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636b3878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636b3b48>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636b3e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a2128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a23f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a2bd8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a2ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b1b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b758>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/VideoAdActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91498a1ea8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636b3878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636b3b48>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636b3e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a2128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a23f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a2bd8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a2ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b1b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b758>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/VideoAdActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91498a1ea8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636b3878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636b3b48>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636b3e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a2128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a23f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a2bd8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a2ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b1b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b758>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/VideoAdActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91498a1ea8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a2ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b1b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b758>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/VideoAdActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91498a1ea8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a2ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b1b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b758>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/VideoAdActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91498a1ea8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a2ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b1b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b758>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/VideoAdActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91498a1ea8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a2ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b1b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b758>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/VideoAdActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91498a1ea8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636b3878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636b3b48>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636b3e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a2128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a23f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a2bd8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a2ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b1b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b758>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/VideoAdActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91498a1ea8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636b3878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636b3b48>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636b3e18>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a2128>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a23f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a2bd8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636a2ea8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b1b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b488>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f916369b758>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/VideoAdActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91639b7998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636afd40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636afdd0>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'registerListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/a/a;'}
+[method_b]:onSensorChanged
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91639b7998>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636afd40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91636afdd0>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/a/a;'}
+[method_b]:onSensorChanged
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f911e9a02d8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9165117c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91651232d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9165123368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91651233f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91651321b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9165132248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91651322d8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/a/i;'}
+[method_b]:onAdLoaded
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f911e9a02d8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9165117c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91651232d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9165123368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91651233f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91651321b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9165132248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91651322d8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/a/i;'}
+[method_b]:onAdLoaded
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f911e9a05a8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9165117c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91651232d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9165123368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91651233f8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91651321b8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9165132248>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91651322d8>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/a/i;'}
+[method_b]:onWindowVisibilityChanged
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91639b7998>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/a/a;'}
+[method_b]:onSensorChanged
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91639b7998>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/a/a;'}
+[method_b]:onSensorChanged
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f911e9a02d8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/facebook/ads/a/i;'}
+[method_b]:onAdLoaded
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9133fc7680>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gcm/GCMBaseIntentService;'}
+[method_b]:onHandleIntent
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9133fc7680>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gcm/GCMBaseIntentService;'}
+[method_b]:onHandleIntent
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f48ef80>], 'methods_f': '[]', 'component_type': 'service', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/uc/base/push/gcm/GCMBusinessBaseService;'}
+[method_b]:onHandleIntent
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916a1dad40>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/uc/bordcast/GooglePlayForceUpdateUSReceiver;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916a1dad40>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/uc/bordcast/GooglePlayForceUpdateUSReceiver;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916a1dad40>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/uc/bordcast/MediaPlayerBroadcastReceiver;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916a1dad40>], 'methods_f': '[]', 'component_type': 'receiver', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/uc/bordcast/MediaPlayerBroadcastReceiver;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9148fa1bd8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/uc/browser/Barcode/client/android/h;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9148fa1bd8>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/uc/browser/Barcode/client/android/h;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168ce6b90>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/uc/browser/cs;'}
+[method_b]:onLocationChanged
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914c9e94d0>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/uc/browser/facebook/notification/screenlock/FacebookScreenLockPushActivity;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914c9e94d0>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/uc/browser/facebook/notification/screenlock/FacebookScreenLockPushActivity;'}
+[method_b]:onPause
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916a1dad40>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/uc/browser/o;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916a1dad40>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/uc/browser/o;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166f8cb00>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/uc/download/view/FacebookAdLayout;'}
+[method_b]:onAdLoaded
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9149892638>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914190b6c8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/facebook/ads/VideoAdActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eeb3ef0>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91418a08c0>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/uc/bordcast/NotificationHanlder;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eeb3ef0>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91418a08c0>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/uc/bordcast/NotificationHanlder;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f916a1dad40>, 'connection_type': 'connection_stop_service', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914192e8c0>, 'connection': {'connection': 'stopService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/uc/browser/ActivityBrowser;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914c9ccd40>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9141915908>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/uc/browser/facebook/notification/screenlock/FacebookScreenLockPushActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914ad22248>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9141915908>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/uc/browser/quickaccess/ActivityQuickSearch;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {'Lcom/uc/browser/crash/NotificationService; onTerminal Terminal': [({'component': 'Service', 'attr': 'attr_aux', 'label': 'Lcom/uc/browser/crash/NotificationService; onTerminal Terminal'}, {'component': 'Activity', 'attr': 'attr_lifecycle', 'label': 'Lcom/uc/browser/ActivityBrowser; onDestroy ()V'})]}

@@ -1,0 +1,106 @@
+parse success!!
+############################
+# components statistic
+activities:2
+services:2
+receivers:0
+############################
+# life_nodes statistic
+activities: 17
+services: 16
+------------------------------------------
+lifecycle_total_nodes: 33
+############################
+# lifecycle edges
+edges_lifecycle_activities:21
+edges_lifecycle_services:12
+--------------------------------------------
+edges_lifecycle_total:33
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[5, 10]
+services_node_edge_num:[2, 2]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 3
+original_service_nodes_num: 0
+original_receiver_nodes_num: 0
+
+original_nodes_num: 3
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:4   unregister:1
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 4
+unregister_con_num: 1
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  6
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:50   edges:39
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 8421
+<globals_op_num> 28520
+############################
+# total num 
+total_nodes_num:  50
+total_edges_num:  39
+############################
+# total num 
+total_nodes_num:  50
+total_edges_num:  39
+############################
+# total time 
+parse_time:  105.745301
+modelling_time:  333.747266
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168643b48>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9141756bd8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914177eb48>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914175df80>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9141779830>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91417798c0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9141779950>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91417799e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914176d878>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914176db90>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnTouchListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Ljp/tokyostudio/android/surface/MainActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165f84c20>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c334368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c334638>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c334950>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c334c20>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Ljp/tokyostudio/android/surface/SettingPrefActivity$PrefFragment;'}
+[method_b]:onPause
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165f84ea8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c334368>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c334638>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c334950>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c334c20>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Ljp/tokyostudio/android/surface/SettingPrefActivity$PrefFragment;'}
+[method_b]:onResume
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91680a27a0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f914c325878>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Ljp/tokyostudio/android/surface/StopFragment$StopListSimpleAdapter;'}
+[method_b]:onGlobalLayout
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165f84c20>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Ljp/tokyostudio/android/surface/SettingPrefActivity$PrefFragment;'}
+[method_b]:onPause
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168437998>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912ffea098>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/analytics/CampaignTrackingReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9167ed0f38>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912ffea8c0>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/analytics/a;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9167f014d0>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f912ffea8c0>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/analytics/internal/u;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168592830>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9148911cb0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ljp/tokyostudio/android/surface/MainActivity$12;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164a48710>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91489118c0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ljp/tokyostudio/android/surface/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166921320>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91489118c0>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Ljp/tokyostudio/android/uil/SimpleImageActivity;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

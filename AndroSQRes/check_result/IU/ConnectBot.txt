@@ -1,0 +1,4 @@
+(onServiceConnected,org.connectbot.HostEditorActivity,onCreate,onStop)
+(onServiceConnected,org.connectbot.HostListActivity,onCreate,onStop)
+(onServiceConnected,org.connectbot.PortForwardListActivity,onCreate,onStop)
+(onServiceConnected,org.connectbot.PubkeyListActivity,onCreate,onStop)

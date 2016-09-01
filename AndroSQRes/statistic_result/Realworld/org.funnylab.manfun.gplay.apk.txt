@@ -1,0 +1,179 @@
+parse success!!
+############################
+# components statistic
+activities:16
+services:6
+receivers:0
+############################
+# life_nodes statistic
+activities: 118
+services: 41
+------------------------------------------
+lifecycle_total_nodes: 159
+############################
+# lifecycle edges
+edges_lifecycle_activities:133
+edges_lifecycle_services:28
+--------------------------------------------
+edges_lifecycle_total:161
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[62, 100]
+services_node_edge_num:[12, 12]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 9
+original_service_nodes_num: 8
+original_receiver_nodes_num: 0
+
+original_nodes_num: 17
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:24   unregister:2
+-----------------------------------------
+<regist_in_onCreate_content> 1
+    ('Lorg/funnylab/manfun/activity/ListChaptersActivity;**onCreate', 'register', 'onClick')
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 24
+unregister_con_num: 2
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  68
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:201   edges:229
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  3
+############################
+<globals_num> 8244
+<globals_op_num> 27035
+############################
+# total num 
+total_nodes_num:  201
+total_edges_num:  223
+############################
+# total num 
+total_nodes_num:  195
+total_edges_num:  217
+############################
+# total time 
+parse_time:  93.329024
+modelling_time:  293.605358
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914ba03878>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151eb4d40>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/dynamic/a;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9164eda1b8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519b2320>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/core/frame/TabBar;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162dc6cf8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915195b680>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/activity/SuggestActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160f25dd0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519c53b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519c5710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519c5dd0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/activity/BrowsePagesActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160f25dd0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519c53b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519c5710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519c5dd0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/activity/BrowsePagesActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160f25dd0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519c53b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519c5710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519c5dd0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/activity/BrowsePagesActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160f25dd0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519c53b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519c5710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519c5dd0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/activity/BrowsePagesActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160f25dd0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519c53b0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519c5710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519c5dd0>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/activity/BrowsePagesActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162dc6e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519507a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151950a70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151950d40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151952050>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/activity/ListChaptersActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162dc6e60>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519507a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151950a70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151950d40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151952050>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/activity/ListChaptersActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91407c3128>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519507a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151950a70>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151950d40>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151952050>], 'component_type': 'activity', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/activity/ListChaptersActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162daa560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519c7680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519c7fc8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915194a2d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915194a5a8>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/activity/ExternalFolderActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162daa560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519c7680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519c7fc8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915194a2d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915194a5a8>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/activity/ExternalFolderActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162daa560>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519c7680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519c7fc8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915194a2d8>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915194a5a8>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/activity/ExternalFolderActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912e4985a8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151955dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519580e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151958680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151958c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151958f80>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/activity/SettingActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912e4985a8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151955dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519580e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151958680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151958c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151958f80>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/activity/SettingActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912e4985a8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151955dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519580e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151958680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151958c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151958f80>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/activity/SettingActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912e4985a8>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151955dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519580e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151958680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151958c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151958f80>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/activity/SettingActivity;'}
+[method_b]:onCreate
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912e4a7cb0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151955dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519580e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151958680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151958c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151958f80>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/activity/SettingActivity;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912e4a7cb0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151955dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519580e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151958680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151958c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151958f80>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/activity/SettingActivity;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f912e4a7cb0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151955dd0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519580e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151958680>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151958c68>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151958f80>], 'component_type': 'activity', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/activity/SettingActivity;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914e91e368>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915190fcb0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151912050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151912320>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519125f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519128c0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151912c20>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/frame/DownloadManageFrame;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914e91e368>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915190fcb0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151912050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151912320>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519125f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519128c0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151912c20>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/frame/DownloadManageFrame;'}
+[method_b]:onClick
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f914e91e368>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915190fcb0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151912050>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151912320>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519125f0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91519128c0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9151912c20>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/frame/DownloadManageFrame;'}
+[method_b]:onClick
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91407c3128>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/activity/ListChaptersActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91407c3128>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lorg/funnylab/manfun/activity/ListChaptersActivity;'}
+[method_b]:onDestroy
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9141aab3b0>, 'connection_type': 'connection_service', 'component_type': 'receiver', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91528e2e60>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/google/android/gms/tagmanager/InstallReferrerReceiver;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912e4a7cb0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152873cf8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lorg/funnylab/manfun/activity/SettingActivity$4;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f914968e440>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152855758>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lorg/funnylab/manfun/frame/DownloadManageFrame$7;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9144de8830>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f91528fb488>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lorg/funnylab/manfun/frame/MoreSettingFrame$1;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9162dc6e60>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152905200>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lorg/funnylab/manfun/provider/DownloadServiceProvider;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9146eb8b90>, 'connection_type': 'connection_stop_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152905200>, 'connection': {'connection': 'stopService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lorg/funnylab/manfun/provider/DownloadServiceProvider;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eb185f0>, 'connection_type': 'connection_stop_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152855878>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lorg/funnylab/manfun/tool/ActivityUtils;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9160f1acf8>, 'connection_type': 'connection_stop_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152855878>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lorg/funnylab/manfun/tool/ActivityUtils;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eb36638>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152855758>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lorg/funnylab/manfun/activity/ListChaptersActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91481f2cf8>, 'connection_type': 'connection_service', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152905128>, 'connection': {'connection': 'startService', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lorg/funnylab/manfun/activity/MainActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f912eb185f0>, 'connection_type': 'connection_service', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f9152855758>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lorg/funnylab/manfun/frame/RecentReadFrame;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {'Lorg/funnylab/manfun/activity/MainActivity; onCreate (Landroid/os/Bundle;)V': [({'component': 'Activity', 'attr': 'attr_lifecycle', 'label': 'Lorg/funnylab/manfun/activity/MainActivity; onCreate (Landroid/os/Bundle;)V'}, {'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Lorg/funnylab/manfun/service/CheckBookNewChapterService; <init> ()V'})], 'Lorg/funnylab/manfun/activity/ListChaptersActivity; onCreate (Landroid/os/Bundle;)V': [({'component': 'Activity', 'attr': 'attr_lifecycle', 'label': 'Lorg/funnylab/manfun/activity/ListChaptersActivity; onCreate (Landroid/os/Bundle;)V'}, {'component': 'Service', 'attr': 'attr_lifecycle', 'label': 'Lorg/funnylab/manfun/service/DownLoadService; <init> ()V'})], 'Lorg/funnylab/manfun/frame/DownloadManageFrame$7; onClick (Landroid/view/View;)V': [({'component': 'other', 'label': 'Lorg/funnylab/manfun/frame/DownloadManageFrame$7; onClick (Landroid/view/View;)V'}, {'component': 'Activity', 'attr': 'attr_lifecycle', 'label': 'Lorg/funnylab/manfun/activity/BrowsePagesActivity; <init> ()V'})]}

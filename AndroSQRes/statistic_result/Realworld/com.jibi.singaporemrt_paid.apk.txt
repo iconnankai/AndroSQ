@@ -1,0 +1,85 @@
+parse success!!
+############################
+# components statistic
+activities:3
+services:0
+receivers:0
+############################
+# life_nodes statistic
+activities: 21
+services: 0
+------------------------------------------
+lifecycle_total_nodes: 21
+############################
+# lifecycle edges
+edges_lifecycle_activities:26
+edges_lifecycle_services:0
+--------------------------------------------
+edges_lifecycle_total:26
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[12, 22]
+services_node_edge_num:[0, 0]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 2
+original_service_nodes_num: 0
+original_receiver_nodes_num: 0
+
+original_nodes_num: 2
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:1   unregister:0
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 1
+unregister_con_num: 0
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  4
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:24   edges:30
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 3851
+<globals_op_num> 12486
+############################
+# total num 
+total_nodes_num:  24
+total_edges_num:  30
+############################
+# total num 
+total_nodes_num:  24
+total_edges_num:  30
+############################
+# total time 
+parse_time:  44.943074
+modelling_time:  135.152664
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f916073d440>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f915daa13f8>], 'component_type': 'other', 'register': {'key_para': 'Landroid/view/View$OnClickListener', 'register': 'setOnClickListener', 'class': 'Landroid/widget/Button', 'para': 'Landroid/view/View$OnClickListener'}, 'path_conditions': '[]', 'component_name': 'Lcom/google/android/gms/dynamic/a;'}
+[method_b]:onCreateView
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f915f375ef0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f915e394a28>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/jibi/singaporemrt_paid/Splash$IntentToNextScreen;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}

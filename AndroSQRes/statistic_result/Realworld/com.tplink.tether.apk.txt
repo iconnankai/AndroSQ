@@ -1,0 +1,100 @@
+parse success!!
+############################
+# components statistic
+activities:5
+services:2
+receivers:0
+############################
+# life_nodes statistic
+activities: 50
+services: 8
+------------------------------------------
+lifecycle_total_nodes: 58
+############################
+# lifecycle edges
+edges_lifecycle_activities:56
+edges_lifecycle_services:6
+--------------------------------------------
+edges_lifecycle_total:62
+############################
+# hidden_nodes_edges statistic
+activities_node_edge_num:[14, 27]
+services_node_edge_num:[6, 6]
+############################
+# non-lifecycle nodes statistic
+original_activity_nodes_num: 67
+original_service_nodes_num: 0
+original_receiver_nodes_num: 0
+
+original_nodes_num: 67
+----------------------------------------------------
+non_lifecycle_nodes_num:  register:2   unregister:4
+-----------------------------------------
+<regist_in_onCreate_content> 0
+-----------------------------------------
+############################
+# conditions statistic
+register_con_num: 2
+unregister_con_num: 4
+############################
+# non-lifecycle edges statistic
+non_lifecycle_edges:  134
+############################
+# inner-component nodes_edges statistic
+inner-component:  nodes:130   edges:196
+############################
+# inter-component activities statistic
+connections:  0
+############################
+# inter-component parralel(services) statistic
+parralel_connections_num:  0
+############################
+<globals_num> 10226
+<globals_op_num> 58028
+############################
+# total num 
+total_nodes_num:  130
+total_edges_num:  176
+############################
+# total num 
+total_nodes_num:  110
+total_edges_num:  156
+############################
+# total time 
+parse_time:  109.82807
+modelling_time:  501.746037
+
+############################
+############################
+############################
+# register_content
+register_content:  [regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9168881518>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91608150e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9160812710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91608127a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9160812830>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91608128c0>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/actionbarsherlock/widget/ActivityChooserView;'}
+[method_b]:onAttachedToWindow
+[path_conditions]:  []
+[regiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91688815f0>], 'methods_f': [<androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91608150e0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9160812710>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91608127a0>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f9160812830>, <androguard.core.bytecodes.dvm.EncodedMethod instance at 0x7f91608128c0>], 'component_type': 'other', 'register': {'key_para': '', 'register': 'register', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/actionbarsherlock/widget/ActivityChooserView;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  []
+
+############################
+# unregister_content
+unregister_content:  [unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9167749ef0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/actionbarsherlock/widget/ActivityChooserView$ActivityChooserViewAdapter;'}
+[method_b]:onCreateActionView
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f91688815f0>], 'methods_f': '[]', 'component_type': 'other', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/actionbarsherlock/widget/ActivityChooserView;'}
+[method_b]:onDetachedFromWindow
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165f45e18>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tplink/tether/a;'}
+[method_b]:onResume
+[path_conditions]:  [][unregiter_item]:  {'method_b': [<androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165f45e18>], 'methods_f': '[]', 'component_type': 'activity', 'register': {'key_para': '', 'register': 'setOnDragListener', 'class': '', 'para': ''}, 'path_conditions': '[]', 'component_name': 'Lcom/tplink/tether/a;'}
+[method_b]:onResume
+[path_conditions]:  []
+############################
+# connection_content
+connection_content:  {'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9165ed60e0>, 'connection_type': 'connection_activity', 'component_type': 'activity', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914ade41b8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tplink/tether/a;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f9166e67a70>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914ade41b8>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tplink/tether/IntroductionActivity;'}
+
+{'method_b': <androguard.core.analysis.ganalysis.NodeF instance at 0x7f91698a0128>, 'connection_type': 'connection_activity', 'component_type': 'other', 'path_conditions': [], 'invokee_comp': <androguard.core.bytecodes.dvm.ClassDefItem instance at 0x7f914ade6e18>, 'connection': {'connection': 'startActivity', 'key_para': 'Landroid/content/Intent', 'class': 'Landroid/content/Context', 'para': 'Landroid/content/Intent'}, 'component_name': 'Lcom/tplink/tether/fragments/sms/g;'}
+
+
+############################
+# parralel_edge_content
+parralel_edge_content:  {}
